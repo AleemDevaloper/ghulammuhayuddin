@@ -1,0 +1,2155 @@
+{
+  "org": "Meridian Supply Co.",
+  "warehouses": [
+    {
+      "id": "WH-A",
+      "name": "North Distribution Hub",
+      "city": "Chicago, IL",
+      "bins": 126,
+      "lead": "Morgan Ellis"
+    },
+    {
+      "id": "WH-B",
+      "name": "East Fulfillment Center",
+      "city": "Columbus, OH",
+      "bins": 92,
+      "lead": "Maya Patel"
+    },
+    {
+      "id": "WH-C",
+      "name": "South Assembly Store",
+      "city": "Austin, TX",
+      "bins": 68,
+      "lead": "Leo Grant"
+    }
+  ],
+  "products": [
+    {
+      "id": "P001",
+      "sku": "SEN-420",
+      "name": "Industrial Flow Sensor",
+      "category": "Sensors",
+      "cost": 187,
+      "price": 268,
+      "reorder": 72,
+      "stock": {
+        "WH-A": 17,
+        "WH-B": 10,
+        "WH-C": 7
+      },
+      "supplier": "North Pier Components",
+      "daysCover": 9.7,
+      "bin": "A-01-01",
+      "imageType": "sensor"
+    },
+    {
+      "id": "P002",
+      "sku": "HYD-118",
+      "name": "Hydraulic Coupling \u00bd in",
+      "category": "Hydraulics",
+      "cost": 22,
+      "price": 44,
+      "reorder": 110,
+      "stock": {
+        "WH-A": 114,
+        "WH-B": 68,
+        "WH-C": 38
+      },
+      "supplier": "Redline Industrial",
+      "daysCover": 48.9,
+      "bin": "B-02-02",
+      "imageType": "part"
+    },
+    {
+      "id": "P003",
+      "sku": "ELC-204",
+      "name": "Control Relay 24V",
+      "category": "Electrical",
+      "cost": 38,
+      "price": 76,
+      "reorder": 80,
+      "stock": {
+        "WH-A": 73,
+        "WH-B": 43,
+        "WH-C": 25
+      },
+      "supplier": "Palisade Supply",
+      "daysCover": 25.6,
+      "bin": "C-03-03",
+      "imageType": "package"
+    },
+    {
+      "id": "P004",
+      "sku": "PIP-232",
+      "name": "Stainless Steel Elbow",
+      "category": "Fittings",
+      "cost": 16,
+      "price": 35,
+      "reorder": 125,
+      "stock": {
+        "WH-A": 160,
+        "WH-B": 95,
+        "WH-C": 53
+      },
+      "supplier": "Monarch Process Systems",
+      "daysCover": 47.4,
+      "bin": "D-04-04",
+      "imageType": "sensor"
+    },
+    {
+      "id": "P005",
+      "sku": "MEC-605",
+      "name": "Bearing Assembly 6205",
+      "category": "Mechanical",
+      "cost": 41,
+      "price": 92,
+      "reorder": 90,
+      "stock": {
+        "WH-A": 63,
+        "WH-B": 37,
+        "WH-C": 22
+      },
+      "supplier": "Summit Fasteners",
+      "daysCover": 16.3,
+      "bin": "A-05-05",
+      "imageType": "part"
+    },
+    {
+      "id": "P006",
+      "sku": "PRS-012",
+      "name": "Pressure Regulator",
+      "category": "Pneumatics",
+      "cost": 114,
+      "price": 169,
+      "reorder": 65,
+      "stock": {
+        "WH-A": 24,
+        "WH-B": 14,
+        "WH-C": 9
+      },
+      "supplier": "Westward Materials",
+      "daysCover": 13.4,
+      "bin": "B-06-06",
+      "imageType": "package"
+    },
+    {
+      "id": "P007",
+      "sku": "SAF-810",
+      "name": "Safety Cutoff Switch",
+      "category": "Safety",
+      "cost": 52,
+      "price": 98,
+      "reorder": 75,
+      "stock": {
+        "WH-A": 40,
+        "WH-B": 24,
+        "WH-C": 14
+      },
+      "supplier": "Harborline Tools",
+      "daysCover": 17.3,
+      "bin": "C-07-01",
+      "imageType": "sensor"
+    },
+    {
+      "id": "P008",
+      "sku": "GSK-430",
+      "name": "Heat-resistant Gasket",
+      "category": "Fittings",
+      "cost": 6,
+      "price": 17,
+      "reorder": 180,
+      "stock": {
+        "WH-A": 291,
+        "WH-B": 173,
+        "WH-C": 96
+      },
+      "supplier": "Cedarline Electrical",
+      "daysCover": 101.8,
+      "bin": "D-01-02",
+      "imageType": "part"
+    },
+    {
+      "id": "P009",
+      "sku": "ELC-312",
+      "name": "Motor Starter 3PH",
+      "category": "Electrical",
+      "cost": 172,
+      "price": 265,
+      "reorder": 50,
+      "stock": {
+        "WH-A": 12,
+        "WH-B": 7,
+        "WH-C": 5
+      },
+      "supplier": "Elmwood Logistics",
+      "daysCover": 3.7,
+      "bin": "A-02-03",
+      "imageType": "package"
+    },
+    {
+      "id": "P010",
+      "sku": "CNV-080",
+      "name": "Conveyor Roller 80mm",
+      "category": "Mechanical",
+      "cost": 62,
+      "price": 116,
+      "reorder": 95,
+      "stock": {
+        "WH-A": 50,
+        "WH-B": 30,
+        "WH-C": 17
+      },
+      "supplier": "North Pier Components",
+      "daysCover": 12.9,
+      "bin": "B-03-04",
+      "imageType": "sensor"
+    },
+    {
+      "id": "P011",
+      "sku": "ELC-120",
+      "name": "Cable Gland M20",
+      "category": "Electrical",
+      "cost": 3,
+      "price": 12,
+      "reorder": 240,
+      "stock": {
+        "WH-A": 382,
+        "WH-B": 228,
+        "WH-C": 126
+      },
+      "supplier": "Redline Industrial",
+      "daysCover": 210.3,
+      "bin": "C-04-05",
+      "imageType": "part"
+    },
+    {
+      "id": "P012",
+      "sku": "FLW-025",
+      "name": "Flow Meter DN25",
+      "category": "Sensors",
+      "cost": 298,
+      "price": 446,
+      "reorder": 35,
+      "stock": {
+        "WH-A": 8,
+        "WH-B": 4,
+        "WH-C": 4
+      },
+      "supplier": "Palisade Supply",
+      "daysCover": 3.6,
+      "bin": "D-05-06",
+      "imageType": "package"
+    },
+    {
+      "id": "P013",
+      "sku": "SOL-120",
+      "name": "Solenoid Valve 12V",
+      "category": "Pneumatics",
+      "cost": 86,
+      "price": 149,
+      "reorder": 70,
+      "stock": {
+        "WH-A": 23,
+        "WH-B": 13,
+        "WH-C": 9
+      },
+      "supplier": "Monarch Process Systems",
+      "daysCover": 8.2,
+      "bin": "A-06-01",
+      "imageType": "sensor"
+    },
+    {
+      "id": "P014",
+      "sku": "GBX-110",
+      "name": "Gearbox Housing",
+      "category": "Mechanical",
+      "cost": 235,
+      "price": 395,
+      "reorder": 28,
+      "stock": {
+        "WH-A": 7,
+        "WH-B": 4,
+        "WH-C": 3
+      },
+      "supplier": "Summit Fasteners",
+      "daysCover": 2.2,
+      "bin": "B-07-02",
+      "imageType": "part"
+    },
+    {
+      "id": "P015",
+      "sku": "SEN-018",
+      "name": "Proximity Sensor",
+      "category": "Sensors",
+      "cost": 96,
+      "price": 159,
+      "reorder": 78,
+      "stock": {
+        "WH-A": 37,
+        "WH-B": 22,
+        "WH-C": 14
+      },
+      "supplier": "Westward Materials",
+      "daysCover": 9.7,
+      "bin": "C-01-03",
+      "imageType": "package"
+    },
+    {
+      "id": "P016",
+      "sku": "KIT-705",
+      "name": "Coupler Kit Premium",
+      "category": "Kits",
+      "cost": 134,
+      "price": 245,
+      "reorder": 44,
+      "stock": {
+        "WH-A": 23,
+        "WH-B": 14,
+        "WH-C": 9
+      },
+      "supplier": "Harborline Tools",
+      "daysCover": 13.1,
+      "bin": "D-02-04",
+      "imageType": "sensor"
+    },
+    {
+      "id": "P017",
+      "sku": "SAF-110",
+      "name": "Thermal Fuse Pack",
+      "category": "Safety",
+      "cost": 12,
+      "price": 38,
+      "reorder": 100,
+      "stock": {
+        "WH-A": 145,
+        "WH-B": 86,
+        "WH-C": 49
+      },
+      "supplier": "Cedarline Electrical",
+      "daysCover": 62.2,
+      "bin": "A-03-05",
+      "imageType": "part"
+    },
+    {
+      "id": "P018",
+      "sku": "PIP-125",
+      "name": "Quick Connect Tee",
+      "category": "Fittings",
+      "cost": 17,
+      "price": 37,
+      "reorder": 120,
+      "stock": {
+        "WH-A": 97,
+        "WH-B": 58,
+        "WH-C": 33
+      },
+      "supplier": "Elmwood Logistics",
+      "daysCover": 34.2,
+      "bin": "B-04-06",
+      "imageType": "package"
+    },
+    {
+      "id": "P019",
+      "sku": "ELC-551",
+      "name": "Switchgear Plate",
+      "category": "Electrical",
+      "cost": 178,
+      "price": 295,
+      "reorder": 42,
+      "stock": {
+        "WH-A": 15,
+        "WH-B": 9,
+        "WH-C": 6
+      },
+      "supplier": "North Pier Components",
+      "daysCover": 4.6,
+      "bin": "C-05-01",
+      "imageType": "sensor"
+    },
+    {
+      "id": "P020",
+      "sku": "FLT-900",
+      "name": "Precision Filter Unit",
+      "category": "Filtration",
+      "cost": 325,
+      "price": 535,
+      "reorder": 40,
+      "stock": {
+        "WH-A": 9,
+        "WH-B": 5,
+        "WH-C": 5
+      },
+      "supplier": "Redline Industrial",
+      "daysCover": 2.5,
+      "bin": "D-06-02",
+      "imageType": "part"
+    },
+    {
+      "id": "P021",
+      "sku": "DRV-072",
+      "name": "Drive Belt Set",
+      "category": "Mechanical",
+      "cost": 37,
+      "price": 78,
+      "reorder": 85,
+      "stock": {
+        "WH-A": 76,
+        "WH-B": 45,
+        "WH-C": 27
+      },
+      "supplier": "Palisade Supply",
+      "daysCover": 42.3,
+      "bin": "A-07-03",
+      "imageType": "package"
+    },
+    {
+      "id": "P022",
+      "sku": "MEC-711",
+      "name": "Torque Limiter",
+      "category": "Mechanical",
+      "cost": 142,
+      "price": 243,
+      "reorder": 42,
+      "stock": {
+        "WH-A": 10,
+        "WH-B": 6,
+        "WH-C": 5
+      },
+      "supplier": "Monarch Process Systems",
+      "daysCover": 4.7,
+      "bin": "B-01-04",
+      "imageType": "sensor"
+    },
+    {
+      "id": "P023",
+      "sku": "ELC-180",
+      "name": "Wiring Harness A",
+      "category": "Electrical",
+      "cost": 66,
+      "price": 127,
+      "reorder": 70,
+      "stock": {
+        "WH-A": 45,
+        "WH-B": 27,
+        "WH-C": 16
+      },
+      "supplier": "Summit Fasteners",
+      "daysCover": 16.0,
+      "bin": "C-02-05",
+      "imageType": "part"
+    },
+    {
+      "id": "P024",
+      "sku": "GSK-040",
+      "name": "Sealing Ring 40mm",
+      "category": "Fittings",
+      "cost": 4,
+      "price": 14,
+      "reorder": 210,
+      "stock": {
+        "WH-A": 313,
+        "WH-B": 186,
+        "WH-C": 104
+      },
+      "supplier": "Westward Materials",
+      "daysCover": 92.8,
+      "bin": "D-03-06",
+      "imageType": "package"
+    }
+  ],
+  "vendors": [
+    {
+      "id": "V001",
+      "name": "North Pier Components",
+      "category": "Components",
+      "leadDays": 5,
+      "rating": 4.8,
+      "openPO": 3,
+      "email": "purchasing@northpiercomponents.example"
+    },
+    {
+      "id": "V002",
+      "name": "Redline Industrial",
+      "category": "Machinery",
+      "leadDays": 8,
+      "rating": 4.5,
+      "openPO": 2,
+      "email": "purchasing@redlineindustrial.example"
+    },
+    {
+      "id": "V003",
+      "name": "Palisade Supply",
+      "category": "Electrical",
+      "leadDays": 12,
+      "rating": 4.2,
+      "openPO": 2,
+      "email": "purchasing@palisadesupply.example"
+    },
+    {
+      "id": "V004",
+      "name": "Monarch Process Systems",
+      "category": "Materials",
+      "leadDays": 18,
+      "rating": 4.9,
+      "openPO": 3,
+      "email": "purchasing@monarchprocesssystems.example"
+    },
+    {
+      "id": "V005",
+      "name": "Summit Fasteners",
+      "category": "Components",
+      "leadDays": 7,
+      "rating": 4.8,
+      "openPO": 1,
+      "email": "purchasing@summitfasteners.example"
+    },
+    {
+      "id": "V006",
+      "name": "Westward Materials",
+      "category": "Machinery",
+      "leadDays": 5,
+      "rating": 4.5,
+      "openPO": 3,
+      "email": "purchasing@westwardmaterials.example"
+    },
+    {
+      "id": "V007",
+      "name": "Harborline Tools",
+      "category": "Electrical",
+      "leadDays": 8,
+      "rating": 4.2,
+      "openPO": 1,
+      "email": "purchasing@harborlinetools.example"
+    },
+    {
+      "id": "V008",
+      "name": "Cedarline Electrical",
+      "category": "Materials",
+      "leadDays": 12,
+      "rating": 4.9,
+      "openPO": 2,
+      "email": "purchasing@cedarlineelectrical.example"
+    },
+    {
+      "id": "V009",
+      "name": "Elmwood Logistics",
+      "category": "Components",
+      "leadDays": 18,
+      "rating": 4.8,
+      "openPO": 1,
+      "email": "purchasing@elmwoodlogistics.example"
+    }
+  ],
+  "purchaseOrders": [
+    {
+      "id": "PO-26-431",
+      "vendor": "North Pier Components",
+      "sku": "SEN-420",
+      "product": "Industrial Flow Sensor",
+      "qty": 20,
+      "received": 0,
+      "unitCost": 187,
+      "eta": "2026-10-16",
+      "status": "In transit",
+      "warehouse": "WH-A"
+    },
+    {
+      "id": "PO-26-432",
+      "vendor": "Cedarline Electrical",
+      "sku": "GSK-430",
+      "product": "Heat-resistant Gasket",
+      "qty": 33,
+      "received": 33,
+      "unitCost": 6,
+      "eta": "2026-10-17",
+      "status": "Partially received",
+      "warehouse": "WH-B"
+    },
+    {
+      "id": "PO-26-433",
+      "vendor": "Westward Materials",
+      "sku": "SEN-018",
+      "product": "Proximity Sensor",
+      "qty": 46,
+      "received": 19,
+      "unitCost": 96,
+      "eta": "2026-10-18",
+      "status": "Awaiting approval",
+      "warehouse": "WH-C"
+    },
+    {
+      "id": "PO-26-434",
+      "vendor": "Monarch Process Systems",
+      "sku": "MEC-711",
+      "product": "Torque Limiter",
+      "qty": 59,
+      "received": 24,
+      "unitCost": 142,
+      "eta": "2026-10-19",
+      "status": "Confirmed",
+      "warehouse": "WH-A"
+    },
+    {
+      "id": "PO-26-435",
+      "vendor": "Summit Fasteners",
+      "sku": "MEC-605",
+      "product": "Bearing Assembly 6205",
+      "qty": 72,
+      "received": 0,
+      "unitCost": 41,
+      "eta": "2026-10-20",
+      "status": "Received",
+      "warehouse": "WH-B"
+    },
+    {
+      "id": "PO-26-436",
+      "vendor": "Palisade Supply",
+      "sku": "FLW-025",
+      "product": "Flow Meter DN25",
+      "qty": 85,
+      "received": 35,
+      "unitCost": 298,
+      "eta": "2026-10-21",
+      "status": "In transit",
+      "warehouse": "WH-C"
+    },
+    {
+      "id": "PO-26-437",
+      "vendor": "North Pier Components",
+      "sku": "ELC-551",
+      "product": "Switchgear Plate",
+      "qty": 98,
+      "received": 98,
+      "unitCost": 178,
+      "eta": "2026-10-22",
+      "status": "Partially received",
+      "warehouse": "WH-A"
+    },
+    {
+      "id": "PO-26-438",
+      "vendor": "Redline Industrial",
+      "sku": "HYD-118",
+      "product": "Hydraulic Coupling \u00bd in",
+      "qty": 111,
+      "received": 46,
+      "unitCost": 22,
+      "eta": "2026-10-23",
+      "status": "Awaiting approval",
+      "warehouse": "WH-B"
+    },
+    {
+      "id": "PO-26-439",
+      "vendor": "Elmwood Logistics",
+      "sku": "ELC-312",
+      "product": "Motor Starter 3PH",
+      "qty": 124,
+      "received": 0,
+      "unitCost": 172,
+      "eta": "2026-10-24",
+      "status": "Confirmed",
+      "warehouse": "WH-C"
+    },
+    {
+      "id": "PO-26-440",
+      "vendor": "Harborline Tools",
+      "sku": "KIT-705",
+      "product": "Coupler Kit Premium",
+      "qty": 22,
+      "received": 9,
+      "unitCost": 134,
+      "eta": "2026-10-25",
+      "status": "Received",
+      "warehouse": "WH-A"
+    },
+    {
+      "id": "PO-26-441",
+      "vendor": "Summit Fasteners",
+      "sku": "ELC-180",
+      "product": "Wiring Harness A",
+      "qty": 35,
+      "received": 14,
+      "unitCost": 66,
+      "eta": "2026-10-26",
+      "status": "In transit",
+      "warehouse": "WH-B"
+    },
+    {
+      "id": "PO-26-442",
+      "vendor": "Westward Materials",
+      "sku": "PRS-012",
+      "product": "Pressure Regulator",
+      "qty": 48,
+      "received": 48,
+      "unitCost": 114,
+      "eta": "2026-10-27",
+      "status": "Partially received",
+      "warehouse": "WH-C"
+    },
+    {
+      "id": "PO-26-443",
+      "vendor": "Monarch Process Systems",
+      "sku": "SOL-120",
+      "product": "Solenoid Valve 12V",
+      "qty": 61,
+      "received": 0,
+      "unitCost": 86,
+      "eta": "2026-10-28",
+      "status": "Awaiting approval",
+      "warehouse": "WH-A"
+    },
+    {
+      "id": "PO-26-444",
+      "vendor": "Redline Industrial",
+      "sku": "FLT-900",
+      "product": "Precision Filter Unit",
+      "qty": 74,
+      "received": 31,
+      "unitCost": 325,
+      "eta": "2026-10-29",
+      "status": "Confirmed",
+      "warehouse": "WH-B"
+    },
+    {
+      "id": "PO-26-445",
+      "vendor": "Palisade Supply",
+      "sku": "ELC-204",
+      "product": "Control Relay 24V",
+      "qty": 87,
+      "received": 36,
+      "unitCost": 38,
+      "eta": "2026-10-30",
+      "status": "Received",
+      "warehouse": "WH-C"
+    },
+    {
+      "id": "PO-26-446",
+      "vendor": "North Pier Components",
+      "sku": "CNV-080",
+      "product": "Conveyor Roller 80mm",
+      "qty": 100,
+      "received": 42,
+      "unitCost": 62,
+      "eta": "2026-10-16",
+      "status": "In transit",
+      "warehouse": "WH-A"
+    },
+    {
+      "id": "PO-26-447",
+      "vendor": "Cedarline Electrical",
+      "sku": "SAF-110",
+      "product": "Thermal Fuse Pack",
+      "qty": 113,
+      "received": 113,
+      "unitCost": 12,
+      "eta": "2026-10-17",
+      "status": "Partially received",
+      "warehouse": "WH-B"
+    },
+    {
+      "id": "PO-26-448",
+      "vendor": "Westward Materials",
+      "sku": "GSK-040",
+      "product": "Sealing Ring 40mm",
+      "qty": 126,
+      "received": 52,
+      "unitCost": 4,
+      "eta": "2026-10-18",
+      "status": "Awaiting approval",
+      "warehouse": "WH-C"
+    },
+    {
+      "id": "PO-26-449",
+      "vendor": "Harborline Tools",
+      "sku": "SAF-810",
+      "product": "Safety Cutoff Switch",
+      "qty": 24,
+      "received": 10,
+      "unitCost": 52,
+      "eta": "2026-10-19",
+      "status": "Confirmed",
+      "warehouse": "WH-A"
+    },
+    {
+      "id": "PO-26-450",
+      "vendor": "Summit Fasteners",
+      "sku": "GBX-110",
+      "product": "Gearbox Housing",
+      "qty": 37,
+      "received": 15,
+      "unitCost": 235,
+      "eta": "2026-10-20",
+      "status": "Received",
+      "warehouse": "WH-B"
+    },
+    {
+      "id": "PO-26-451",
+      "vendor": "Palisade Supply",
+      "sku": "DRV-072",
+      "product": "Drive Belt Set",
+      "qty": 50,
+      "received": 0,
+      "unitCost": 37,
+      "eta": "2026-10-21",
+      "status": "In transit",
+      "warehouse": "WH-C"
+    },
+    {
+      "id": "PO-26-452",
+      "vendor": "Monarch Process Systems",
+      "sku": "PIP-232",
+      "product": "Stainless Steel Elbow",
+      "qty": 63,
+      "received": 63,
+      "unitCost": 16,
+      "eta": "2026-10-22",
+      "status": "Partially received",
+      "warehouse": "WH-A"
+    }
+  ],
+  "salesOrders": [
+    {
+      "id": "SO-26-680",
+      "customer": "Ridgeway Manufacturing",
+      "sku": "ELC-204",
+      "item": "Control Relay 24V",
+      "qty": 3,
+      "price": 76,
+      "warehouse": "WH-A",
+      "status": "Picking",
+      "priority": "Standard",
+      "due": "2026-10-16"
+    },
+    {
+      "id": "SO-26-681",
+      "customer": "Atlas Facility Services",
+      "sku": "GSK-430",
+      "item": "Heat-resistant Gasket",
+      "qty": 10,
+      "price": 17,
+      "warehouse": "WH-B",
+      "status": "Packed",
+      "priority": "High",
+      "due": "2026-10-17"
+    },
+    {
+      "id": "SO-26-682",
+      "customer": "Meridian Fabrication",
+      "sku": "SOL-120",
+      "item": "Solenoid Valve 12V",
+      "qty": 17,
+      "price": 149,
+      "warehouse": "WH-C",
+      "status": "Ready to ship",
+      "priority": "Standard",
+      "due": "2026-10-18"
+    },
+    {
+      "id": "SO-26-683",
+      "customer": "Oakline Works",
+      "sku": "PIP-125",
+      "item": "Quick Connect Tee",
+      "qty": 4,
+      "price": 37,
+      "warehouse": "WH-A",
+      "status": "Shipped",
+      "priority": "Rush",
+      "due": "2026-10-19"
+    },
+    {
+      "id": "SO-26-684",
+      "customer": "Tandem Industrial",
+      "sku": "ELC-180",
+      "item": "Wiring Harness A",
+      "qty": 11,
+      "price": 127,
+      "warehouse": "WH-B",
+      "status": "Backordered",
+      "priority": "Standard",
+      "due": "2026-10-20"
+    },
+    {
+      "id": "SO-26-685",
+      "customer": "Clearstone Maintenance",
+      "sku": "PIP-232",
+      "item": "Stainless Steel Elbow",
+      "qty": 18,
+      "price": 35,
+      "warehouse": "WH-C",
+      "status": "Picking",
+      "priority": "High",
+      "due": "2026-10-21"
+    },
+    {
+      "id": "SO-26-686",
+      "customer": "Stoneworks Co",
+      "sku": "ELC-312",
+      "item": "Motor Starter 3PH",
+      "qty": 5,
+      "price": 265,
+      "warehouse": "WH-A",
+      "status": "Packed",
+      "priority": "Standard",
+      "due": "2026-10-22"
+    },
+    {
+      "id": "SO-26-687",
+      "customer": "Eastbank Energy",
+      "sku": "GBX-110",
+      "item": "Gearbox Housing",
+      "qty": 12,
+      "price": 395,
+      "warehouse": "WH-B",
+      "status": "Ready to ship",
+      "priority": "Rush",
+      "due": "2026-10-23"
+    },
+    {
+      "id": "SO-26-688",
+      "customer": "Summit Trade Partners",
+      "sku": "ELC-551",
+      "item": "Switchgear Plate",
+      "qty": 19,
+      "price": 295,
+      "warehouse": "WH-C",
+      "status": "Shipped",
+      "priority": "Standard",
+      "due": "2026-10-24"
+    },
+    {
+      "id": "SO-26-689",
+      "customer": "Westhall Engineering",
+      "sku": "GSK-040",
+      "item": "Sealing Ring 40mm",
+      "qty": 6,
+      "price": 14,
+      "warehouse": "WH-A",
+      "status": "Backordered",
+      "priority": "High",
+      "due": "2026-10-25"
+    },
+    {
+      "id": "SO-26-690",
+      "customer": "Ridgeway Manufacturing",
+      "sku": "MEC-605",
+      "item": "Bearing Assembly 6205",
+      "qty": 13,
+      "price": 92,
+      "warehouse": "WH-B",
+      "status": "Picking",
+      "priority": "Standard",
+      "due": "2026-10-26"
+    },
+    {
+      "id": "SO-26-691",
+      "customer": "Atlas Facility Services",
+      "sku": "CNV-080",
+      "item": "Conveyor Roller 80mm",
+      "qty": 20,
+      "price": 116,
+      "warehouse": "WH-C",
+      "status": "Packed",
+      "priority": "Rush",
+      "due": "2026-10-27"
+    },
+    {
+      "id": "SO-26-692",
+      "customer": "Meridian Fabrication",
+      "sku": "SEN-018",
+      "item": "Proximity Sensor",
+      "qty": 7,
+      "price": 159,
+      "warehouse": "WH-A",
+      "status": "Ready to ship",
+      "priority": "Standard",
+      "due": "2026-10-28"
+    },
+    {
+      "id": "SO-26-693",
+      "customer": "Oakline Works",
+      "sku": "FLT-900",
+      "item": "Precision Filter Unit",
+      "qty": 14,
+      "price": 535,
+      "warehouse": "WH-B",
+      "status": "Shipped",
+      "priority": "High",
+      "due": "2026-10-29"
+    },
+    {
+      "id": "SO-26-694",
+      "customer": "Tandem Industrial",
+      "sku": "SEN-420",
+      "item": "Industrial Flow Sensor",
+      "qty": 21,
+      "price": 268,
+      "warehouse": "WH-C",
+      "status": "Backordered",
+      "priority": "Standard",
+      "due": "2026-10-30"
+    },
+    {
+      "id": "SO-26-695",
+      "customer": "Clearstone Maintenance",
+      "sku": "PRS-012",
+      "item": "Pressure Regulator",
+      "qty": 8,
+      "price": 169,
+      "warehouse": "WH-A",
+      "status": "Picking",
+      "priority": "Rush",
+      "due": "2026-10-16"
+    },
+    {
+      "id": "SO-26-696",
+      "customer": "Stoneworks Co",
+      "sku": "ELC-120",
+      "item": "Cable Gland M20",
+      "qty": 15,
+      "price": 12,
+      "warehouse": "WH-B",
+      "status": "Packed",
+      "priority": "Standard",
+      "due": "2026-10-17"
+    },
+    {
+      "id": "SO-26-697",
+      "customer": "Eastbank Energy",
+      "sku": "KIT-705",
+      "item": "Coupler Kit Premium",
+      "qty": 22,
+      "price": 245,
+      "warehouse": "WH-C",
+      "status": "Ready to ship",
+      "priority": "High",
+      "due": "2026-10-18"
+    },
+    {
+      "id": "SO-26-698",
+      "customer": "Summit Trade Partners",
+      "sku": "DRV-072",
+      "item": "Drive Belt Set",
+      "qty": 9,
+      "price": 78,
+      "warehouse": "WH-A",
+      "status": "Shipped",
+      "priority": "Standard",
+      "due": "2026-10-19"
+    },
+    {
+      "id": "SO-26-699",
+      "customer": "Westhall Engineering",
+      "sku": "HYD-118",
+      "item": "Hydraulic Coupling \u00bd in",
+      "qty": 16,
+      "price": 44,
+      "warehouse": "WH-B",
+      "status": "Backordered",
+      "priority": "Rush",
+      "due": "2026-10-20"
+    },
+    {
+      "id": "SO-26-700",
+      "customer": "Ridgeway Manufacturing",
+      "sku": "SAF-810",
+      "item": "Safety Cutoff Switch",
+      "qty": 3,
+      "price": 98,
+      "warehouse": "WH-C",
+      "status": "Picking",
+      "priority": "Standard",
+      "due": "2026-10-21"
+    },
+    {
+      "id": "SO-26-701",
+      "customer": "Atlas Facility Services",
+      "sku": "FLW-025",
+      "item": "Flow Meter DN25",
+      "qty": 10,
+      "price": 446,
+      "warehouse": "WH-A",
+      "status": "Packed",
+      "priority": "High",
+      "due": "2026-10-22"
+    },
+    {
+      "id": "SO-26-702",
+      "customer": "Meridian Fabrication",
+      "sku": "SAF-110",
+      "item": "Thermal Fuse Pack",
+      "qty": 17,
+      "price": 38,
+      "warehouse": "WH-B",
+      "status": "Ready to ship",
+      "priority": "Standard",
+      "due": "2026-10-23"
+    },
+    {
+      "id": "SO-26-703",
+      "customer": "Oakline Works",
+      "sku": "MEC-711",
+      "item": "Torque Limiter",
+      "qty": 4,
+      "price": 243,
+      "warehouse": "WH-C",
+      "status": "Shipped",
+      "priority": "Rush",
+      "due": "2026-10-24"
+    },
+    {
+      "id": "SO-26-704",
+      "customer": "Tandem Industrial",
+      "sku": "ELC-204",
+      "item": "Control Relay 24V",
+      "qty": 11,
+      "price": 76,
+      "warehouse": "WH-A",
+      "status": "Backordered",
+      "priority": "Standard",
+      "due": "2026-10-25"
+    },
+    {
+      "id": "SO-26-705",
+      "customer": "Clearstone Maintenance",
+      "sku": "GSK-430",
+      "item": "Heat-resistant Gasket",
+      "qty": 18,
+      "price": 17,
+      "warehouse": "WH-B",
+      "status": "Picking",
+      "priority": "High",
+      "due": "2026-10-26"
+    }
+  ],
+  "movements": [
+    {
+      "id": "MOV-7100",
+      "type": "Receipt",
+      "sku": "SEN-420",
+      "product": "Industrial Flow Sensor",
+      "warehouse": "WH-A",
+      "qty": 2,
+      "ref": "REF-300",
+      "actor": "N. Evans",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "MOV-7101",
+      "type": "Sale allocation",
+      "sku": "PIP-232",
+      "product": "Stainless Steel Elbow",
+      "warehouse": "WH-B",
+      "qty": -9,
+      "ref": "REF-301",
+      "actor": "M. Ellis",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "MOV-7102",
+      "type": "Transfer",
+      "sku": "SAF-810",
+      "product": "Safety Cutoff Switch",
+      "warehouse": "WH-C",
+      "qty": 16,
+      "ref": "REF-302",
+      "actor": "M. Patel",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "MOV-7103",
+      "type": "Count adjustment",
+      "sku": "CNV-080",
+      "product": "Conveyor Roller 80mm",
+      "warehouse": "WH-A",
+      "qty": 23,
+      "ref": "REF-303",
+      "actor": "L. Grant",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "MOV-7104",
+      "type": "Return",
+      "sku": "SOL-120",
+      "product": "Solenoid Valve 12V",
+      "warehouse": "WH-B",
+      "qty": 30,
+      "ref": "REF-304",
+      "actor": "N. Evans",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "MOV-7105",
+      "type": "Receipt",
+      "sku": "SAF-110",
+      "product": "Thermal Fuse Pack",
+      "warehouse": "WH-C",
+      "qty": 37,
+      "ref": "REF-305",
+      "actor": "M. Ellis",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "MOV-7106",
+      "type": "Sale allocation",
+      "sku": "FLT-900",
+      "product": "Precision Filter Unit",
+      "warehouse": "WH-A",
+      "qty": -44,
+      "ref": "REF-306",
+      "actor": "M. Patel",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "MOV-7107",
+      "type": "Transfer",
+      "sku": "ELC-180",
+      "product": "Wiring Harness A",
+      "warehouse": "WH-B",
+      "qty": 4,
+      "ref": "REF-307",
+      "actor": "L. Grant",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "MOV-7108",
+      "type": "Count adjustment",
+      "sku": "HYD-118",
+      "product": "Hydraulic Coupling \u00bd in",
+      "warehouse": "WH-C",
+      "qty": 11,
+      "ref": "REF-308",
+      "actor": "N. Evans",
+      "date": "2026-10-10"
+    },
+    {
+      "id": "MOV-7109",
+      "type": "Return",
+      "sku": "MEC-605",
+      "product": "Bearing Assembly 6205",
+      "warehouse": "WH-A",
+      "qty": 18,
+      "ref": "REF-309",
+      "actor": "M. Ellis",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "MOV-7110",
+      "type": "Receipt",
+      "sku": "ELC-312",
+      "product": "Motor Starter 3PH",
+      "warehouse": "WH-B",
+      "qty": 25,
+      "ref": "REF-310",
+      "actor": "M. Patel",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "MOV-7111",
+      "type": "Sale allocation",
+      "sku": "FLW-025",
+      "product": "Flow Meter DN25",
+      "warehouse": "WH-C",
+      "qty": -32,
+      "ref": "REF-311",
+      "actor": "L. Grant",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "MOV-7112",
+      "type": "Transfer",
+      "sku": "SEN-018",
+      "product": "Proximity Sensor",
+      "warehouse": "WH-A",
+      "qty": 39,
+      "ref": "REF-312",
+      "actor": "N. Evans",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "MOV-7113",
+      "type": "Count adjustment",
+      "sku": "PIP-125",
+      "product": "Quick Connect Tee",
+      "warehouse": "WH-B",
+      "qty": 46,
+      "ref": "REF-313",
+      "actor": "M. Ellis",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "MOV-7114",
+      "type": "Return",
+      "sku": "DRV-072",
+      "product": "Drive Belt Set",
+      "warehouse": "WH-C",
+      "qty": 6,
+      "ref": "REF-314",
+      "actor": "M. Patel",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "MOV-7115",
+      "type": "Receipt",
+      "sku": "SEN-420",
+      "product": "Industrial Flow Sensor",
+      "warehouse": "WH-A",
+      "qty": 13,
+      "ref": "REF-315",
+      "actor": "L. Grant",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "MOV-7116",
+      "type": "Sale allocation",
+      "sku": "PIP-232",
+      "product": "Stainless Steel Elbow",
+      "warehouse": "WH-B",
+      "qty": -20,
+      "ref": "REF-316",
+      "actor": "N. Evans",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "MOV-7117",
+      "type": "Transfer",
+      "sku": "SAF-810",
+      "product": "Safety Cutoff Switch",
+      "warehouse": "WH-C",
+      "qty": 27,
+      "ref": "REF-317",
+      "actor": "M. Ellis",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "MOV-7118",
+      "type": "Count adjustment",
+      "sku": "CNV-080",
+      "product": "Conveyor Roller 80mm",
+      "warehouse": "WH-A",
+      "qty": 34,
+      "ref": "REF-318",
+      "actor": "M. Patel",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "MOV-7119",
+      "type": "Return",
+      "sku": "SOL-120",
+      "product": "Solenoid Valve 12V",
+      "warehouse": "WH-B",
+      "qty": 41,
+      "ref": "REF-319",
+      "actor": "L. Grant",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "MOV-7120",
+      "type": "Receipt",
+      "sku": "SAF-110",
+      "product": "Thermal Fuse Pack",
+      "warehouse": "WH-C",
+      "qty": 48,
+      "ref": "REF-320",
+      "actor": "N. Evans",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "MOV-7121",
+      "type": "Sale allocation",
+      "sku": "FLT-900",
+      "product": "Precision Filter Unit",
+      "warehouse": "WH-A",
+      "qty": -8,
+      "ref": "REF-321",
+      "actor": "M. Ellis",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "MOV-7122",
+      "type": "Transfer",
+      "sku": "ELC-180",
+      "product": "Wiring Harness A",
+      "warehouse": "WH-B",
+      "qty": 15,
+      "ref": "REF-322",
+      "actor": "M. Patel",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "MOV-7123",
+      "type": "Count adjustment",
+      "sku": "HYD-118",
+      "product": "Hydraulic Coupling \u00bd in",
+      "warehouse": "WH-C",
+      "qty": 22,
+      "ref": "REF-323",
+      "actor": "L. Grant",
+      "date": "2026-10-10"
+    },
+    {
+      "id": "MOV-7124",
+      "type": "Return",
+      "sku": "MEC-605",
+      "product": "Bearing Assembly 6205",
+      "warehouse": "WH-A",
+      "qty": 29,
+      "ref": "REF-324",
+      "actor": "N. Evans",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "MOV-7125",
+      "type": "Receipt",
+      "sku": "ELC-312",
+      "product": "Motor Starter 3PH",
+      "warehouse": "WH-B",
+      "qty": 36,
+      "ref": "REF-325",
+      "actor": "M. Ellis",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "MOV-7126",
+      "type": "Sale allocation",
+      "sku": "FLW-025",
+      "product": "Flow Meter DN25",
+      "warehouse": "WH-C",
+      "qty": -43,
+      "ref": "REF-326",
+      "actor": "M. Patel",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "MOV-7127",
+      "type": "Transfer",
+      "sku": "SEN-018",
+      "product": "Proximity Sensor",
+      "warehouse": "WH-A",
+      "qty": 3,
+      "ref": "REF-327",
+      "actor": "L. Grant",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "MOV-7128",
+      "type": "Count adjustment",
+      "sku": "PIP-125",
+      "product": "Quick Connect Tee",
+      "warehouse": "WH-B",
+      "qty": 10,
+      "ref": "REF-328",
+      "actor": "N. Evans",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "MOV-7129",
+      "type": "Return",
+      "sku": "DRV-072",
+      "product": "Drive Belt Set",
+      "warehouse": "WH-C",
+      "qty": 17,
+      "ref": "REF-329",
+      "actor": "M. Ellis",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "MOV-7130",
+      "type": "Receipt",
+      "sku": "SEN-420",
+      "product": "Industrial Flow Sensor",
+      "warehouse": "WH-A",
+      "qty": 24,
+      "ref": "REF-330",
+      "actor": "M. Patel",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "MOV-7131",
+      "type": "Sale allocation",
+      "sku": "PIP-232",
+      "product": "Stainless Steel Elbow",
+      "warehouse": "WH-B",
+      "qty": -31,
+      "ref": "REF-331",
+      "actor": "L. Grant",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "MOV-7132",
+      "type": "Transfer",
+      "sku": "SAF-810",
+      "product": "Safety Cutoff Switch",
+      "warehouse": "WH-C",
+      "qty": 38,
+      "ref": "REF-332",
+      "actor": "N. Evans",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "MOV-7133",
+      "type": "Count adjustment",
+      "sku": "CNV-080",
+      "product": "Conveyor Roller 80mm",
+      "warehouse": "WH-A",
+      "qty": 45,
+      "ref": "REF-333",
+      "actor": "M. Ellis",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "MOV-7134",
+      "type": "Return",
+      "sku": "SOL-120",
+      "product": "Solenoid Valve 12V",
+      "warehouse": "WH-B",
+      "qty": 5,
+      "ref": "REF-334",
+      "actor": "M. Patel",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "MOV-7135",
+      "type": "Receipt",
+      "sku": "SAF-110",
+      "product": "Thermal Fuse Pack",
+      "warehouse": "WH-C",
+      "qty": 12,
+      "ref": "REF-335",
+      "actor": "L. Grant",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "MOV-7136",
+      "type": "Sale allocation",
+      "sku": "FLT-900",
+      "product": "Precision Filter Unit",
+      "warehouse": "WH-A",
+      "qty": -19,
+      "ref": "REF-336",
+      "actor": "N. Evans",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "MOV-7137",
+      "type": "Transfer",
+      "sku": "ELC-180",
+      "product": "Wiring Harness A",
+      "warehouse": "WH-B",
+      "qty": 26,
+      "ref": "REF-337",
+      "actor": "M. Ellis",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "MOV-7138",
+      "type": "Count adjustment",
+      "sku": "HYD-118",
+      "product": "Hydraulic Coupling \u00bd in",
+      "warehouse": "WH-C",
+      "qty": 33,
+      "ref": "REF-338",
+      "actor": "M. Patel",
+      "date": "2026-10-10"
+    },
+    {
+      "id": "MOV-7139",
+      "type": "Return",
+      "sku": "MEC-605",
+      "product": "Bearing Assembly 6205",
+      "warehouse": "WH-A",
+      "qty": 40,
+      "ref": "REF-339",
+      "actor": "L. Grant",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "MOV-7140",
+      "type": "Receipt",
+      "sku": "ELC-312",
+      "product": "Motor Starter 3PH",
+      "warehouse": "WH-B",
+      "qty": 47,
+      "ref": "REF-340",
+      "actor": "N. Evans",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "MOV-7141",
+      "type": "Sale allocation",
+      "sku": "FLW-025",
+      "product": "Flow Meter DN25",
+      "warehouse": "WH-C",
+      "qty": -7,
+      "ref": "REF-341",
+      "actor": "M. Ellis",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "MOV-7142",
+      "type": "Transfer",
+      "sku": "SEN-018",
+      "product": "Proximity Sensor",
+      "warehouse": "WH-A",
+      "qty": 14,
+      "ref": "REF-342",
+      "actor": "M. Patel",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "MOV-7143",
+      "type": "Count adjustment",
+      "sku": "PIP-125",
+      "product": "Quick Connect Tee",
+      "warehouse": "WH-B",
+      "qty": 21,
+      "ref": "REF-343",
+      "actor": "L. Grant",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "MOV-7144",
+      "type": "Return",
+      "sku": "DRV-072",
+      "product": "Drive Belt Set",
+      "warehouse": "WH-C",
+      "qty": 28,
+      "ref": "REF-344",
+      "actor": "N. Evans",
+      "date": "2026-10-16"
+    }
+  ],
+  "transfers": [
+    {
+      "id": "TRF-280",
+      "sku": "SEN-420",
+      "product": "Industrial Flow Sensor",
+      "from": "WH-B",
+      "to": "WH-A",
+      "qty": 4,
+      "status": "In transit",
+      "owner": "Morgan Ellis"
+    },
+    {
+      "id": "TRF-281",
+      "sku": "PRS-012",
+      "product": "Pressure Regulator",
+      "from": "WH-A",
+      "to": "WH-C",
+      "qty": 7,
+      "status": "Needs approval",
+      "owner": "Maya Patel"
+    },
+    {
+      "id": "TRF-282",
+      "sku": "ELC-120",
+      "product": "Cable Gland M20",
+      "from": "WH-B",
+      "to": "WH-A",
+      "qty": 10,
+      "status": "Completed",
+      "owner": "Morgan Ellis"
+    },
+    {
+      "id": "TRF-283",
+      "sku": "KIT-705",
+      "product": "Coupler Kit Premium",
+      "from": "WH-A",
+      "to": "WH-C",
+      "qty": 13,
+      "status": "In transit",
+      "owner": "Maya Patel"
+    },
+    {
+      "id": "TRF-284",
+      "sku": "DRV-072",
+      "product": "Drive Belt Set",
+      "from": "WH-B",
+      "to": "WH-A",
+      "qty": 16,
+      "status": "Needs approval",
+      "owner": "Morgan Ellis"
+    },
+    {
+      "id": "TRF-285",
+      "sku": "HYD-118",
+      "product": "Hydraulic Coupling \u00bd in",
+      "from": "WH-A",
+      "to": "WH-C",
+      "qty": 19,
+      "status": "Completed",
+      "owner": "Maya Patel"
+    },
+    {
+      "id": "TRF-286",
+      "sku": "SAF-810",
+      "product": "Safety Cutoff Switch",
+      "from": "WH-B",
+      "to": "WH-A",
+      "qty": 22,
+      "status": "In transit",
+      "owner": "Morgan Ellis"
+    },
+    {
+      "id": "TRF-287",
+      "sku": "FLW-025",
+      "product": "Flow Meter DN25",
+      "from": "WH-A",
+      "to": "WH-C",
+      "qty": 25,
+      "status": "Needs approval",
+      "owner": "Maya Patel"
+    },
+    {
+      "id": "TRF-288",
+      "sku": "SAF-110",
+      "product": "Thermal Fuse Pack",
+      "from": "WH-B",
+      "to": "WH-A",
+      "qty": 28,
+      "status": "Completed",
+      "owner": "Morgan Ellis"
+    },
+    {
+      "id": "TRF-289",
+      "sku": "MEC-711",
+      "product": "Torque Limiter",
+      "from": "WH-A",
+      "to": "WH-C",
+      "qty": 31,
+      "status": "In transit",
+      "owner": "Maya Patel"
+    }
+  ],
+  "returns": [
+    {
+      "id": "RMA-410",
+      "customer": "Ridgeway Manufacturing",
+      "sku": "HYD-118",
+      "product": "Hydraulic Coupling \u00bd in",
+      "qty": 1,
+      "reason": "Damaged packaging",
+      "resolution": "Inspecting"
+    },
+    {
+      "id": "RMA-411",
+      "customer": "Atlas Facility Services",
+      "sku": "ELC-312",
+      "product": "Motor Starter 3PH",
+      "qty": 2,
+      "reason": "Incorrect specification",
+      "resolution": "Credit review"
+    },
+    {
+      "id": "RMA-412",
+      "customer": "Meridian Fabrication",
+      "sku": "KIT-705",
+      "product": "Coupler Kit Premium",
+      "qty": 3,
+      "reason": "Warranty inspection",
+      "resolution": "Restock approved"
+    },
+    {
+      "id": "RMA-413",
+      "customer": "Oakline Works",
+      "sku": "ELC-180",
+      "product": "Wiring Harness A",
+      "qty": 4,
+      "reason": "Over shipment",
+      "resolution": "Rejected"
+    },
+    {
+      "id": "RMA-414",
+      "customer": "Tandem Industrial",
+      "sku": "PRS-012",
+      "product": "Pressure Regulator",
+      "qty": 5,
+      "reason": "Damaged packaging",
+      "resolution": "Inspecting"
+    },
+    {
+      "id": "RMA-415",
+      "customer": "Clearstone Maintenance",
+      "sku": "SOL-120",
+      "product": "Solenoid Valve 12V",
+      "qty": 1,
+      "reason": "Incorrect specification",
+      "resolution": "Credit review"
+    },
+    {
+      "id": "RMA-416",
+      "customer": "Stoneworks Co",
+      "sku": "FLT-900",
+      "product": "Precision Filter Unit",
+      "qty": 2,
+      "reason": "Warranty inspection",
+      "resolution": "Restock approved"
+    },
+    {
+      "id": "RMA-417",
+      "customer": "Eastbank Energy",
+      "sku": "ELC-204",
+      "product": "Control Relay 24V",
+      "qty": 3,
+      "reason": "Over shipment",
+      "resolution": "Rejected"
+    },
+    {
+      "id": "RMA-418",
+      "customer": "Summit Trade Partners",
+      "sku": "CNV-080",
+      "product": "Conveyor Roller 80mm",
+      "qty": 4,
+      "reason": "Damaged packaging",
+      "resolution": "Inspecting"
+    },
+    {
+      "id": "RMA-419",
+      "customer": "Westhall Engineering",
+      "sku": "SAF-110",
+      "product": "Thermal Fuse Pack",
+      "qty": 5,
+      "reason": "Incorrect specification",
+      "resolution": "Credit review"
+    },
+    {
+      "id": "RMA-420",
+      "customer": "Ridgeway Manufacturing",
+      "sku": "GSK-040",
+      "product": "Sealing Ring 40mm",
+      "qty": 1,
+      "reason": "Warranty inspection",
+      "resolution": "Restock approved"
+    },
+    {
+      "id": "RMA-421",
+      "customer": "Atlas Facility Services",
+      "sku": "SAF-810",
+      "product": "Safety Cutoff Switch",
+      "qty": 2,
+      "reason": "Over shipment",
+      "resolution": "Rejected"
+    }
+  ],
+  "counts": [
+    {
+      "id": "CNT-203",
+      "sku": "ELC-204",
+      "product": "Control Relay 24V",
+      "warehouse": "WH-A",
+      "expected": 73,
+      "counted": 71,
+      "status": "Review variance"
+    },
+    {
+      "id": "CNT-204",
+      "sku": "MEC-605",
+      "product": "Bearing Assembly 6205",
+      "warehouse": "WH-B",
+      "expected": 37,
+      "counted": 37,
+      "status": "Verified"
+    },
+    {
+      "id": "CNT-205",
+      "sku": "SAF-810",
+      "product": "Safety Cutoff Switch",
+      "warehouse": "WH-C",
+      "expected": 14,
+      "counted": 15,
+      "status": "Submitted"
+    },
+    {
+      "id": "CNT-206",
+      "sku": "ELC-312",
+      "product": "Motor Starter 3PH",
+      "warehouse": "WH-A",
+      "expected": 12,
+      "counted": 12,
+      "status": "Review variance"
+    },
+    {
+      "id": "CNT-207",
+      "sku": "ELC-120",
+      "product": "Cable Gland M20",
+      "warehouse": "WH-B",
+      "expected": 228,
+      "counted": 228,
+      "status": "Verified"
+    },
+    {
+      "id": "CNT-208",
+      "sku": "SOL-120",
+      "product": "Solenoid Valve 12V",
+      "warehouse": "WH-C",
+      "expected": 9,
+      "counted": 8,
+      "status": "Submitted"
+    },
+    {
+      "id": "CNT-209",
+      "sku": "SEN-018",
+      "product": "Proximity Sensor",
+      "warehouse": "WH-A",
+      "expected": 37,
+      "counted": 35,
+      "status": "Review variance"
+    },
+    {
+      "id": "CNT-210",
+      "sku": "SAF-110",
+      "product": "Thermal Fuse Pack",
+      "warehouse": "WH-B",
+      "expected": 86,
+      "counted": 86,
+      "status": "Verified"
+    },
+    {
+      "id": "CNT-211",
+      "sku": "ELC-551",
+      "product": "Switchgear Plate",
+      "warehouse": "WH-C",
+      "expected": 6,
+      "counted": 7,
+      "status": "Submitted"
+    },
+    {
+      "id": "CNT-212",
+      "sku": "DRV-072",
+      "product": "Drive Belt Set",
+      "warehouse": "WH-A",
+      "expected": 76,
+      "counted": 76,
+      "status": "Review variance"
+    },
+    {
+      "id": "CNT-213",
+      "sku": "ELC-180",
+      "product": "Wiring Harness A",
+      "warehouse": "WH-B",
+      "expected": 27,
+      "counted": 27,
+      "status": "Verified"
+    },
+    {
+      "id": "CNT-214",
+      "sku": "SEN-420",
+      "product": "Industrial Flow Sensor",
+      "warehouse": "WH-C",
+      "expected": 7,
+      "counted": 6,
+      "status": "Submitted"
+    }
+  ],
+  "approvals": [
+    {
+      "id": "APR-620",
+      "subject": "PO-26-431 \u00b7 Industrial Flow Sensor",
+      "type": "Purchase order",
+      "amount": 3740,
+      "requester": "Morgan Ellis",
+      "status": "Needs review",
+      "due": "Oct 16"
+    },
+    {
+      "id": "APR-621",
+      "subject": "PO-26-432 \u00b7 Heat-resistant Gasket",
+      "type": "Stock adjustment",
+      "amount": 198,
+      "requester": "Maya Patel",
+      "status": "Pending",
+      "due": "Oct 17"
+    },
+    {
+      "id": "APR-622",
+      "subject": "PO-26-433 \u00b7 Proximity Sensor",
+      "type": "Transfer authorization",
+      "amount": 4416,
+      "requester": "Leo Grant",
+      "status": "Pending",
+      "due": "Oct 18"
+    },
+    {
+      "id": "APR-623",
+      "subject": "PO-26-434 \u00b7 Torque Limiter",
+      "type": "Purchase order",
+      "amount": 8378,
+      "requester": "Morgan Ellis",
+      "status": "Pending",
+      "due": "Oct 19"
+    },
+    {
+      "id": "APR-624",
+      "subject": "PO-26-435 \u00b7 Bearing Assembly 6205",
+      "type": "Stock adjustment",
+      "amount": 2952,
+      "requester": "Maya Patel",
+      "status": "Needs review",
+      "due": "Oct 20"
+    },
+    {
+      "id": "APR-625",
+      "subject": "PO-26-436 \u00b7 Flow Meter DN25",
+      "type": "Transfer authorization",
+      "amount": 25330,
+      "requester": "Leo Grant",
+      "status": "Pending",
+      "due": "Oct 21"
+    },
+    {
+      "id": "APR-626",
+      "subject": "PO-26-437 \u00b7 Switchgear Plate",
+      "type": "Purchase order",
+      "amount": 17444,
+      "requester": "Morgan Ellis",
+      "status": "Pending",
+      "due": "Oct 22"
+    },
+    {
+      "id": "APR-627",
+      "subject": "PO-26-438 \u00b7 Hydraulic Coupling \u00bd in",
+      "type": "Stock adjustment",
+      "amount": 2442,
+      "requester": "Maya Patel",
+      "status": "Pending",
+      "due": "Oct 23"
+    },
+    {
+      "id": "APR-628",
+      "subject": "PO-26-439 \u00b7 Motor Starter 3PH",
+      "type": "Transfer authorization",
+      "amount": 21328,
+      "requester": "Leo Grant",
+      "status": "Needs review",
+      "due": "Oct 24"
+    },
+    {
+      "id": "APR-629",
+      "subject": "PO-26-440 \u00b7 Coupler Kit Premium",
+      "type": "Purchase order",
+      "amount": 2948,
+      "requester": "Morgan Ellis",
+      "status": "Pending",
+      "due": "Oct 25"
+    },
+    {
+      "id": "APR-630",
+      "subject": "PO-26-441 \u00b7 Wiring Harness A",
+      "type": "Stock adjustment",
+      "amount": 2310,
+      "requester": "Maya Patel",
+      "status": "Pending",
+      "due": "Oct 16"
+    },
+    {
+      "id": "APR-631",
+      "subject": "PO-26-442 \u00b7 Pressure Regulator",
+      "type": "Transfer authorization",
+      "amount": 5472,
+      "requester": "Leo Grant",
+      "status": "Pending",
+      "due": "Oct 17"
+    },
+    {
+      "id": "APR-632",
+      "subject": "PO-26-443 \u00b7 Solenoid Valve 12V",
+      "type": "Purchase order",
+      "amount": 5246,
+      "requester": "Morgan Ellis",
+      "status": "Needs review",
+      "due": "Oct 18"
+    }
+  ],
+  "activities": [
+    {
+      "time": "09:00",
+      "message": "Cycle count for SEN-420 submitted",
+      "by": "Morgan Ellis"
+    },
+    {
+      "time": "09:13",
+      "message": "PO-26-434 routing changed",
+      "by": "Maya Patel"
+    },
+    {
+      "time": "09:26",
+      "message": "Low-stock alert generated for ELC-312",
+      "by": "Leo Grant"
+    },
+    {
+      "time": "09:39",
+      "message": "Order SO-26-683 marked packed",
+      "by": "Noah Evans"
+    },
+    {
+      "time": "10:52",
+      "message": "Transfer TRF-282 approved",
+      "by": "Morgan Ellis"
+    },
+    {
+      "time": "10:05",
+      "message": "Vendor profile updated",
+      "by": "Maya Patel"
+    },
+    {
+      "time": "10:18",
+      "message": "Reorder suggestion accepted",
+      "by": "Leo Grant"
+    },
+    {
+      "time": "10:31",
+      "message": "Goods receipt posted for HYD-118",
+      "by": "Noah Evans"
+    },
+    {
+      "time": "11:44",
+      "message": "Exception flag added to count",
+      "by": "Morgan Ellis"
+    },
+    {
+      "time": "11:57",
+      "message": "SKU pricing updated",
+      "by": "Maya Patel"
+    },
+    {
+      "time": "11:10",
+      "message": "Sales order created",
+      "by": "Leo Grant"
+    },
+    {
+      "time": "11:23",
+      "message": "Inbound delivery checked",
+      "by": "Noah Evans"
+    }
+  ],
+  "settings": {
+    "currency": "USD",
+    "warehouse": "all",
+    "lowStockAlerts": true,
+    "approvalLimit": 2500,
+    "safetyDays": 14,
+    "notifications": true
+  },
+  "tasks": [
+    {
+      "id": "T-101",
+      "name": "Review critical stock alerts",
+      "owner": "Morgan Ellis",
+      "due": "Today",
+      "done": false
+    },
+    {
+      "id": "T-102",
+      "name": "Confirm inbound PO-26-433",
+      "owner": "Maya Patel",
+      "due": "Today",
+      "done": false
+    },
+    {
+      "id": "T-103",
+      "name": "Inspect RMA-412",
+      "owner": "Leo Grant",
+      "due": "Tomorrow",
+      "done": false
+    }
+  ],
+  "workflowRuns": []
+}

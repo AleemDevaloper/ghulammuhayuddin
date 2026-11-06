@@ -1,0 +1,13 @@
+id,contactId,name,company,subject,preview,intent,status,received,owner,campaignId
+RP-301,CT-1001,Olivia Parker,Harborwell Studio,Re: a short thought on lead follow-ups,Thanks for reaching out. I’m interested in learning how this could help our team. Could you share an outline?,Interested,Classified,"Oct 16, 2026",Olivia Chen,CP-101
+RP-302,CT-1002,Noah Hale,Northfield Supply,Re: your team’s workflow,Can you clarify how the integration would work with the CRM we use today?,Question,Needs review,"Oct 16, 2026",Marcus Reed,CP-102
+RP-303,CT-1003,Maya Reed,Pine & Peak Systems,Re: quick introduction,This is timely. Do you have 20 minutes next week to talk through the approach?,Meeting Request,Needs review,"Oct 16, 2026",Emma Brooks,CP-103
+RP-304,CT-1004,Ethan Chen,Cedarline Advisors,Re: a short thought on lead follow-ups,We are tied up with the current rollout. Please check back next quarter.,Not Now,Classified,"Oct 15, 2026",Daniel Park,CP-104
+RP-305,CT-1005,Ava Bennett,Lakehouse Commerce,Re: your team’s workflow,We may need help with our follow-up process. Could you send the details?,Interested,Needs review,"Oct 15, 2026",Olivia Chen,CP-101
+RP-306,CT-1006,Liam Cole,Morrow & Co.,Re: quick introduction,Please remove me from future emails. Thank you.,Unsubscribe,Needs review,"Oct 15, 2026",Marcus Reed,CP-102
+RP-307,CT-1007,Sofia Rios,Juniper Works,Re: a short thought on lead follow-ups,Would this include activity logs and approval before any message is sent?,Question,Classified,"Oct 14, 2026",Emma Brooks,CP-103
+RP-308,CT-1008,Leo Morris,Bridgepoint Labs,Re: your team’s workflow,I would be open to a quick intro call Wednesday afternoon.,Meeting Request,Needs review,"Oct 14, 2026",Daniel Park,CP-104
+RP-309,CT-1009,Isla Quinn,Granite Harbour,Re: quick introduction,"Not a priority this month, but please reconnect in a few weeks.",Not Now,Needs review,"Oct 14, 2026",Olivia Chen,CP-101
+RP-310,CT-1010,James Walker,Kestrel Digital,Re: a short thought on lead follow-ups,Sounds relevant to our sales team. Do you have a short project overview?,Interested,Classified,"Oct 13, 2026",Marcus Reed,CP-102
+RP-311,CT-1011,Amelia Frost,Elmway Logistics,Re: your team’s workflow,Unsubscribe me from your list.,Unsubscribe,Needs review,"Oct 13, 2026",Emma Brooks,CP-103
+RP-312,CT-1012,Mason Hughes,Westbrook Creative,Re: quick introduction,Does your setup support custom routing rules?,Question,Needs review,"Oct 13, 2026",Daniel Park,CP-104

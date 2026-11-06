@@ -1,0 +1,10 @@
+Suggested Upwork gallery order (upload only strongest images allowed by current platform limits):
+1. 00_Upwork_Cover_1000x750.png
+2. 02_Unified_Inbox.png
+3. 03_Sequences.png
+4. 05_Template_Studio.png
+5. 06_Review_Queue.png
+6. 07_Automation_Studio.png
+7. 10_Performance.png
+
+Full gallery has 13 native HTML screenshots. Case study PDF is a separate deliverable.

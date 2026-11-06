@@ -1,0 +1,20 @@
+id,title,requested_by,department,amount,priority,status,due,notes
+AP-780,Vendor credit exception,Olivia Chen,Revenue,1200,Urgent,Approved,Oct 16,A reviewer must confirm supporting records before the action is applied.
+AP-781,Customer refund review,Daniel Kim,Finance,6300,Standard,Pending,Oct 17,A reviewer must confirm supporting records before the action is applied.
+AP-782,Invoice posting decision,Maya Patel,People,850,Standard,Pending,Oct 18,A reviewer must confirm supporting records before the action is applied.
+AP-783,High-value purchase request,Taylor Nguyen,Support,14500,Urgent,Pending,Oct 19,A reviewer must confirm supporting records before the action is applied.
+AP-784,Contract term exception,Olivia Chen,Operations,0,Standard,Pending,Oct 20,A reviewer must confirm supporting records before the action is applied.
+AP-785,Access request,Daniel Kim,Procurement,0,Standard,Approved,Oct 21,A reviewer must confirm supporting records before the action is applied.
+AP-786,Outreach draft review,Maya Patel,Revenue,0,Urgent,Pending,Oct 22,A reviewer must confirm supporting records before the action is applied.
+AP-787,Vendor credit exception,Taylor Nguyen,Finance,1200,Standard,Pending,Oct 23,A reviewer must confirm supporting records before the action is applied.
+AP-788,Customer refund review,Olivia Chen,People,6300,Standard,Pending,Oct 24,A reviewer must confirm supporting records before the action is applied.
+AP-789,Invoice posting decision,Daniel Kim,Support,850,Urgent,Pending,Oct 25,A reviewer must confirm supporting records before the action is applied.
+AP-790,High-value purchase request,Maya Patel,Operations,14500,Standard,Approved,Oct 16,A reviewer must confirm supporting records before the action is applied.
+AP-791,Contract term exception,Taylor Nguyen,Procurement,0,Standard,Pending,Oct 17,A reviewer must confirm supporting records before the action is applied.
+AP-792,Access request,Olivia Chen,Revenue,0,Urgent,Pending,Oct 18,A reviewer must confirm supporting records before the action is applied.
+AP-793,Outreach draft review,Daniel Kim,Finance,0,Standard,Pending,Oct 19,A reviewer must confirm supporting records before the action is applied.
+AP-794,Vendor credit exception,Maya Patel,People,1200,Standard,Pending,Oct 20,A reviewer must confirm supporting records before the action is applied.
+AP-795,Customer refund review,Taylor Nguyen,Support,6300,Urgent,Approved,Oct 21,A reviewer must confirm supporting records before the action is applied.
+AP-796,Invoice posting decision,Olivia Chen,Operations,850,Standard,Pending,Oct 22,A reviewer must confirm supporting records before the action is applied.
+AP-797,High-value purchase request,Daniel Kim,Procurement,14500,Standard,Pending,Oct 23,A reviewer must confirm supporting records before the action is applied.
+AP-798,Contract term exception,Maya Patel,Revenue,0,Urgent,Pending,Oct 24,A reviewer must confirm supporting records before the action is applied.

@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# local environment
+.env
+.env.*
+!.env.example
+
+# logs and local dev artifacts
+*.log
+dev.pid
+
+# scraped design reference dump
+Design Concepts/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

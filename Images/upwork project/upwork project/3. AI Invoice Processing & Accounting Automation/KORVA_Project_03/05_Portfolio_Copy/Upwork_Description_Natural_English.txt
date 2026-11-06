@@ -1,0 +1,5 @@
+I created KORVA as an independent invoice processing and accounts payable demo. The idea was to bring invoice intake, structured field review, purchasing checks, approvals, and accounting preparation into a single workspace.
+
+The browser app includes an invoice inbox, editable extraction review, vendor and PO registers, exception checks, review workflows, reports, payment staging, duplicate suggestions, cash outlook, and a reconciliation checklist. I focused on giving finance users clear next steps without losing visibility into the details.
+
+This is a self-initiated interactive frontend project using fictional financial data and rule-based demonstrations. It does not run live OCR, AI extraction, real accounting sync, or actual payments.

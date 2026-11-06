@@ -1,0 +1,128 @@
+[
+  {
+    "id": "KB-101",
+    "topic": "Service areas",
+    "question": "Where do you provide service?",
+    "answer": "We serve Austin, Round Rock, Cedar Park, Georgetown, Pflugerville, and Leander.",
+    "category": "Operations",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-102",
+    "topic": "Business hours",
+    "question": "What are business hours?",
+    "answer": "Standard dispatch hours are Monday to Saturday, 8:00 AM to 6:00 PM Central Time. Emergency calls may be routed after hours.",
+    "category": "Operations",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-103",
+    "topic": "Scheduling",
+    "question": "How can I book an appointment?",
+    "answer": "Collect the service type, preferred date and time, name, phone and service area. Confirm available slots before creating a booking.",
+    "category": "Scheduling",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-104",
+    "topic": "Scheduling",
+    "question": "Can I reschedule a visit?",
+    "answer": "Verify the booking reference and contact number, then offer available time slots. Changes require confirmation.",
+    "category": "Scheduling",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-105",
+    "topic": "Emergencies",
+    "question": "How are emergencies handled?",
+    "answer": "For safety-critical issues, recommend contacting local emergency services. Route urgent equipment failures to the on-call team.",
+    "category": "Support",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-106",
+    "topic": "Billing",
+    "question": "How are invoices provided?",
+    "answer": "Invoices are sent to the email recorded on the service request after completion. Billing disputes are reviewed by the finance team.",
+    "category": "Finance",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-107",
+    "topic": "Maintenance",
+    "question": "Is a maintenance plan offered?",
+    "answer": "Seasonal maintenance plans can include inspections, filter checks, and prioritized scheduling depending on the service agreement.",
+    "category": "Sales",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-108",
+    "topic": "Installations",
+    "question": "Do you provide estimates?",
+    "answer": "Installation quotes require an assessment of equipment capacity, site condition, and installation needs. Schedule a consultation.",
+    "category": "Sales",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-109",
+    "topic": "Payments",
+    "question": "Which payment methods are accepted?",
+    "answer": "Payments may be made by approved credit or debit card after the service is confirmed. Do not collect full card details during calls.",
+    "category": "Finance",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-110",
+    "topic": "Privacy",
+    "question": "How are call recordings managed?",
+    "answer": "Call recording and consent are governed by the applicable policy and local law. Authorized staff may access transcripts for quality review.",
+    "category": "Compliance",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-111",
+    "topic": "Cancellations",
+    "question": "What is the cancellation policy?",
+    "answer": "Cancellation terms depend on the confirmed work order. Escalate fee questions to a human agent for review.",
+    "category": "Scheduling",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-112",
+    "topic": "Warranty",
+    "question": "What does the warranty cover?",
+    "answer": "Warranty coverage depends on the work performed and equipment terms; confirm the work order before making a specific commitment.",
+    "category": "Support",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-113",
+    "topic": "Customer verification",
+    "question": "How do you verify existing bookings?",
+    "answer": "Match the booking reference with the customer name and phone number before revealing private booking details.",
+    "category": "Compliance",
+    "status": "Published",
+    "updated": "2026-10-14"
+  },
+  {
+    "id": "KB-114",
+    "topic": "After-hours",
+    "question": "What happens after hours?",
+    "answer": "Collect the caller details, classify urgency and leave a structured callback request or route to the on-call team.",
+    "category": "Operations",
+    "status": "Published",
+    "updated": "2026-10-14"
+  }
+]

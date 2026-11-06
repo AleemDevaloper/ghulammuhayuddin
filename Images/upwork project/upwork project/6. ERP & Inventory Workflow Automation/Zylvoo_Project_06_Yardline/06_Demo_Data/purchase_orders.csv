@@ -1,0 +1,23 @@
+id,vendor,sku,product,qty,received,unitCost,eta,status,warehouse
+PO-26-431,North Pier Components,SEN-420,Industrial Flow Sensor,20,0,187,2026-10-16,In transit,WH-A
+PO-26-432,Cedarline Electrical,GSK-430,Heat-resistant Gasket,33,33,6,2026-10-17,Partially received,WH-B
+PO-26-433,Westward Materials,SEN-018,Proximity Sensor,46,19,96,2026-10-18,Awaiting approval,WH-C
+PO-26-434,Monarch Process Systems,MEC-711,Torque Limiter,59,24,142,2026-10-19,Confirmed,WH-A
+PO-26-435,Summit Fasteners,MEC-605,Bearing Assembly 6205,72,0,41,2026-10-20,Received,WH-B
+PO-26-436,Palisade Supply,FLW-025,Flow Meter DN25,85,35,298,2026-10-21,In transit,WH-C
+PO-26-437,North Pier Components,ELC-551,Switchgear Plate,98,98,178,2026-10-22,Partially received,WH-A
+PO-26-438,Redline Industrial,HYD-118,Hydraulic Coupling ½ in,111,46,22,2026-10-23,Awaiting approval,WH-B
+PO-26-439,Elmwood Logistics,ELC-312,Motor Starter 3PH,124,0,172,2026-10-24,Confirmed,WH-C
+PO-26-440,Harborline Tools,KIT-705,Coupler Kit Premium,22,9,134,2026-10-25,Received,WH-A
+PO-26-441,Summit Fasteners,ELC-180,Wiring Harness A,35,14,66,2026-10-26,In transit,WH-B
+PO-26-442,Westward Materials,PRS-012,Pressure Regulator,48,48,114,2026-10-27,Partially received,WH-C
+PO-26-443,Monarch Process Systems,SOL-120,Solenoid Valve 12V,61,0,86,2026-10-28,Awaiting approval,WH-A
+PO-26-444,Redline Industrial,FLT-900,Precision Filter Unit,74,31,325,2026-10-29,Confirmed,WH-B
+PO-26-445,Palisade Supply,ELC-204,Control Relay 24V,87,36,38,2026-10-30,Received,WH-C
+PO-26-446,North Pier Components,CNV-080,Conveyor Roller 80mm,100,42,62,2026-10-16,In transit,WH-A
+PO-26-447,Cedarline Electrical,SAF-110,Thermal Fuse Pack,113,113,12,2026-10-17,Partially received,WH-B
+PO-26-448,Westward Materials,GSK-040,Sealing Ring 40mm,126,52,4,2026-10-18,Awaiting approval,WH-C
+PO-26-449,Harborline Tools,SAF-810,Safety Cutoff Switch,24,10,52,2026-10-19,Confirmed,WH-A
+PO-26-450,Summit Fasteners,GBX-110,Gearbox Housing,37,15,235,2026-10-20,Received,WH-B
+PO-26-451,Palisade Supply,DRV-072,Drive Belt Set,50,0,37,2026-10-21,In transit,WH-C
+PO-26-452,Monarch Process Systems,PIP-232,Stainless Steel Elbow,63,63,16,2026-10-22,Partially received,WH-A

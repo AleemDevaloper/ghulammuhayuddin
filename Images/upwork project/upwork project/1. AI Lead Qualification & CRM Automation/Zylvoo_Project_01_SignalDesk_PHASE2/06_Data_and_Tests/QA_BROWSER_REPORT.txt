@@ -1,0 +1,17 @@
+SignalDesk - Chromium Frontend QA
+
+Browser: Chromium, 1600 x 1000
+Navigation views rendered successfully: Overview, Lead Intelligence, Sales Pipeline, Workflow Studio, Approval Queue, Analytics.
+JavaScript page errors: 0
+Lead search: PASS (30 table records reduced to one matching result)
+Add lead: PASS (record created and visible)
+Pipeline stage change: PASS (stage updated and confirmation shown)
+Approval: PASS (status changed to Approved)
+Workflow test-run: PASS (run log count increased from 3 to 4)
+Reset: PASS (local workspace restored)
+
+PDF QA: 10 pages, all with selectable text; visual render reviewed.
+SVG QA: parses as valid XML; preview rendered.
+Record consistency: CSV generated from the frontend's actual embedded dataset (48 records).
+
+Limitations: no live third-party API calls; mock CRM data only.

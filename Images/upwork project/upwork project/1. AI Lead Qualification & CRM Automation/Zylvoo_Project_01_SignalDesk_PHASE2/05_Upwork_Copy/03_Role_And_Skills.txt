@@ -1,0 +1,3 @@
+Role: CRM Product Developer / Automation Workflow Designer
+Relevant skills: CRM Development, Workflow Automation, JavaScript, HTML5, CSS3, SaaS Design, Sales Pipeline, Lead Management, API Integration Architecture, UI/UX, Business Process Automation
+Only describe n8n or OpenAI implementation as completed when an actual integration has been developed and tested.

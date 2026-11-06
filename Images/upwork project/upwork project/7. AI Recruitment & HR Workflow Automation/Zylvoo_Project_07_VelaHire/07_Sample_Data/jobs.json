@@ -1,0 +1,195 @@
+[
+  {
+    "id": "JOB-401",
+    "title": "Senior Full-Stack Engineer",
+    "department": "Engineering",
+    "location": "Remote - US",
+    "type": "Full-time",
+    "status": "Open",
+    "openings": 2,
+    "required": [
+      "React",
+      "TypeScript",
+      "REST APIs",
+      "SQL"
+    ],
+    "lead": "Olivia Chen",
+    "posted": "2026-10-01"
+  },
+  {
+    "id": "JOB-402",
+    "title": "Product Designer",
+    "department": "Design",
+    "location": "Austin, TX",
+    "type": "Full-time",
+    "status": "Open",
+    "openings": 1,
+    "required": [
+      "Figma",
+      "UI Design",
+      "Communication"
+    ],
+    "lead": "Marcus Lee",
+    "posted": "2026-10-02"
+  },
+  {
+    "id": "JOB-403",
+    "title": "Data Analyst",
+    "department": "Data",
+    "location": "Remote - US",
+    "type": "Full-time",
+    "status": "Open",
+    "openings": 1,
+    "required": [
+      "SQL",
+      "Python",
+      "Analytics"
+    ],
+    "lead": "Emma Davis",
+    "posted": "2026-10-03"
+  },
+  {
+    "id": "JOB-404",
+    "title": "Customer Success Manager",
+    "department": "Customer Success",
+    "location": "Chicago, IL",
+    "type": "Full-time",
+    "status": "Open",
+    "openings": 2,
+    "required": [
+      "HubSpot",
+      "Communication",
+      "Analytics"
+    ],
+    "lead": "Daniel Kim",
+    "posted": "2026-10-04"
+  },
+  {
+    "id": "JOB-405",
+    "title": "DevOps Engineer",
+    "department": "Engineering",
+    "location": "Remote - US",
+    "type": "Full-time",
+    "status": "Open",
+    "openings": 1,
+    "required": [
+      "AWS",
+      "Docker",
+      "Python"
+    ],
+    "lead": "Olivia Chen",
+    "posted": "2026-10-05"
+  },
+  {
+    "id": "JOB-406",
+    "title": "Sales Operations Specialist",
+    "department": "Revenue",
+    "location": "Remote - US",
+    "type": "Full-time",
+    "status": "Open",
+    "openings": 1,
+    "required": [
+      "HubSpot",
+      "Automation",
+      "SQL"
+    ],
+    "lead": "Marcus Lee",
+    "posted": "2026-10-06"
+  },
+  {
+    "id": "JOB-407",
+    "title": "QA Automation Engineer",
+    "department": "Engineering",
+    "location": "Austin, TX",
+    "type": "Full-time",
+    "status": "Open",
+    "openings": 2,
+    "required": [
+      "Testing",
+      "Python",
+      "Automation"
+    ],
+    "lead": "Emma Davis",
+    "posted": "2026-10-07"
+  },
+  {
+    "id": "JOB-408",
+    "title": "Frontend Engineer",
+    "department": "Engineering",
+    "location": "Remote - US",
+    "type": "Full-time",
+    "status": "Open",
+    "openings": 1,
+    "required": [
+      "React",
+      "JavaScript",
+      "UI Design"
+    ],
+    "lead": "Daniel Kim",
+    "posted": "2026-10-08"
+  },
+  {
+    "id": "JOB-409",
+    "title": "HR Operations Partner",
+    "department": "People",
+    "location": "New York, NY",
+    "type": "Full-time",
+    "status": "Open",
+    "openings": 1,
+    "required": [
+      "Communication",
+      "Automation",
+      "Analytics"
+    ],
+    "lead": "Olivia Chen",
+    "posted": "2026-10-09"
+  },
+  {
+    "id": "JOB-410",
+    "title": "Product Manager",
+    "department": "Product",
+    "location": "Remote - US",
+    "type": "Full-time",
+    "status": "Open",
+    "openings": 2,
+    "required": [
+      "Agile",
+      "Analytics",
+      "Communication"
+    ],
+    "lead": "Marcus Lee",
+    "posted": "2026-10-10"
+  },
+  {
+    "id": "JOB-411",
+    "title": "Backend Engineer",
+    "department": "Engineering",
+    "location": "Remote - US",
+    "type": "Full-time",
+    "status": "Draft",
+    "openings": 1,
+    "required": [
+      "Laravel",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "lead": "Emma Davis",
+    "posted": "2026-10-11"
+  },
+  {
+    "id": "JOB-412",
+    "title": "Implementation Specialist",
+    "department": "Implementation",
+    "location": "Chicago, IL",
+    "type": "Full-time",
+    "status": "Draft",
+    "openings": 1,
+    "required": [
+      "REST APIs",
+      "Communication",
+      "Automation"
+    ],
+    "lead": "Daniel Kim",
+    "posted": "2026-10-12"
+  }
+]

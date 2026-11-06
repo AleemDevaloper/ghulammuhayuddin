@@ -1,0 +1,49 @@
+id,name,company,title,source,score,stage,owner,value,city,email,date,response,notes
+101,Jordan Ellis,Briarwell Property Group,Facilities Director,Website,45,New Lead,Olivia Chen,5000,"Austin, TX",contact101@example.com,2026-10-15,1,Seeking an operations workflow review for next quarter.
+102,Avery Morgan,Stonebridge Commercial,Operations Manager,Outbound,52,New Lead,Marcus Lee,38800,"Denver, CO",contact102@example.com,2026-10-14,1.5,Seeking an operations workflow review for next quarter.
+103,Cameron Blake,Maple & Main Facilities,Procurement Lead,Partner,59,New Lead,Emma Davis,18000,"Chicago, IL",contact103@example.com,2026-10-13,2,Seeking an operations workflow review for next quarter.
+104,Taylor Quinn,Bluecrest Mechanical,Service Director,Events,66,New Lead,Daniel Kim,51800,"Phoenix, AZ",contact104@example.com,2026-10-12,2.5,Seeking an operations workflow review for next quarter.
+105,Morgan Hayes,Hartwell Property Care,Property Manager,Paid Ads,51,New Lead,Olivia Chen,31000,"Atlanta, GA",contact105@example.com,2026-10-11,3,Seeking an operations workflow review for next quarter.
+106,Riley Bennett,Riverton Services,Commercial Director,Website,58,New Lead,Marcus Lee,10200,"Austin, TX",contact106@example.com,2026-10-10,1,Seeking an operations workflow review for next quarter.
+107,Casey Parker,Marblefield Operations,Facilities Director,Outbound,65,New Lead,Emma Davis,44000,"Denver, CO",contact107@example.com,2026-10-09,1.5,Seeking an operations workflow review for next quarter.
+108,Jamie Rivers,Northwood Facilities,Operations Manager,Partner,50,New Lead,Daniel Kim,23200,"Chicago, IL",contact108@example.com,2026-10-08,2,Seeking an operations workflow review for next quarter.
+109,Alex Romero,Oakline Commercial,Procurement Lead,Events,57,New Lead,Olivia Chen,57000,"Phoenix, AZ",contact109@example.com,2026-10-07,2.5,Seeking an operations workflow review for next quarter.
+110,Sam Wilson,Brightstone Systems,Service Director,Paid Ads,64,New Lead,Marcus Lee,36200,"Atlanta, GA",contact110@example.com,2026-10-06,3,Seeking an operations workflow review for next quarter.
+111,Robin Carter,Clearpoint Partners,Property Manager,Website,49,New Lead,Emma Davis,15400,"Austin, TX",contact111@example.com,2026-10-05,1,Seeking an operations workflow review for next quarter.
+112,Dana Reid,Harborline Maintenance,Commercial Director,Outbound,56,New Lead,Daniel Kim,49200,"Denver, CO",contact112@example.com,2026-10-04,1.5,Seeking an operations workflow review for next quarter.
+113,Chris Miller,Fieldmark Group,Facilities Director,Partner,63,New Lead,Olivia Chen,28400,"Chicago, IL",contact113@example.com,2026-10-15,2,Seeking an operations workflow review for next quarter.
+114,Harper Lewis,Crestview Property Ops,Operations Manager,Events,48,New Lead,Marcus Lee,7600,"Phoenix, AZ",contact114@example.com,2026-10-14,2.5,Seeking an operations workflow review for next quarter.
+115,Emerson Cole,Cedarworks Services,Procurement Lead,Paid Ads,80,Qualified,Emma Davis,41400,"Atlanta, GA",contact115@example.com,2026-10-13,3,Seeking an operations workflow review for next quarter.
+116,Lee Harper,Northbound Mechanical,Service Director,Website,87,Qualified,Daniel Kim,20600,"Austin, TX",contact116@example.com,2026-10-12,1,Seeking an operations workflow review for next quarter.
+117,Quinn Davis,Silverline Facilities,Property Manager,Outbound,72,Qualified,Olivia Chen,54400,"Denver, CO",contact117@example.com,2026-10-11,1.5,Seeking an operations workflow review for next quarter.
+118,Morgan Patel,Masonwood Operations,Commercial Director,Partner,79,Qualified,Marcus Lee,33600,"Chicago, IL",contact118@example.com,2026-10-10,2,Seeking an operations workflow review for next quarter.
+119,Taylor Chen,Pinegate Systems,Facilities Director,Events,86,Qualified,Emma Davis,12800,"Phoenix, AZ",contact119@example.com,2026-10-09,2.5,Seeking an operations workflow review for next quarter.
+120,Jordan Walker,Foxwell Holdings,Operations Manager,Paid Ads,71,Qualified,Daniel Kim,46600,"Atlanta, GA",contact120@example.com,2026-10-08,3,Seeking an operations workflow review for next quarter.
+121,Avery Foster,Parklane Services,Procurement Lead,Website,78,Qualified,Olivia Chen,25800,"Austin, TX",contact121@example.com,2026-10-07,1,Seeking an operations workflow review for next quarter.
+122,Peyton Brooks,Bayridge Operations,Service Director,Outbound,85,Qualified,Marcus Lee,5000,"Denver, CO",contact122@example.com,2026-10-06,1.5,Seeking an operations workflow review for next quarter.
+123,Drew Bennett,Fortstone Group,Property Manager,Partner,70,Qualified,Emma Davis,38800,"Chicago, IL",contact123@example.com,2026-10-05,2,Seeking an operations workflow review for next quarter.
+124,Kai Morgan,Walden Field Services,Commercial Director,Events,77,Qualified,Daniel Kim,18000,"Phoenix, AZ",contact124@example.com,2026-10-04,2.5,Seeking an operations workflow review for next quarter.
+125,Jamie Hall,Briarwell Property Group,Facilities Director,Paid Ads,84,Qualified,Olivia Chen,51800,"Atlanta, GA",contact125@example.com,2026-10-15,3,Seeking an operations workflow review for next quarter.
+126,Casey Harris,Stonebridge Commercial,Operations Manager,Website,91,Qualified,Marcus Lee,31000,"Austin, TX",contact126@example.com,2026-10-14,1,Seeking an operations workflow review for next quarter.
+127,Sage Thompson,Maple & Main Facilities,Procurement Lead,Outbound,75,Proposal,Emma Davis,10200,"Denver, CO",contact127@example.com,2026-10-13,1.5,Seeking an operations workflow review for next quarter.
+128,Robin Walker,Bluecrest Mechanical,Service Director,Partner,82,Proposal,Daniel Kim,44000,"Chicago, IL",contact128@example.com,2026-10-12,2,Seeking an operations workflow review for next quarter.
+129,Emery Clarke,Hartwell Property Care,Property Manager,Events,89,Proposal,Olivia Chen,23200,"Phoenix, AZ",contact129@example.com,2026-10-11,2.5,Seeking an operations workflow review for next quarter.
+130,Rory Adams,Riverton Services,Commercial Director,Paid Ads,74,Proposal,Marcus Lee,57000,"Atlanta, GA",contact130@example.com,2026-10-10,3,Seeking an operations workflow review for next quarter.
+131,Milan Scott,Marblefield Operations,Facilities Director,Website,81,Proposal,Emma Davis,36200,"Austin, TX",contact131@example.com,2026-10-09,1,Seeking an operations workflow review for next quarter.
+132,Noah Lane,Northwood Facilities,Operations Manager,Outbound,88,Proposal,Daniel Kim,15400,"Denver, CO",contact132@example.com,2026-10-08,1.5,Seeking an operations workflow review for next quarter.
+133,Harper Young,Oakline Commercial,Procurement Lead,Partner,73,Proposal,Olivia Chen,49200,"Chicago, IL",contact133@example.com,2026-10-07,2,Seeking an operations workflow review for next quarter.
+134,Blair Kelly,Brightstone Systems,Service Director,Events,80,Proposal,Marcus Lee,28400,"Phoenix, AZ",contact134@example.com,2026-10-06,2.5,Seeking an operations workflow review for next quarter.
+135,Reese Cooper,Clearpoint Partners,Property Manager,Paid Ads,96,Negotiation,Emma Davis,7600,"Atlanta, GA",contact135@example.com,2026-10-05,3,Seeking an operations workflow review for next quarter.
+136,Riley Park,Harborline Maintenance,Commercial Director,Website,81,Negotiation,Daniel Kim,41400,"Austin, TX",contact136@example.com,2026-10-04,1,Seeking an operations workflow review for next quarter.
+137,Avery Gray,Fieldmark Group,Facilities Director,Outbound,88,Negotiation,Olivia Chen,20600,"Denver, CO",contact137@example.com,2026-10-15,1.5,Seeking an operations workflow review for next quarter.
+138,Bailey Reed,Crestview Property Ops,Operations Manager,Partner,95,Negotiation,Marcus Lee,54400,"Chicago, IL",contact138@example.com,2026-10-14,2,Seeking an operations workflow review for next quarter.
+139,Emery White,Cedarworks Services,Procurement Lead,Events,80,Negotiation,Emma Davis,33600,"Phoenix, AZ",contact139@example.com,2026-10-13,2.5,Seeking an operations workflow review for next quarter.
+140,Jules Walker,Northbound Mechanical,Service Director,Paid Ads,87,Negotiation,Daniel Kim,12800,"Atlanta, GA",contact140@example.com,2026-10-12,3,Seeking an operations workflow review for next quarter.
+141,Skylar Bell,Silverline Facilities,Property Manager,Website,98,Closed Won,Olivia Chen,46600,"Austin, TX",contact141@example.com,2026-10-11,1,Seeking an operations workflow review for next quarter.
+142,Jordan Cruz,Masonwood Operations,Commercial Director,Outbound,91,Closed Won,Marcus Lee,25800,"Denver, CO",contact142@example.com,2026-10-10,1.5,Seeking an operations workflow review for next quarter.
+143,Casey Lee,Pinegate Systems,Facilities Director,Partner,98,Closed Won,Emma Davis,5000,"Chicago, IL",contact143@example.com,2026-10-09,2,Seeking an operations workflow review for next quarter.
+144,Hayden Carter,Foxwell Holdings,Operations Manager,Events,98,Closed Won,Daniel Kim,38800,"Phoenix, AZ",contact144@example.com,2026-10-08,2.5,Seeking an operations workflow review for next quarter.
+145,Parker Hill,Parklane Services,Procurement Lead,Paid Ads,90,Closed Won,Olivia Chen,18000,"Atlanta, GA",contact145@example.com,2026-10-07,3,Seeking an operations workflow review for next quarter.
+146,Marlowe King,Bayridge Operations,Service Director,Website,44,Nurturing,Marcus Lee,51800,"Austin, TX",contact146@example.com,2026-10-06,1,Seeking an operations workflow review for next quarter.
+147,Sloane Harris,Fortstone Group,Property Manager,Outbound,51,Nurturing,Emma Davis,31000,"Denver, CO",contact147@example.com,2026-10-05,1.5,Seeking an operations workflow review for next quarter.
+148,Finley Jones,Walden Field Services,Commercial Director,Partner,58,Nurturing,Daniel Kim,10200,"Chicago, IL",contact148@example.com,2026-10-04,2,Seeking an operations workflow review for next quarter.

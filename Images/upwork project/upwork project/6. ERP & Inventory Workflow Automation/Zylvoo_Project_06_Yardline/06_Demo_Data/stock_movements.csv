@@ -1,0 +1,46 @@
+id,type,sku,product,warehouse,qty,ref,actor,date
+MOV-7100,Receipt,SEN-420,Industrial Flow Sensor,WH-A,2,REF-300,N. Evans,2026-10-02
+MOV-7101,Sale allocation,PIP-232,Stainless Steel Elbow,WH-B,-9,REF-301,M. Ellis,2026-10-03
+MOV-7102,Transfer,SAF-810,Safety Cutoff Switch,WH-C,16,REF-302,M. Patel,2026-10-04
+MOV-7103,Count adjustment,CNV-080,Conveyor Roller 80mm,WH-A,23,REF-303,L. Grant,2026-10-05
+MOV-7104,Return,SOL-120,Solenoid Valve 12V,WH-B,30,REF-304,N. Evans,2026-10-06
+MOV-7105,Receipt,SAF-110,Thermal Fuse Pack,WH-C,37,REF-305,M. Ellis,2026-10-07
+MOV-7106,Sale allocation,FLT-900,Precision Filter Unit,WH-A,-44,REF-306,M. Patel,2026-10-08
+MOV-7107,Transfer,ELC-180,Wiring Harness A,WH-B,4,REF-307,L. Grant,2026-10-09
+MOV-7108,Count adjustment,HYD-118,Hydraulic Coupling ½ in,WH-C,11,REF-308,N. Evans,2026-10-10
+MOV-7109,Return,MEC-605,Bearing Assembly 6205,WH-A,18,REF-309,M. Ellis,2026-10-11
+MOV-7110,Receipt,ELC-312,Motor Starter 3PH,WH-B,25,REF-310,M. Patel,2026-10-12
+MOV-7111,Sale allocation,FLW-025,Flow Meter DN25,WH-C,-32,REF-311,L. Grant,2026-10-13
+MOV-7112,Transfer,SEN-018,Proximity Sensor,WH-A,39,REF-312,N. Evans,2026-10-14
+MOV-7113,Count adjustment,PIP-125,Quick Connect Tee,WH-B,46,REF-313,M. Ellis,2026-10-15
+MOV-7114,Return,DRV-072,Drive Belt Set,WH-C,6,REF-314,M. Patel,2026-10-16
+MOV-7115,Receipt,SEN-420,Industrial Flow Sensor,WH-A,13,REF-315,L. Grant,2026-10-02
+MOV-7116,Sale allocation,PIP-232,Stainless Steel Elbow,WH-B,-20,REF-316,N. Evans,2026-10-03
+MOV-7117,Transfer,SAF-810,Safety Cutoff Switch,WH-C,27,REF-317,M. Ellis,2026-10-04
+MOV-7118,Count adjustment,CNV-080,Conveyor Roller 80mm,WH-A,34,REF-318,M. Patel,2026-10-05
+MOV-7119,Return,SOL-120,Solenoid Valve 12V,WH-B,41,REF-319,L. Grant,2026-10-06
+MOV-7120,Receipt,SAF-110,Thermal Fuse Pack,WH-C,48,REF-320,N. Evans,2026-10-07
+MOV-7121,Sale allocation,FLT-900,Precision Filter Unit,WH-A,-8,REF-321,M. Ellis,2026-10-08
+MOV-7122,Transfer,ELC-180,Wiring Harness A,WH-B,15,REF-322,M. Patel,2026-10-09
+MOV-7123,Count adjustment,HYD-118,Hydraulic Coupling ½ in,WH-C,22,REF-323,L. Grant,2026-10-10
+MOV-7124,Return,MEC-605,Bearing Assembly 6205,WH-A,29,REF-324,N. Evans,2026-10-11
+MOV-7125,Receipt,ELC-312,Motor Starter 3PH,WH-B,36,REF-325,M. Ellis,2026-10-12
+MOV-7126,Sale allocation,FLW-025,Flow Meter DN25,WH-C,-43,REF-326,M. Patel,2026-10-13
+MOV-7127,Transfer,SEN-018,Proximity Sensor,WH-A,3,REF-327,L. Grant,2026-10-14
+MOV-7128,Count adjustment,PIP-125,Quick Connect Tee,WH-B,10,REF-328,N. Evans,2026-10-15
+MOV-7129,Return,DRV-072,Drive Belt Set,WH-C,17,REF-329,M. Ellis,2026-10-16
+MOV-7130,Receipt,SEN-420,Industrial Flow Sensor,WH-A,24,REF-330,M. Patel,2026-10-02
+MOV-7131,Sale allocation,PIP-232,Stainless Steel Elbow,WH-B,-31,REF-331,L. Grant,2026-10-03
+MOV-7132,Transfer,SAF-810,Safety Cutoff Switch,WH-C,38,REF-332,N. Evans,2026-10-04
+MOV-7133,Count adjustment,CNV-080,Conveyor Roller 80mm,WH-A,45,REF-333,M. Ellis,2026-10-05
+MOV-7134,Return,SOL-120,Solenoid Valve 12V,WH-B,5,REF-334,M. Patel,2026-10-06
+MOV-7135,Receipt,SAF-110,Thermal Fuse Pack,WH-C,12,REF-335,L. Grant,2026-10-07
+MOV-7136,Sale allocation,FLT-900,Precision Filter Unit,WH-A,-19,REF-336,N. Evans,2026-10-08
+MOV-7137,Transfer,ELC-180,Wiring Harness A,WH-B,26,REF-337,M. Ellis,2026-10-09
+MOV-7138,Count adjustment,HYD-118,Hydraulic Coupling ½ in,WH-C,33,REF-338,M. Patel,2026-10-10
+MOV-7139,Return,MEC-605,Bearing Assembly 6205,WH-A,40,REF-339,L. Grant,2026-10-11
+MOV-7140,Receipt,ELC-312,Motor Starter 3PH,WH-B,47,REF-340,N. Evans,2026-10-12
+MOV-7141,Sale allocation,FLW-025,Flow Meter DN25,WH-C,-7,REF-341,M. Ellis,2026-10-13
+MOV-7142,Transfer,SEN-018,Proximity Sensor,WH-A,14,REF-342,M. Patel,2026-10-14
+MOV-7143,Count adjustment,PIP-125,Quick Connect Tee,WH-B,21,REF-343,L. Grant,2026-10-15
+MOV-7144,Return,DRV-072,Drive Belt Set,WH-C,28,REF-344,N. Evans,2026-10-16

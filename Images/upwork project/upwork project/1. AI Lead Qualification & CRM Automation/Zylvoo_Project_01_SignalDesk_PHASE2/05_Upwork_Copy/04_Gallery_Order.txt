@@ -1,0 +1,13 @@
+01 - 00_Upwork_Cover_1000x750.png
+02 - 01_Overview.png
+03 - 02_Lead_Intelligence.png
+04 - 03_Sales_Pipeline.png
+05 - 04_Workflow_Studio.png
+06 - 07_Contacts.png
+07 - 08_Companies.png
+08 - 09_Tasks_Calendar.png
+09 - 10_Email_Templates.png
+10 - 12_Integrations.png
+11 - 13_Reports.png
+12 - 05_Approval_Queue.png
+Add screenshots selectively according to Upwork's upload limit; attach the case study PDF and/or portfolio link if appropriate.

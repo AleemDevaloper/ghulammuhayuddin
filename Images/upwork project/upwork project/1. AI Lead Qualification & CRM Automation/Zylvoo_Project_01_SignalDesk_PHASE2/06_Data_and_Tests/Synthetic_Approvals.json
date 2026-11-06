@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "leadId": 115,
+    "type": "Follow-up",
+    "owner": "Olivia Chen",
+    "priority": "High",
+    "due": "Oct 15, 2026",
+    "status": "Pending",
+    "subject": "Discovery call follow-up",
+    "draft": "Hi,\n\nThanks for outlining your current operations. I have put together an initial approach to improving lead routing and follow-up visibility.\n\nWould Thursday work for a short discussion?\n\nBest regards,\nOlivia"
+  },
+  {
+    "id": 2,
+    "leadId": 117,
+    "type": "Assignment",
+    "owner": "Marcus Lee",
+    "priority": "Medium",
+    "due": "Oct 16, 2026",
+    "status": "Pending",
+    "subject": "Ownership review",
+    "draft": "The account appears to match the commercial operations team. Please review assignment before applying."
+  },
+  {
+    "id": 3,
+    "leadId": 121,
+    "type": "Follow-up",
+    "owner": "Emma Davis",
+    "priority": "High",
+    "due": "Oct 16, 2026",
+    "status": "Pending",
+    "subject": "Requirements review",
+    "draft": "Hi,\n\nAppreciate the project information you shared. We can walk through the proposed workflow and the next set of requirements this week.\n\nRegards,\nEmma"
+  },
+  {
+    "id": 4,
+    "leadId": 108,
+    "type": "Exception",
+    "owner": "Daniel Kim",
+    "priority": "Medium",
+    "due": "Oct 17, 2026",
+    "status": "Pending",
+    "subject": "Duplicate review",
+    "draft": "Potential duplicate contact. Please verify the existing CRM record before merging."
+  },
+  {
+    "id": 5,
+    "leadId": 119,
+    "type": "Follow-up",
+    "owner": "Olivia Chen",
+    "priority": "Low",
+    "due": "Oct 17, 2026",
+    "status": "Pending",
+    "subject": "Meeting recap",
+    "draft": "Hi,\n\nThanks for the conversation. Here is a recap of the proposed next steps and timeline.\n\nBest,\nOlivia"
+  }
+]

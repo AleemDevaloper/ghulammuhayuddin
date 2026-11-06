@@ -1,0 +1,242 @@
+[
+  {
+    "id": "INT-701",
+    "candidate": "CAN-1001",
+    "job": "JOB-401",
+    "date": "2026-10-19",
+    "time": "09:30",
+    "type": "Technical",
+    "interviewer": "Olivia Chen",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-702",
+    "candidate": "CAN-1002",
+    "job": "JOB-402",
+    "date": "2026-10-19",
+    "time": "11:00",
+    "type": "Hiring Manager",
+    "interviewer": "Marcus Lee",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-703",
+    "candidate": "CAN-1003",
+    "job": "JOB-403",
+    "date": "2026-10-19",
+    "time": "14:00",
+    "type": "Culture & Team",
+    "interviewer": "Emma Davis",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-704",
+    "candidate": "CAN-1004",
+    "job": "JOB-404",
+    "date": "2026-10-20",
+    "time": "09:30",
+    "type": "Technical",
+    "interviewer": "Olivia Chen",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-705",
+    "candidate": "CAN-1005",
+    "job": "JOB-405",
+    "date": "2026-10-20",
+    "time": "11:00",
+    "type": "Hiring Manager",
+    "interviewer": "Marcus Lee",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-706",
+    "candidate": "CAN-1006",
+    "job": "JOB-406",
+    "date": "2026-10-20",
+    "time": "14:00",
+    "type": "Culture & Team",
+    "interviewer": "Emma Davis",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-707",
+    "candidate": "CAN-1007",
+    "job": "JOB-407",
+    "date": "2026-10-21",
+    "time": "09:30",
+    "type": "Technical",
+    "interviewer": "Olivia Chen",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-708",
+    "candidate": "CAN-1008",
+    "job": "JOB-408",
+    "date": "2026-10-21",
+    "time": "11:00",
+    "type": "Hiring Manager",
+    "interviewer": "Marcus Lee",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-709",
+    "candidate": "CAN-1009",
+    "job": "JOB-409",
+    "date": "2026-10-21",
+    "time": "14:00",
+    "type": "Culture & Team",
+    "interviewer": "Emma Davis",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-710",
+    "candidate": "CAN-1010",
+    "job": "JOB-410",
+    "date": "2026-10-22",
+    "time": "09:30",
+    "type": "Technical",
+    "interviewer": "Olivia Chen",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-711",
+    "candidate": "CAN-1011",
+    "job": "JOB-411",
+    "date": "2026-10-22",
+    "time": "11:00",
+    "type": "Hiring Manager",
+    "interviewer": "Marcus Lee",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-712",
+    "candidate": "CAN-1012",
+    "job": "JOB-412",
+    "date": "2026-10-22",
+    "time": "14:00",
+    "type": "Culture & Team",
+    "interviewer": "Emma Davis",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-713",
+    "candidate": "CAN-1013",
+    "job": "JOB-401",
+    "date": "2026-10-23",
+    "time": "09:30",
+    "type": "Technical",
+    "interviewer": "Olivia Chen",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-714",
+    "candidate": "CAN-1014",
+    "job": "JOB-402",
+    "date": "2026-10-23",
+    "time": "11:00",
+    "type": "Hiring Manager",
+    "interviewer": "Marcus Lee",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-715",
+    "candidate": "CAN-1015",
+    "job": "JOB-403",
+    "date": "2026-10-23",
+    "time": "14:00",
+    "type": "Culture & Team",
+    "interviewer": "Emma Davis",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-716",
+    "candidate": "CAN-1016",
+    "job": "JOB-404",
+    "date": "2026-10-24",
+    "time": "09:30",
+    "type": "Technical",
+    "interviewer": "Olivia Chen",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-717",
+    "candidate": "CAN-1017",
+    "job": "JOB-405",
+    "date": "2026-10-24",
+    "time": "11:00",
+    "type": "Hiring Manager",
+    "interviewer": "Marcus Lee",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-718",
+    "candidate": "CAN-1018",
+    "job": "JOB-406",
+    "date": "2026-10-24",
+    "time": "14:00",
+    "type": "Culture & Team",
+    "interviewer": "Emma Davis",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-719",
+    "candidate": "CAN-1019",
+    "job": "JOB-407",
+    "date": "2026-10-25",
+    "time": "09:30",
+    "type": "Technical",
+    "interviewer": "Olivia Chen",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-720",
+    "candidate": "CAN-1020",
+    "job": "JOB-408",
+    "date": "2026-10-25",
+    "time": "11:00",
+    "type": "Hiring Manager",
+    "interviewer": "Marcus Lee",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-721",
+    "candidate": "CAN-1021",
+    "job": "JOB-409",
+    "date": "2026-10-25",
+    "time": "14:00",
+    "type": "Culture & Team",
+    "interviewer": "Emma Davis",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-722",
+    "candidate": "CAN-1022",
+    "job": "JOB-410",
+    "date": "2026-10-26",
+    "time": "09:30",
+    "type": "Technical",
+    "interviewer": "Olivia Chen",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-723",
+    "candidate": "CAN-1023",
+    "job": "JOB-411",
+    "date": "2026-10-26",
+    "time": "11:00",
+    "type": "Hiring Manager",
+    "interviewer": "Marcus Lee",
+    "status": "Scheduled"
+  },
+  {
+    "id": "INT-724",
+    "candidate": "CAN-1024",
+    "job": "JOB-412",
+    "date": "2026-10-26",
+    "time": "14:00",
+    "type": "Culture & Team",
+    "interviewer": "Emma Davis",
+    "status": "Scheduled"
+  }
+]

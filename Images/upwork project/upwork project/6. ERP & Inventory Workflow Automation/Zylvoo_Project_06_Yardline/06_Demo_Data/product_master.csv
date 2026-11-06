@@ -1,0 +1,25 @@
+id,sku,name,category,cost,price,reorder,supplier,daysCover,bin,imageType
+P001,SEN-420,Industrial Flow Sensor,Sensors,187,268,72,North Pier Components,9.7,A-01-01,sensor
+P002,HYD-118,Hydraulic Coupling ½ in,Hydraulics,22,44,110,Redline Industrial,48.9,B-02-02,part
+P003,ELC-204,Control Relay 24V,Electrical,38,76,80,Palisade Supply,25.6,C-03-03,package
+P004,PIP-232,Stainless Steel Elbow,Fittings,16,35,125,Monarch Process Systems,47.4,D-04-04,sensor
+P005,MEC-605,Bearing Assembly 6205,Mechanical,41,92,90,Summit Fasteners,16.3,A-05-05,part
+P006,PRS-012,Pressure Regulator,Pneumatics,114,169,65,Westward Materials,13.4,B-06-06,package
+P007,SAF-810,Safety Cutoff Switch,Safety,52,98,75,Harborline Tools,17.3,C-07-01,sensor
+P008,GSK-430,Heat-resistant Gasket,Fittings,6,17,180,Cedarline Electrical,101.8,D-01-02,part
+P009,ELC-312,Motor Starter 3PH,Electrical,172,265,50,Elmwood Logistics,3.7,A-02-03,package
+P010,CNV-080,Conveyor Roller 80mm,Mechanical,62,116,95,North Pier Components,12.9,B-03-04,sensor
+P011,ELC-120,Cable Gland M20,Electrical,3,12,240,Redline Industrial,210.3,C-04-05,part
+P012,FLW-025,Flow Meter DN25,Sensors,298,446,35,Palisade Supply,3.6,D-05-06,package
+P013,SOL-120,Solenoid Valve 12V,Pneumatics,86,149,70,Monarch Process Systems,8.2,A-06-01,sensor
+P014,GBX-110,Gearbox Housing,Mechanical,235,395,28,Summit Fasteners,2.2,B-07-02,part
+P015,SEN-018,Proximity Sensor,Sensors,96,159,78,Westward Materials,9.7,C-01-03,package
+P016,KIT-705,Coupler Kit Premium,Kits,134,245,44,Harborline Tools,13.1,D-02-04,sensor
+P017,SAF-110,Thermal Fuse Pack,Safety,12,38,100,Cedarline Electrical,62.2,A-03-05,part
+P018,PIP-125,Quick Connect Tee,Fittings,17,37,120,Elmwood Logistics,34.2,B-04-06,package
+P019,ELC-551,Switchgear Plate,Electrical,178,295,42,North Pier Components,4.6,C-05-01,sensor
+P020,FLT-900,Precision Filter Unit,Filtration,325,535,40,Redline Industrial,2.5,D-06-02,part
+P021,DRV-072,Drive Belt Set,Mechanical,37,78,85,Palisade Supply,42.3,A-07-03,package
+P022,MEC-711,Torque Limiter,Mechanical,142,243,42,Monarch Process Systems,4.7,B-01-04,sensor
+P023,ELC-180,Wiring Harness A,Electrical,66,127,70,Summit Fasteners,16.0,C-02-05,part
+P024,GSK-040,Sealing Ring 40mm,Fittings,4,14,210,Westward Materials,92.8,D-03-06,package

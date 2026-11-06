@@ -1,0 +1,34 @@
+{
+  "screens": {
+    "overview": "Voice Reception Overview",
+    "live": "Live Reception Console",
+    "calls": "Call Inbox",
+    "transcript": "Conversation Review",
+    "appointments": "Appointments & Dispatch",
+    "calendar": "Dispatch Calendar",
+    "contacts": "Customers & Contacts",
+    "flows": "Call Flow Studio",
+    "knowledge": "Reception Knowledge Base",
+    "reviews": "Human Review Queue",
+    "callbacks": "Callback Planner",
+    "reminders": "Reminder Center",
+    "hours": "Business Hours Rules",
+    "playbooks": "Reception Playbooks",
+    "analytics": "Reception Analytics",
+    "quality": "Reception Experience",
+    "activity": "Activity & Audit Log",
+    "integrations": "Integration Center",
+    "settings": "Workspace Settings"
+  },
+  "browser_errors": [],
+  "tests": [
+    "19 routes render",
+    "callback toggle and ownership",
+    "reminder draft",
+    "business hours save and routing simulation",
+    "playbook edit + persistence",
+    "original booking modal",
+    "call console visible",
+    "local state retained on route change"
+  ]
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "TASK-901",
+    "title": "Review resume",
+    "candidate": "CAN-1001",
+    "owner": "Olivia Chen",
+    "due": "2026-10-17",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "TASK-902",
+    "title": "Prepare interview packet",
+    "candidate": "CAN-1002",
+    "owner": "Marcus Lee",
+    "due": "2026-10-18",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "TASK-903",
+    "title": "Collect scorecard",
+    "candidate": "CAN-1003",
+    "owner": "Emma Davis",
+    "due": "2026-10-19",
+    "status": "Open",
+    "priority": "Low"
+  },
+  {
+    "id": "TASK-904",
+    "title": "Approve next stage",
+    "candidate": "CAN-1004",
+    "owner": "Olivia Chen",
+    "due": "2026-10-20",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "TASK-905",
+    "title": "Send scheduling request",
+    "candidate": "CAN-1005",
+    "owner": "Marcus Lee",
+    "due": "2026-10-21",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "TASK-906",
+    "title": "Review resume",
+    "candidate": "CAN-1006",
+    "owner": "Emma Davis",
+    "due": "2026-10-22",
+    "status": "Open",
+    "priority": "Low"
+  },
+  {
+    "id": "TASK-907",
+    "title": "Prepare interview packet",
+    "candidate": "CAN-1007",
+    "owner": "Olivia Chen",
+    "due": "2026-10-23",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "TASK-908",
+    "title": "Collect scorecard",
+    "candidate": "CAN-1008",
+    "owner": "Marcus Lee",
+    "due": "2026-10-24",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "TASK-909",
+    "title": "Approve next stage",
+    "candidate": "CAN-1009",
+    "owner": "Emma Davis",
+    "due": "2026-10-25",
+    "status": "Open",
+    "priority": "Low"
+  },
+  {
+    "id": "TASK-910",
+    "title": "Send scheduling request",
+    "candidate": "CAN-1010",
+    "owner": "Olivia Chen",
+    "due": "2026-10-26",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "TASK-911",
+    "title": "Review resume",
+    "candidate": "CAN-1011",
+    "owner": "Marcus Lee",
+    "due": "2026-10-27",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "TASK-912",
+    "title": "Prepare interview packet",
+    "candidate": "CAN-1012",
+    "owner": "Emma Davis",
+    "due": "2026-10-28",
+    "status": "Open",
+    "priority": "Low"
+  },
+  {
+    "id": "TASK-913",
+    "title": "Collect scorecard",
+    "candidate": "CAN-1013",
+    "owner": "Olivia Chen",
+    "due": "2026-10-17",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "TASK-914",
+    "title": "Approve next stage",
+    "candidate": "CAN-1014",
+    "owner": "Marcus Lee",
+    "due": "2026-10-18",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "TASK-915",
+    "title": "Send scheduling request",
+    "candidate": "CAN-1015",
+    "owner": "Emma Davis",
+    "due": "2026-10-19",
+    "status": "Open",
+    "priority": "Low"
+  },
+  {
+    "id": "TASK-916",
+    "title": "Review resume",
+    "candidate": "CAN-1016",
+    "owner": "Olivia Chen",
+    "due": "2026-10-20",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "TASK-917",
+    "title": "Prepare interview packet",
+    "candidate": "CAN-1017",
+    "owner": "Marcus Lee",
+    "due": "2026-10-21",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "TASK-918",
+    "title": "Collect scorecard",
+    "candidate": "CAN-1018",
+    "owner": "Emma Davis",
+    "due": "2026-10-22",
+    "status": "Open",
+    "priority": "Low"
+  },
+  {
+    "id": "TASK-919",
+    "title": "Approve next stage",
+    "candidate": "CAN-1019",
+    "owner": "Olivia Chen",
+    "due": "2026-10-23",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "TASK-920",
+    "title": "Send scheduling request",
+    "candidate": "CAN-1020",
+    "owner": "Marcus Lee",
+    "due": "2026-10-24",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "TASK-921",
+    "title": "Review resume",
+    "candidate": "CAN-1021",
+    "owner": "Emma Davis",
+    "due": "2026-10-25",
+    "status": "Open",
+    "priority": "Low"
+  },
+  {
+    "id": "TASK-922",
+    "title": "Prepare interview packet",
+    "candidate": "CAN-1022",
+    "owner": "Olivia Chen",
+    "due": "2026-10-26",
+    "status": "Open",
+    "priority": "High"
+  }
+]

@@ -1,0 +1,12 @@
+Recommended Upwork portfolio media order:
+1. 00_Upwork_Cover_1000x750.png
+2. 01_Operations_Overview.png
+3. 02_Inventory_Ledger.png
+4. 06_Purchase_Orders.png
+5. 07_Goods_Receiving.png
+6. 10_Fulfillment_Board.png
+7. 14_Replenishment_Planner.png
+8. 16_Automation_Studio.png
+9. 20_Performance_Analytics.png
+10. Case study PDF if supported
+Keep the remaining module screens in the full demo / case study. Do not claim that n8n or vendor integrations are connected.

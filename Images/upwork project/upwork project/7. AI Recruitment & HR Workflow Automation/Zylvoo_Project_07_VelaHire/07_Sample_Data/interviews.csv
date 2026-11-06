@@ -1,0 +1,25 @@
+id,candidate,job,date,time,type,interviewer,status
+INT-701,CAN-1001,JOB-401,2026-10-19,09:30,Technical,Olivia Chen,Scheduled
+INT-702,CAN-1002,JOB-402,2026-10-19,11:00,Hiring Manager,Marcus Lee,Scheduled
+INT-703,CAN-1003,JOB-403,2026-10-19,14:00,Culture & Team,Emma Davis,Scheduled
+INT-704,CAN-1004,JOB-404,2026-10-20,09:30,Technical,Olivia Chen,Scheduled
+INT-705,CAN-1005,JOB-405,2026-10-20,11:00,Hiring Manager,Marcus Lee,Scheduled
+INT-706,CAN-1006,JOB-406,2026-10-20,14:00,Culture & Team,Emma Davis,Scheduled
+INT-707,CAN-1007,JOB-407,2026-10-21,09:30,Technical,Olivia Chen,Scheduled
+INT-708,CAN-1008,JOB-408,2026-10-21,11:00,Hiring Manager,Marcus Lee,Scheduled
+INT-709,CAN-1009,JOB-409,2026-10-21,14:00,Culture & Team,Emma Davis,Scheduled
+INT-710,CAN-1010,JOB-410,2026-10-22,09:30,Technical,Olivia Chen,Scheduled
+INT-711,CAN-1011,JOB-411,2026-10-22,11:00,Hiring Manager,Marcus Lee,Scheduled
+INT-712,CAN-1012,JOB-412,2026-10-22,14:00,Culture & Team,Emma Davis,Scheduled
+INT-713,CAN-1013,JOB-401,2026-10-23,09:30,Technical,Olivia Chen,Scheduled
+INT-714,CAN-1014,JOB-402,2026-10-23,11:00,Hiring Manager,Marcus Lee,Scheduled
+INT-715,CAN-1015,JOB-403,2026-10-23,14:00,Culture & Team,Emma Davis,Scheduled
+INT-716,CAN-1016,JOB-404,2026-10-24,09:30,Technical,Olivia Chen,Scheduled
+INT-717,CAN-1017,JOB-405,2026-10-24,11:00,Hiring Manager,Marcus Lee,Scheduled
+INT-718,CAN-1018,JOB-406,2026-10-24,14:00,Culture & Team,Emma Davis,Scheduled
+INT-719,CAN-1019,JOB-407,2026-10-25,09:30,Technical,Olivia Chen,Scheduled
+INT-720,CAN-1020,JOB-408,2026-10-25,11:00,Hiring Manager,Marcus Lee,Scheduled
+INT-721,CAN-1021,JOB-409,2026-10-25,14:00,Culture & Team,Emma Davis,Scheduled
+INT-722,CAN-1022,JOB-410,2026-10-26,09:30,Technical,Olivia Chen,Scheduled
+INT-723,CAN-1023,JOB-411,2026-10-26,11:00,Hiring Manager,Marcus Lee,Scheduled
+INT-724,CAN-1024,JOB-412,2026-10-26,14:00,Culture & Team,Emma Davis,Scheduled

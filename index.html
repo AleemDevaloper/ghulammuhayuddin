@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#07080b" />
+    <meta name="description" content="GHULLAM MUHAYYUDIN — full-stack developer, software engineer, and AI automation specialist building intelligent digital products." />
+    <meta name="author" content="GHULLAM MUHAYYUDIN" />
+    <meta name="robots" content="index, follow" />
+    <script>
+      (() => {
+        try {
+          const saved = localStorage.getItem('portfolio-theme');
+          const theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+          document.documentElement.dataset.theme = theme;
+          document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'light' ? '#f4f5f1' : '#07080b');
+        } catch (error) {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      })();
+    </script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap"
+    />
+    <meta property="og:title" content="GHULLAM MUHAYYUDIN — Software Engineer" />
+    <meta property="og:description" content="Digital products, business systems, and AI automation engineered for what's next." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="GHULLAM MUHAYYUDIN" />
+    <meta property="og:image" content="/assets/zylvoo/homepage-design0b11.png" />
+    <meta property="og:image:alt" content="GHULLAM MUHAYYUDIN portfolio preview" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GHULLAM MUHAYYUDIN — Software Engineer" />
+    <meta name="twitter:description" content="Digital products, business systems, and AI automation engineered for what's next." />
+    <meta name="twitter:image" content="/assets/zylvoo/homepage-design0b11.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "GHULLAM MUHAYYUDIN",
+        "jobTitle": "Full-Stack Developer, Software Engineer & AI Automation Specialist",
+        "description": "Builds intelligent digital products, business systems, and AI-powered automation.",
+        "knowsAbout": ["Web Development", "AI & Automation", "Business Systems", "Mobile Apps", "Custom Software"]
+      }
+    </script>
+    <title>GHULLAM MUHAYYUDIN — Software Engineer</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding:48px;font-family:system-ui,sans-serif;max-width:640px;margin:0 auto">
+        <h1>GHULLAM MUHAYYUDIN</h1>
+        <p>This portfolio needs JavaScript enabled. Reach out directly at <a href="mailto:ghulam@zylvoo.com">ghulam@zylvoo.com</a> or <a href="tel:+923077024506">+92 307 7024506</a>.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

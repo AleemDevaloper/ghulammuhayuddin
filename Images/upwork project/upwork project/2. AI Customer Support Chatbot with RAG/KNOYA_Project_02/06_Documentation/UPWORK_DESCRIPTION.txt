@@ -1,0 +1,7 @@
+I built KNOYA as an independent support-automation concept to explore a common problem: support teams waste time searching across policies, product guides, and old conversations just to give someone a reliable answer.
+
+The workspace brings support tickets, a searchable knowledge library, source-linked answers, and a review-first publishing flow into one place. I also added a reply template studio, an escalation-rules preview, and a lightweight customer help widget concept. The focus throughout was to keep the next step obvious and make it easy to check where an answer came from.
+
+The interactive demo uses a local document-matching and answer-extraction system, along with fictional support data. It demonstrates the interface and workflows, not a live LLM/vector database or production integration.
+
+This is a self-initiated portfolio build, not a commissioned client project.

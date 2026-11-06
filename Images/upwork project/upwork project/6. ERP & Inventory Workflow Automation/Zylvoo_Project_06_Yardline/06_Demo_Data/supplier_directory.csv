@@ -1,0 +1,10 @@
+id,name,category,leadDays,rating,openPO,email
+V001,North Pier Components,Components,5,4.8,3,purchasing@northpiercomponents.example
+V002,Redline Industrial,Machinery,8,4.5,2,purchasing@redlineindustrial.example
+V003,Palisade Supply,Electrical,12,4.2,2,purchasing@palisadesupply.example
+V004,Monarch Process Systems,Materials,18,4.9,3,purchasing@monarchprocesssystems.example
+V005,Summit Fasteners,Components,7,4.8,1,purchasing@summitfasteners.example
+V006,Westward Materials,Machinery,5,4.5,3,purchasing@westwardmaterials.example
+V007,Harborline Tools,Electrical,8,4.2,1,purchasing@harborlinetools.example
+V008,Cedarline Electrical,Materials,12,4.9,2,purchasing@cedarlineelectrical.example
+V009,Elmwood Logistics,Components,18,4.8,1,purchasing@elmwoodlogistics.example

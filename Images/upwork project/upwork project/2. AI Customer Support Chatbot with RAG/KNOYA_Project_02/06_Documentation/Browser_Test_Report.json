@@ -1,0 +1,100 @@
+{
+  "module_navigation": [
+    [
+      "overview",
+      "OK",
+      "Support Intelligence Overview"
+    ],
+    [
+      "ask",
+      "OK",
+      "Knowledge copilot"
+    ],
+    [
+      "support",
+      "OK",
+      "Support inbox"
+    ],
+    [
+      "templates",
+      "OK",
+      "Reply templates"
+    ],
+    [
+      "rules",
+      "OK",
+      "Escalation rules"
+    ],
+    [
+      "widget",
+      "OK",
+      "Customer widget preview"
+    ],
+    [
+      "library",
+      "OK",
+      "Knowledge library"
+    ],
+    [
+      "ingestion",
+      "OK",
+      "Ingestion studio"
+    ],
+    [
+      "collections",
+      "OK",
+      "Knowledge collections"
+    ],
+    [
+      "retrieval",
+      "OK",
+      "Search & retrieval"
+    ],
+    [
+      "evaluation",
+      "OK",
+      "Answer quality"
+    ],
+    [
+      "conversations",
+      "OK",
+      "Conversations"
+    ],
+    [
+      "feedback",
+      "OK",
+      "Feedback review"
+    ],
+    [
+      "reports",
+      "OK",
+      "Reports & analytics"
+    ],
+    [
+      "activity",
+      "OK",
+      "Activity log"
+    ],
+    [
+      "integrations",
+      "OK",
+      "Integrations"
+    ],
+    [
+      "settings",
+      "OK",
+      "Workspace settings"
+    ]
+  ],
+  "runtime_errors": [],
+  "interactions_tested": [
+    "ticket draft save",
+    "ticket status change",
+    "reply template apply",
+    "escalation rule toggle",
+    "widget query",
+    "source-grounded QA",
+    "new ticket create"
+  ],
+  "rendered_screenshots": 17
+}

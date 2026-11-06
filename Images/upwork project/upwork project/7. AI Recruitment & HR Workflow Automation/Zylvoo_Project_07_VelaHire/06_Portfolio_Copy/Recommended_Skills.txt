@@ -1,0 +1,10 @@
+Applicant Tracking System (ATS)
+Recruitment Automation
+Workflow Automation
+HR Software
+JavaScript
+Front-End Development
+API Integration Design
+Data Visualization
+UI/UX Design
+n8n (starter workflow design; integration not live)

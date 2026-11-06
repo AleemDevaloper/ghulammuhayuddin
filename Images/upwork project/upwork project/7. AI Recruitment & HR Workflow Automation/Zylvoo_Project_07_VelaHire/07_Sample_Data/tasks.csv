@@ -1,0 +1,23 @@
+id,title,candidate,owner,due,status,priority
+TASK-901,Review resume,CAN-1001,Olivia Chen,2026-10-17,Open,High
+TASK-902,Prepare interview packet,CAN-1002,Marcus Lee,2026-10-18,Open,Medium
+TASK-903,Collect scorecard,CAN-1003,Emma Davis,2026-10-19,Open,Low
+TASK-904,Approve next stage,CAN-1004,Olivia Chen,2026-10-20,Open,High
+TASK-905,Send scheduling request,CAN-1005,Marcus Lee,2026-10-21,Open,Medium
+TASK-906,Review resume,CAN-1006,Emma Davis,2026-10-22,Open,Low
+TASK-907,Prepare interview packet,CAN-1007,Olivia Chen,2026-10-23,Open,High
+TASK-908,Collect scorecard,CAN-1008,Marcus Lee,2026-10-24,Open,Medium
+TASK-909,Approve next stage,CAN-1009,Emma Davis,2026-10-25,Open,Low
+TASK-910,Send scheduling request,CAN-1010,Olivia Chen,2026-10-26,Open,High
+TASK-911,Review resume,CAN-1011,Marcus Lee,2026-10-27,Open,Medium
+TASK-912,Prepare interview packet,CAN-1012,Emma Davis,2026-10-28,Open,Low
+TASK-913,Collect scorecard,CAN-1013,Olivia Chen,2026-10-17,Open,High
+TASK-914,Approve next stage,CAN-1014,Marcus Lee,2026-10-18,Open,Medium
+TASK-915,Send scheduling request,CAN-1015,Emma Davis,2026-10-19,Open,Low
+TASK-916,Review resume,CAN-1016,Olivia Chen,2026-10-20,Open,High
+TASK-917,Prepare interview packet,CAN-1017,Marcus Lee,2026-10-21,Open,Medium
+TASK-918,Collect scorecard,CAN-1018,Emma Davis,2026-10-22,Open,Low
+TASK-919,Approve next stage,CAN-1019,Olivia Chen,2026-10-23,Open,High
+TASK-920,Send scheduling request,CAN-1020,Marcus Lee,2026-10-24,Open,Medium
+TASK-921,Review resume,CAN-1021,Emma Davis,2026-10-25,Open,Low
+TASK-922,Prepare interview packet,CAN-1022,Olivia Chen,2026-10-26,Open,High

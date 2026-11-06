@@ -1,0 +1,10 @@
+Role: Business Software & Automation Developer (Independent Product Concept)
+
+Recommended tags (select up to 5 to match your actual skills):
+- Inventory Management
+- ERP Software
+- Business Process Automation
+- n8n
+- API Integration
+
+Additional relevant expertise: warehouse management, procurement workflows, stock movement reconciliations, SaaS dashboard UI, data reporting, workflow design.

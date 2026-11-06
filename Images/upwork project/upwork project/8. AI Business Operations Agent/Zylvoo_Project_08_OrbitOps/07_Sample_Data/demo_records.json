@@ -1,0 +1,3775 @@
+{
+  "agents": [
+    {
+      "id": "AG-101",
+      "name": "Revenue Briefing",
+      "department": "Revenue",
+      "description": "Summarizes pipeline activity and flags decisions",
+      "mode": "Review required",
+      "health": "Healthy",
+      "last_run": "12m ago",
+      "runs": 180
+    },
+    {
+      "id": "AG-102",
+      "name": "Accounts Payable Review",
+      "department": "Finance",
+      "description": "Reviews invoices and unusual spend",
+      "mode": "Read only",
+      "health": "Healthy",
+      "last_run": "20m ago",
+      "runs": 207
+    },
+    {
+      "id": "AG-103",
+      "name": "Vendor Intake",
+      "department": "Procurement",
+      "description": "Normalizes supplier requests",
+      "mode": "Draft actions",
+      "health": "Healthy",
+      "last_run": "28m ago",
+      "runs": 234
+    },
+    {
+      "id": "AG-104",
+      "name": "Service Triage",
+      "department": "Support",
+      "description": "Routes support tickets by category",
+      "mode": "Review required",
+      "health": "Review",
+      "last_run": "36m ago",
+      "runs": 261
+    },
+    {
+      "id": "AG-105",
+      "name": "Meeting Companion",
+      "department": "Operations",
+      "description": "Prepares briefings and action items",
+      "mode": "Read only",
+      "health": "Healthy",
+      "last_run": "44m ago",
+      "runs": 288
+    },
+    {
+      "id": "AG-106",
+      "name": "People Desk",
+      "department": "People",
+      "description": "Assists with policy and leave queries",
+      "mode": "Draft actions",
+      "health": "Healthy",
+      "last_run": "52m ago",
+      "runs": 315
+    },
+    {
+      "id": "AG-107",
+      "name": "Weekly Operating Review",
+      "department": "Operations",
+      "description": "Prepares cross-team operating snapshots",
+      "mode": "Review required",
+      "health": "Healthy",
+      "last_run": "60m ago",
+      "runs": 342
+    },
+    {
+      "id": "AG-108",
+      "name": "Sales Follow-up Planner",
+      "department": "Revenue",
+      "description": "Recommends next steps for open opportunities",
+      "mode": "Read only",
+      "health": "Review",
+      "last_run": "68m ago",
+      "runs": 369
+    },
+    {
+      "id": "AG-109",
+      "name": "Procurement Watch",
+      "department": "Procurement",
+      "description": "Surfaces delayed purchase orders",
+      "mode": "Draft actions",
+      "health": "Healthy",
+      "last_run": "76m ago",
+      "runs": 396
+    },
+    {
+      "id": "AG-110",
+      "name": "Risk and Controls",
+      "department": "Finance",
+      "description": "Flags workflow exceptions",
+      "mode": "Review required",
+      "health": "Healthy",
+      "last_run": "84m ago",
+      "runs": 423
+    },
+    {
+      "id": "AG-111",
+      "name": "Project Status Reporter",
+      "department": "Operations",
+      "description": "Creates executive progress briefs",
+      "mode": "Read only",
+      "health": "Healthy",
+      "last_run": "92m ago",
+      "runs": 450
+    },
+    {
+      "id": "AG-112",
+      "name": "Knowledge Navigator",
+      "department": "Support",
+      "description": "Searches approved company playbooks",
+      "mode": "Draft actions",
+      "health": "Review",
+      "last_run": "100m ago",
+      "runs": 477
+    }
+  ],
+  "requests": [
+    {
+      "id": "RQ-2600",
+      "title": "Renewal approval request",
+      "department": "Revenue",
+      "requester": "Olivia Chen",
+      "company": "Alder & Stone",
+      "priority": "High",
+      "status": "New",
+      "owner": "Marcus Lee",
+      "age": "1h",
+      "created": "Oct 15",
+      "detail": "Request initiated by Olivia Chen for Alder & Stone. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2601",
+      "title": "Customer onboarding exception",
+      "department": "Finance",
+      "requester": "Daniel Kim",
+      "company": "Westhaven Digital",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Daniel Kim",
+      "age": "2h",
+      "created": "Oct 15",
+      "detail": "Request initiated by Daniel Kim for Westhaven Digital. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2602",
+      "title": "Invoice discrepancy review",
+      "department": "People",
+      "requester": "Maya Patel",
+      "company": "Beacon Supply",
+      "priority": "Low",
+      "status": "Waiting approval",
+      "owner": "Noah Blake",
+      "age": "3h",
+      "created": "Oct 15",
+      "detail": "Request initiated by Maya Patel for Beacon Supply. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2603",
+      "title": "New vendor onboarding",
+      "department": "Support",
+      "requester": "Taylor Nguyen",
+      "company": "Ridgewell Group",
+      "priority": "Medium",
+      "status": "Completed",
+      "owner": "Ava Brooks",
+      "age": "4h",
+      "created": "Oct 15",
+      "detail": "Request initiated by Taylor Nguyen for Ridgewell Group. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2604",
+      "title": "Priority service escalation",
+      "department": "Operations",
+      "requester": "Olivia Chen",
+      "company": "Valora Health",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Taylor Nguyen",
+      "age": "5h",
+      "created": "Oct 15",
+      "detail": "Request initiated by Olivia Chen for Valora Health. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2605",
+      "title": "Contract summary request",
+      "department": "Procurement",
+      "requester": "Daniel Kim",
+      "company": "Morrow Studios",
+      "priority": "Medium",
+      "status": "New",
+      "owner": "Alex Carter",
+      "age": "6h",
+      "created": "Oct 15",
+      "detail": "Request initiated by Daniel Kim for Morrow Studios. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2606",
+      "title": "Account handoff request",
+      "department": "Revenue",
+      "requester": "Maya Patel",
+      "company": "Bluecrest Energy",
+      "priority": "Low",
+      "status": "In progress",
+      "owner": "Marcus Lee",
+      "age": "7h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Maya Patel for Bluecrest Energy. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2607",
+      "title": "PTO and policy clarification",
+      "department": "Finance",
+      "requester": "Taylor Nguyen",
+      "company": "Northfield Works",
+      "priority": "Medium",
+      "status": "Waiting approval",
+      "owner": "Daniel Kim",
+      "age": "8h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Taylor Nguyen for Northfield Works. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2608",
+      "title": "Project status update",
+      "department": "People",
+      "requester": "Olivia Chen",
+      "company": "Evergate Realty",
+      "priority": "High",
+      "status": "Completed",
+      "owner": "Noah Blake",
+      "age": "9h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Olivia Chen for Evergate Realty. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2609",
+      "title": "Purchase order adjustment",
+      "department": "Support",
+      "requester": "Daniel Kim",
+      "company": "Summit Valley",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Ava Brooks",
+      "age": "10h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Daniel Kim for Summit Valley. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2610",
+      "title": "Sales follow-up review",
+      "department": "Operations",
+      "requester": "Maya Patel",
+      "company": "Cedarpoint Labs",
+      "priority": "Low",
+      "status": "New",
+      "owner": "Taylor Nguyen",
+      "age": "11h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Maya Patel for Cedarpoint Labs. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2611",
+      "title": "Equipment access request",
+      "department": "Procurement",
+      "requester": "Taylor Nguyen",
+      "company": "Axion Products",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Alex Carter",
+      "age": "12h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Taylor Nguyen for Axion Products. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2612",
+      "title": "Renewal approval request",
+      "department": "Revenue",
+      "requester": "Olivia Chen",
+      "company": "Harborwell Advisors",
+      "priority": "High",
+      "status": "Waiting approval",
+      "owner": "Marcus Lee",
+      "age": "13h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Olivia Chen for Harborwell Advisors. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2613",
+      "title": "Customer onboarding exception",
+      "department": "Finance",
+      "requester": "Daniel Kim",
+      "company": "Solara Commerce",
+      "priority": "Medium",
+      "status": "Completed",
+      "owner": "Daniel Kim",
+      "age": "14h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Daniel Kim for Solara Commerce. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2614",
+      "title": "Invoice discrepancy review",
+      "department": "People",
+      "requester": "Maya Patel",
+      "company": "Alder & Stone",
+      "priority": "Low",
+      "status": "In progress",
+      "owner": "Noah Blake",
+      "age": "15h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Maya Patel for Alder & Stone. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2615",
+      "title": "New vendor onboarding",
+      "department": "Support",
+      "requester": "Taylor Nguyen",
+      "company": "Westhaven Digital",
+      "priority": "Medium",
+      "status": "New",
+      "owner": "Ava Brooks",
+      "age": "16h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Taylor Nguyen for Westhaven Digital. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2616",
+      "title": "Priority service escalation",
+      "department": "Operations",
+      "requester": "Olivia Chen",
+      "company": "Beacon Supply",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Taylor Nguyen",
+      "age": "17h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Olivia Chen for Beacon Supply. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2617",
+      "title": "Contract summary request",
+      "department": "Procurement",
+      "requester": "Daniel Kim",
+      "company": "Ridgewell Group",
+      "priority": "Medium",
+      "status": "Waiting approval",
+      "owner": "Alex Carter",
+      "age": "18h",
+      "created": "Oct 14",
+      "detail": "Request initiated by Daniel Kim for Ridgewell Group. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2618",
+      "title": "Account handoff request",
+      "department": "Revenue",
+      "requester": "Maya Patel",
+      "company": "Valora Health",
+      "priority": "Low",
+      "status": "Completed",
+      "owner": "Marcus Lee",
+      "age": "19h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Maya Patel for Valora Health. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2619",
+      "title": "PTO and policy clarification",
+      "department": "Finance",
+      "requester": "Taylor Nguyen",
+      "company": "Morrow Studios",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Daniel Kim",
+      "age": "20h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Taylor Nguyen for Morrow Studios. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2620",
+      "title": "Project status update",
+      "department": "People",
+      "requester": "Olivia Chen",
+      "company": "Bluecrest Energy",
+      "priority": "High",
+      "status": "New",
+      "owner": "Noah Blake",
+      "age": "21h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Olivia Chen for Bluecrest Energy. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2621",
+      "title": "Purchase order adjustment",
+      "department": "Support",
+      "requester": "Daniel Kim",
+      "company": "Northfield Works",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Ava Brooks",
+      "age": "22h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Daniel Kim for Northfield Works. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2622",
+      "title": "Sales follow-up review",
+      "department": "Operations",
+      "requester": "Maya Patel",
+      "company": "Evergate Realty",
+      "priority": "Low",
+      "status": "Waiting approval",
+      "owner": "Taylor Nguyen",
+      "age": "23h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Maya Patel for Evergate Realty. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2623",
+      "title": "Equipment access request",
+      "department": "Procurement",
+      "requester": "Taylor Nguyen",
+      "company": "Summit Valley",
+      "priority": "Medium",
+      "status": "Completed",
+      "owner": "Alex Carter",
+      "age": "24h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Taylor Nguyen for Summit Valley. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2624",
+      "title": "Renewal approval request",
+      "department": "Revenue",
+      "requester": "Olivia Chen",
+      "company": "Cedarpoint Labs",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Marcus Lee",
+      "age": "25h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Olivia Chen for Cedarpoint Labs. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2625",
+      "title": "Customer onboarding exception",
+      "department": "Finance",
+      "requester": "Daniel Kim",
+      "company": "Axion Products",
+      "priority": "Medium",
+      "status": "New",
+      "owner": "Daniel Kim",
+      "age": "26h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Daniel Kim for Axion Products. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2626",
+      "title": "Invoice discrepancy review",
+      "department": "People",
+      "requester": "Maya Patel",
+      "company": "Harborwell Advisors",
+      "priority": "Low",
+      "status": "In progress",
+      "owner": "Noah Blake",
+      "age": "27h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Maya Patel for Harborwell Advisors. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2627",
+      "title": "New vendor onboarding",
+      "department": "Support",
+      "requester": "Taylor Nguyen",
+      "company": "Solara Commerce",
+      "priority": "Medium",
+      "status": "Waiting approval",
+      "owner": "Ava Brooks",
+      "age": "28h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Taylor Nguyen for Solara Commerce. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2628",
+      "title": "Priority service escalation",
+      "department": "Operations",
+      "requester": "Olivia Chen",
+      "company": "Alder & Stone",
+      "priority": "High",
+      "status": "Completed",
+      "owner": "Taylor Nguyen",
+      "age": "29h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Olivia Chen for Alder & Stone. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2629",
+      "title": "Contract summary request",
+      "department": "Procurement",
+      "requester": "Daniel Kim",
+      "company": "Westhaven Digital",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Alex Carter",
+      "age": "30h",
+      "created": "Oct 13",
+      "detail": "Request initiated by Daniel Kim for Westhaven Digital. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2630",
+      "title": "Account handoff request",
+      "department": "Revenue",
+      "requester": "Maya Patel",
+      "company": "Beacon Supply",
+      "priority": "Low",
+      "status": "New",
+      "owner": "Marcus Lee",
+      "age": "1h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Maya Patel for Beacon Supply. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2631",
+      "title": "PTO and policy clarification",
+      "department": "Finance",
+      "requester": "Taylor Nguyen",
+      "company": "Ridgewell Group",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Daniel Kim",
+      "age": "2h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Taylor Nguyen for Ridgewell Group. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2632",
+      "title": "Project status update",
+      "department": "People",
+      "requester": "Olivia Chen",
+      "company": "Valora Health",
+      "priority": "High",
+      "status": "Waiting approval",
+      "owner": "Noah Blake",
+      "age": "3h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Olivia Chen for Valora Health. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2633",
+      "title": "Purchase order adjustment",
+      "department": "Support",
+      "requester": "Daniel Kim",
+      "company": "Morrow Studios",
+      "priority": "Medium",
+      "status": "Completed",
+      "owner": "Ava Brooks",
+      "age": "4h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Daniel Kim for Morrow Studios. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2634",
+      "title": "Sales follow-up review",
+      "department": "Operations",
+      "requester": "Maya Patel",
+      "company": "Bluecrest Energy",
+      "priority": "Low",
+      "status": "In progress",
+      "owner": "Taylor Nguyen",
+      "age": "5h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Maya Patel for Bluecrest Energy. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2635",
+      "title": "Equipment access request",
+      "department": "Procurement",
+      "requester": "Taylor Nguyen",
+      "company": "Northfield Works",
+      "priority": "Medium",
+      "status": "New",
+      "owner": "Alex Carter",
+      "age": "6h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Taylor Nguyen for Northfield Works. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2636",
+      "title": "Renewal approval request",
+      "department": "Revenue",
+      "requester": "Olivia Chen",
+      "company": "Evergate Realty",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Marcus Lee",
+      "age": "7h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Olivia Chen for Evergate Realty. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2637",
+      "title": "Customer onboarding exception",
+      "department": "Finance",
+      "requester": "Daniel Kim",
+      "company": "Summit Valley",
+      "priority": "Medium",
+      "status": "Waiting approval",
+      "owner": "Daniel Kim",
+      "age": "8h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Daniel Kim for Summit Valley. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2638",
+      "title": "Invoice discrepancy review",
+      "department": "People",
+      "requester": "Maya Patel",
+      "company": "Cedarpoint Labs",
+      "priority": "Low",
+      "status": "Completed",
+      "owner": "Noah Blake",
+      "age": "9h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Maya Patel for Cedarpoint Labs. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2639",
+      "title": "New vendor onboarding",
+      "department": "Support",
+      "requester": "Taylor Nguyen",
+      "company": "Axion Products",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Ava Brooks",
+      "age": "10h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Taylor Nguyen for Axion Products. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2640",
+      "title": "Priority service escalation",
+      "department": "Operations",
+      "requester": "Olivia Chen",
+      "company": "Harborwell Advisors",
+      "priority": "High",
+      "status": "New",
+      "owner": "Taylor Nguyen",
+      "age": "11h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Olivia Chen for Harborwell Advisors. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2641",
+      "title": "Contract summary request",
+      "department": "Procurement",
+      "requester": "Daniel Kim",
+      "company": "Solara Commerce",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Alex Carter",
+      "age": "12h",
+      "created": "Oct 12",
+      "detail": "Request initiated by Daniel Kim for Solara Commerce. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2642",
+      "title": "Account handoff request",
+      "department": "Revenue",
+      "requester": "Maya Patel",
+      "company": "Alder & Stone",
+      "priority": "Low",
+      "status": "Waiting approval",
+      "owner": "Marcus Lee",
+      "age": "13h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Maya Patel for Alder & Stone. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2643",
+      "title": "PTO and policy clarification",
+      "department": "Finance",
+      "requester": "Taylor Nguyen",
+      "company": "Westhaven Digital",
+      "priority": "Medium",
+      "status": "Completed",
+      "owner": "Daniel Kim",
+      "age": "14h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Taylor Nguyen for Westhaven Digital. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2644",
+      "title": "Project status update",
+      "department": "People",
+      "requester": "Olivia Chen",
+      "company": "Beacon Supply",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Noah Blake",
+      "age": "15h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Olivia Chen for Beacon Supply. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2645",
+      "title": "Purchase order adjustment",
+      "department": "Support",
+      "requester": "Daniel Kim",
+      "company": "Ridgewell Group",
+      "priority": "Medium",
+      "status": "New",
+      "owner": "Ava Brooks",
+      "age": "16h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Daniel Kim for Ridgewell Group. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2646",
+      "title": "Sales follow-up review",
+      "department": "Operations",
+      "requester": "Maya Patel",
+      "company": "Valora Health",
+      "priority": "Low",
+      "status": "In progress",
+      "owner": "Taylor Nguyen",
+      "age": "17h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Maya Patel for Valora Health. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2647",
+      "title": "Equipment access request",
+      "department": "Procurement",
+      "requester": "Taylor Nguyen",
+      "company": "Morrow Studios",
+      "priority": "Medium",
+      "status": "Waiting approval",
+      "owner": "Alex Carter",
+      "age": "18h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Taylor Nguyen for Morrow Studios. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2648",
+      "title": "Renewal approval request",
+      "department": "Revenue",
+      "requester": "Olivia Chen",
+      "company": "Bluecrest Energy",
+      "priority": "High",
+      "status": "Completed",
+      "owner": "Marcus Lee",
+      "age": "19h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Olivia Chen for Bluecrest Energy. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2649",
+      "title": "Customer onboarding exception",
+      "department": "Finance",
+      "requester": "Daniel Kim",
+      "company": "Northfield Works",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Daniel Kim",
+      "age": "20h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Daniel Kim for Northfield Works. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2650",
+      "title": "Invoice discrepancy review",
+      "department": "People",
+      "requester": "Maya Patel",
+      "company": "Evergate Realty",
+      "priority": "Low",
+      "status": "New",
+      "owner": "Noah Blake",
+      "age": "21h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Maya Patel for Evergate Realty. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2651",
+      "title": "New vendor onboarding",
+      "department": "Support",
+      "requester": "Taylor Nguyen",
+      "company": "Summit Valley",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Ava Brooks",
+      "age": "22h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Taylor Nguyen for Summit Valley. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2652",
+      "title": "Priority service escalation",
+      "department": "Operations",
+      "requester": "Olivia Chen",
+      "company": "Cedarpoint Labs",
+      "priority": "High",
+      "status": "Waiting approval",
+      "owner": "Taylor Nguyen",
+      "age": "23h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Olivia Chen for Cedarpoint Labs. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2653",
+      "title": "Contract summary request",
+      "department": "Procurement",
+      "requester": "Daniel Kim",
+      "company": "Axion Products",
+      "priority": "Medium",
+      "status": "Completed",
+      "owner": "Alex Carter",
+      "age": "24h",
+      "created": "Oct 11",
+      "detail": "Request initiated by Daniel Kim for Axion Products. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2654",
+      "title": "Account handoff request",
+      "department": "Revenue",
+      "requester": "Maya Patel",
+      "company": "Harborwell Advisors",
+      "priority": "Low",
+      "status": "In progress",
+      "owner": "Marcus Lee",
+      "age": "25h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Maya Patel for Harborwell Advisors. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2655",
+      "title": "PTO and policy clarification",
+      "department": "Finance",
+      "requester": "Taylor Nguyen",
+      "company": "Solara Commerce",
+      "priority": "Medium",
+      "status": "New",
+      "owner": "Daniel Kim",
+      "age": "26h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Taylor Nguyen for Solara Commerce. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2656",
+      "title": "Project status update",
+      "department": "People",
+      "requester": "Olivia Chen",
+      "company": "Alder & Stone",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Noah Blake",
+      "age": "27h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Olivia Chen for Alder & Stone. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2657",
+      "title": "Purchase order adjustment",
+      "department": "Support",
+      "requester": "Daniel Kim",
+      "company": "Westhaven Digital",
+      "priority": "Medium",
+      "status": "Waiting approval",
+      "owner": "Ava Brooks",
+      "age": "28h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Daniel Kim for Westhaven Digital. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2658",
+      "title": "Sales follow-up review",
+      "department": "Operations",
+      "requester": "Maya Patel",
+      "company": "Beacon Supply",
+      "priority": "Low",
+      "status": "Completed",
+      "owner": "Taylor Nguyen",
+      "age": "29h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Maya Patel for Beacon Supply. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2659",
+      "title": "Equipment access request",
+      "department": "Procurement",
+      "requester": "Taylor Nguyen",
+      "company": "Ridgewell Group",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Alex Carter",
+      "age": "30h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Taylor Nguyen for Ridgewell Group. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2660",
+      "title": "Renewal approval request",
+      "department": "Revenue",
+      "requester": "Olivia Chen",
+      "company": "Valora Health",
+      "priority": "High",
+      "status": "New",
+      "owner": "Marcus Lee",
+      "age": "1h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Olivia Chen for Valora Health. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2661",
+      "title": "Customer onboarding exception",
+      "department": "Finance",
+      "requester": "Daniel Kim",
+      "company": "Morrow Studios",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Daniel Kim",
+      "age": "2h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Daniel Kim for Morrow Studios. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2662",
+      "title": "Invoice discrepancy review",
+      "department": "People",
+      "requester": "Maya Patel",
+      "company": "Bluecrest Energy",
+      "priority": "Low",
+      "status": "Waiting approval",
+      "owner": "Noah Blake",
+      "age": "3h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Maya Patel for Bluecrest Energy. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2663",
+      "title": "New vendor onboarding",
+      "department": "Support",
+      "requester": "Taylor Nguyen",
+      "company": "Northfield Works",
+      "priority": "Medium",
+      "status": "Completed",
+      "owner": "Ava Brooks",
+      "age": "4h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Taylor Nguyen for Northfield Works. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2664",
+      "title": "Priority service escalation",
+      "department": "Operations",
+      "requester": "Olivia Chen",
+      "company": "Evergate Realty",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Taylor Nguyen",
+      "age": "5h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Olivia Chen for Evergate Realty. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2665",
+      "title": "Contract summary request",
+      "department": "Procurement",
+      "requester": "Daniel Kim",
+      "company": "Summit Valley",
+      "priority": "Medium",
+      "status": "New",
+      "owner": "Alex Carter",
+      "age": "6h",
+      "created": "Oct 10",
+      "detail": "Request initiated by Daniel Kim for Summit Valley. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2666",
+      "title": "Account handoff request",
+      "department": "Revenue",
+      "requester": "Maya Patel",
+      "company": "Cedarpoint Labs",
+      "priority": "Low",
+      "status": "In progress",
+      "owner": "Marcus Lee",
+      "age": "7h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Maya Patel for Cedarpoint Labs. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2667",
+      "title": "PTO and policy clarification",
+      "department": "Finance",
+      "requester": "Taylor Nguyen",
+      "company": "Axion Products",
+      "priority": "Medium",
+      "status": "Waiting approval",
+      "owner": "Daniel Kim",
+      "age": "8h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Taylor Nguyen for Axion Products. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2668",
+      "title": "Project status update",
+      "department": "People",
+      "requester": "Olivia Chen",
+      "company": "Harborwell Advisors",
+      "priority": "High",
+      "status": "Completed",
+      "owner": "Noah Blake",
+      "age": "9h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Olivia Chen for Harborwell Advisors. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2669",
+      "title": "Purchase order adjustment",
+      "department": "Support",
+      "requester": "Daniel Kim",
+      "company": "Solara Commerce",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Ava Brooks",
+      "age": "10h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Daniel Kim for Solara Commerce. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2670",
+      "title": "Sales follow-up review",
+      "department": "Operations",
+      "requester": "Maya Patel",
+      "company": "Alder & Stone",
+      "priority": "Low",
+      "status": "New",
+      "owner": "Taylor Nguyen",
+      "age": "11h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Maya Patel for Alder & Stone. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2671",
+      "title": "Equipment access request",
+      "department": "Procurement",
+      "requester": "Taylor Nguyen",
+      "company": "Westhaven Digital",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Alex Carter",
+      "age": "12h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Taylor Nguyen for Westhaven Digital. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2672",
+      "title": "Renewal approval request",
+      "department": "Revenue",
+      "requester": "Olivia Chen",
+      "company": "Beacon Supply",
+      "priority": "High",
+      "status": "Waiting approval",
+      "owner": "Marcus Lee",
+      "age": "13h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Olivia Chen for Beacon Supply. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2673",
+      "title": "Customer onboarding exception",
+      "department": "Finance",
+      "requester": "Daniel Kim",
+      "company": "Ridgewell Group",
+      "priority": "Medium",
+      "status": "Completed",
+      "owner": "Daniel Kim",
+      "age": "14h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Daniel Kim for Ridgewell Group. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2674",
+      "title": "Invoice discrepancy review",
+      "department": "People",
+      "requester": "Maya Patel",
+      "company": "Valora Health",
+      "priority": "Low",
+      "status": "In progress",
+      "owner": "Noah Blake",
+      "age": "15h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Maya Patel for Valora Health. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2675",
+      "title": "New vendor onboarding",
+      "department": "Support",
+      "requester": "Taylor Nguyen",
+      "company": "Morrow Studios",
+      "priority": "Medium",
+      "status": "New",
+      "owner": "Ava Brooks",
+      "age": "16h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Taylor Nguyen for Morrow Studios. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2676",
+      "title": "Priority service escalation",
+      "department": "Operations",
+      "requester": "Olivia Chen",
+      "company": "Bluecrest Energy",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Taylor Nguyen",
+      "age": "17h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Olivia Chen for Bluecrest Energy. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2677",
+      "title": "Contract summary request",
+      "department": "Procurement",
+      "requester": "Daniel Kim",
+      "company": "Northfield Works",
+      "priority": "Medium",
+      "status": "Waiting approval",
+      "owner": "Alex Carter",
+      "age": "18h",
+      "created": "Oct 09",
+      "detail": "Request initiated by Daniel Kim for Northfield Works. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2678",
+      "title": "Account handoff request",
+      "department": "Revenue",
+      "requester": "Maya Patel",
+      "company": "Evergate Realty",
+      "priority": "Low",
+      "status": "Completed",
+      "owner": "Marcus Lee",
+      "age": "19h",
+      "created": "Oct 08",
+      "detail": "Request initiated by Maya Patel for Evergate Realty. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2679",
+      "title": "PTO and policy clarification",
+      "department": "Finance",
+      "requester": "Taylor Nguyen",
+      "company": "Summit Valley",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Daniel Kim",
+      "age": "20h",
+      "created": "Oct 08",
+      "detail": "Request initiated by Taylor Nguyen for Summit Valley. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2680",
+      "title": "Project status update",
+      "department": "People",
+      "requester": "Olivia Chen",
+      "company": "Cedarpoint Labs",
+      "priority": "High",
+      "status": "New",
+      "owner": "Noah Blake",
+      "age": "21h",
+      "created": "Oct 08",
+      "detail": "Request initiated by Olivia Chen for Cedarpoint Labs. Requires policy check and accountable owner."
+    },
+    {
+      "id": "RQ-2681",
+      "title": "Purchase order adjustment",
+      "department": "Support",
+      "requester": "Daniel Kim",
+      "company": "Axion Products",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Ava Brooks",
+      "age": "22h",
+      "created": "Oct 08",
+      "detail": "Request initiated by Daniel Kim for Axion Products. Requires policy check and accountable owner."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TSK-450",
+      "title": "Review Q4 revenue exceptions",
+      "owner": "Olivia Chen",
+      "team": "Revenue",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 15"
+    },
+    {
+      "id": "TSK-451",
+      "title": "Confirm vendor payment terms",
+      "owner": "Marcus Lee",
+      "team": "Finance",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 16"
+    },
+    {
+      "id": "TSK-452",
+      "title": "Prepare board operating summary",
+      "owner": "Emma Davis",
+      "team": "People",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 17"
+    },
+    {
+      "id": "TSK-453",
+      "title": "Follow up on escalated support ticket",
+      "owner": "Daniel Kim",
+      "team": "Support",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 18"
+    },
+    {
+      "id": "TSK-454",
+      "title": "Approve onboarding checklist",
+      "owner": "Sofia Grant",
+      "team": "Operations",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 19"
+    },
+    {
+      "id": "TSK-455",
+      "title": "Reconcile invoice mismatch",
+      "owner": "Noah Blake",
+      "team": "Procurement",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 20"
+    },
+    {
+      "id": "TSK-456",
+      "title": "Update CRM ownership",
+      "owner": "Maya Patel",
+      "team": "Revenue",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 21"
+    },
+    {
+      "id": "TSK-457",
+      "title": "Review procurement SLA",
+      "owner": "Ava Brooks",
+      "team": "Finance",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 22"
+    },
+    {
+      "id": "TSK-458",
+      "title": "Review Q4 revenue exceptions",
+      "owner": "Liam Rhodes",
+      "team": "People",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 23"
+    },
+    {
+      "id": "TSK-459",
+      "title": "Confirm vendor payment terms",
+      "owner": "Taylor Nguyen",
+      "team": "Support",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 24"
+    },
+    {
+      "id": "TSK-460",
+      "title": "Prepare board operating summary",
+      "owner": "Jordan Hayes",
+      "team": "Operations",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 25"
+    },
+    {
+      "id": "TSK-461",
+      "title": "Follow up on escalated support ticket",
+      "owner": "Alex Carter",
+      "team": "Procurement",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 26"
+    },
+    {
+      "id": "TSK-462",
+      "title": "Approve onboarding checklist",
+      "owner": "Olivia Chen",
+      "team": "Revenue",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 27"
+    },
+    {
+      "id": "TSK-463",
+      "title": "Reconcile invoice mismatch",
+      "owner": "Marcus Lee",
+      "team": "Finance",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 28"
+    },
+    {
+      "id": "TSK-464",
+      "title": "Update CRM ownership",
+      "owner": "Emma Davis",
+      "team": "People",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 29"
+    },
+    {
+      "id": "TSK-465",
+      "title": "Review procurement SLA",
+      "owner": "Daniel Kim",
+      "team": "Support",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 30"
+    },
+    {
+      "id": "TSK-466",
+      "title": "Review Q4 revenue exceptions",
+      "owner": "Sofia Grant",
+      "team": "Operations",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 31"
+    },
+    {
+      "id": "TSK-467",
+      "title": "Confirm vendor payment terms",
+      "owner": "Noah Blake",
+      "team": "Procurement",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 15"
+    },
+    {
+      "id": "TSK-468",
+      "title": "Prepare board operating summary",
+      "owner": "Maya Patel",
+      "team": "Revenue",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 16"
+    },
+    {
+      "id": "TSK-469",
+      "title": "Follow up on escalated support ticket",
+      "owner": "Ava Brooks",
+      "team": "Finance",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 17"
+    },
+    {
+      "id": "TSK-470",
+      "title": "Approve onboarding checklist",
+      "owner": "Liam Rhodes",
+      "team": "People",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 18"
+    },
+    {
+      "id": "TSK-471",
+      "title": "Reconcile invoice mismatch",
+      "owner": "Taylor Nguyen",
+      "team": "Support",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 19"
+    },
+    {
+      "id": "TSK-472",
+      "title": "Update CRM ownership",
+      "owner": "Jordan Hayes",
+      "team": "Operations",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 20"
+    },
+    {
+      "id": "TSK-473",
+      "title": "Review procurement SLA",
+      "owner": "Alex Carter",
+      "team": "Procurement",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 21"
+    },
+    {
+      "id": "TSK-474",
+      "title": "Review Q4 revenue exceptions",
+      "owner": "Olivia Chen",
+      "team": "Revenue",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 22"
+    },
+    {
+      "id": "TSK-475",
+      "title": "Confirm vendor payment terms",
+      "owner": "Marcus Lee",
+      "team": "Finance",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 23"
+    },
+    {
+      "id": "TSK-476",
+      "title": "Prepare board operating summary",
+      "owner": "Emma Davis",
+      "team": "People",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 24"
+    },
+    {
+      "id": "TSK-477",
+      "title": "Follow up on escalated support ticket",
+      "owner": "Daniel Kim",
+      "team": "Support",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 25"
+    },
+    {
+      "id": "TSK-478",
+      "title": "Approve onboarding checklist",
+      "owner": "Sofia Grant",
+      "team": "Operations",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 26"
+    },
+    {
+      "id": "TSK-479",
+      "title": "Reconcile invoice mismatch",
+      "owner": "Noah Blake",
+      "team": "Procurement",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 27"
+    },
+    {
+      "id": "TSK-480",
+      "title": "Update CRM ownership",
+      "owner": "Maya Patel",
+      "team": "Revenue",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 28"
+    },
+    {
+      "id": "TSK-481",
+      "title": "Review procurement SLA",
+      "owner": "Ava Brooks",
+      "team": "Finance",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 29"
+    },
+    {
+      "id": "TSK-482",
+      "title": "Review Q4 revenue exceptions",
+      "owner": "Liam Rhodes",
+      "team": "People",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 30"
+    },
+    {
+      "id": "TSK-483",
+      "title": "Confirm vendor payment terms",
+      "owner": "Taylor Nguyen",
+      "team": "Support",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 31"
+    },
+    {
+      "id": "TSK-484",
+      "title": "Prepare board operating summary",
+      "owner": "Jordan Hayes",
+      "team": "Operations",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 15"
+    },
+    {
+      "id": "TSK-485",
+      "title": "Follow up on escalated support ticket",
+      "owner": "Alex Carter",
+      "team": "Procurement",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 16"
+    },
+    {
+      "id": "TSK-486",
+      "title": "Approve onboarding checklist",
+      "owner": "Olivia Chen",
+      "team": "Revenue",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 17"
+    },
+    {
+      "id": "TSK-487",
+      "title": "Reconcile invoice mismatch",
+      "owner": "Marcus Lee",
+      "team": "Finance",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 18"
+    },
+    {
+      "id": "TSK-488",
+      "title": "Update CRM ownership",
+      "owner": "Emma Davis",
+      "team": "People",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 19"
+    },
+    {
+      "id": "TSK-489",
+      "title": "Review procurement SLA",
+      "owner": "Daniel Kim",
+      "team": "Support",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 20"
+    },
+    {
+      "id": "TSK-490",
+      "title": "Review Q4 revenue exceptions",
+      "owner": "Sofia Grant",
+      "team": "Operations",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 21"
+    },
+    {
+      "id": "TSK-491",
+      "title": "Confirm vendor payment terms",
+      "owner": "Noah Blake",
+      "team": "Procurement",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 22"
+    },
+    {
+      "id": "TSK-492",
+      "title": "Prepare board operating summary",
+      "owner": "Maya Patel",
+      "team": "Revenue",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 23"
+    },
+    {
+      "id": "TSK-493",
+      "title": "Follow up on escalated support ticket",
+      "owner": "Ava Brooks",
+      "team": "Finance",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 24"
+    },
+    {
+      "id": "TSK-494",
+      "title": "Approve onboarding checklist",
+      "owner": "Liam Rhodes",
+      "team": "People",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 25"
+    },
+    {
+      "id": "TSK-495",
+      "title": "Reconcile invoice mismatch",
+      "owner": "Taylor Nguyen",
+      "team": "Support",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 26"
+    },
+    {
+      "id": "TSK-496",
+      "title": "Update CRM ownership",
+      "owner": "Jordan Hayes",
+      "team": "Operations",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 27"
+    },
+    {
+      "id": "TSK-497",
+      "title": "Review procurement SLA",
+      "owner": "Alex Carter",
+      "team": "Procurement",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 28"
+    },
+    {
+      "id": "TSK-498",
+      "title": "Review Q4 revenue exceptions",
+      "owner": "Olivia Chen",
+      "team": "Revenue",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 29"
+    },
+    {
+      "id": "TSK-499",
+      "title": "Confirm vendor payment terms",
+      "owner": "Marcus Lee",
+      "team": "Finance",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 30"
+    },
+    {
+      "id": "TSK-500",
+      "title": "Prepare board operating summary",
+      "owner": "Emma Davis",
+      "team": "People",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 31"
+    },
+    {
+      "id": "TSK-501",
+      "title": "Follow up on escalated support ticket",
+      "owner": "Daniel Kim",
+      "team": "Support",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 15"
+    },
+    {
+      "id": "TSK-502",
+      "title": "Approve onboarding checklist",
+      "owner": "Sofia Grant",
+      "team": "Operations",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 16"
+    },
+    {
+      "id": "TSK-503",
+      "title": "Reconcile invoice mismatch",
+      "owner": "Noah Blake",
+      "team": "Procurement",
+      "status": "In progress",
+      "priority": "Normal",
+      "due": "Oct 17"
+    },
+    {
+      "id": "TSK-504",
+      "title": "Update CRM ownership",
+      "owner": "Maya Patel",
+      "team": "Revenue",
+      "status": "In review",
+      "priority": "Normal",
+      "due": "Oct 18"
+    },
+    {
+      "id": "TSK-505",
+      "title": "Review procurement SLA",
+      "owner": "Ava Brooks",
+      "team": "Finance",
+      "status": "Done",
+      "priority": "Low",
+      "due": "Oct 19"
+    },
+    {
+      "id": "TSK-506",
+      "title": "Review Q4 revenue exceptions",
+      "owner": "Liam Rhodes",
+      "team": "People",
+      "status": "To do",
+      "priority": "High",
+      "due": "Oct 20"
+    }
+  ],
+  "approvals": [
+    {
+      "id": "AP-780",
+      "title": "Vendor credit exception",
+      "requested_by": "Olivia Chen",
+      "department": "Revenue",
+      "amount": 1200,
+      "priority": "Urgent",
+      "status": "Approved",
+      "due": "Oct 16",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-781",
+      "title": "Customer refund review",
+      "requested_by": "Daniel Kim",
+      "department": "Finance",
+      "amount": 6300,
+      "priority": "Standard",
+      "status": "Pending",
+      "due": "Oct 17",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-782",
+      "title": "Invoice posting decision",
+      "requested_by": "Maya Patel",
+      "department": "People",
+      "amount": 850,
+      "priority": "Standard",
+      "status": "Pending",
+      "due": "Oct 18",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-783",
+      "title": "High-value purchase request",
+      "requested_by": "Taylor Nguyen",
+      "department": "Support",
+      "amount": 14500,
+      "priority": "Urgent",
+      "status": "Pending",
+      "due": "Oct 19",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-784",
+      "title": "Contract term exception",
+      "requested_by": "Olivia Chen",
+      "department": "Operations",
+      "amount": 0,
+      "priority": "Standard",
+      "status": "Pending",
+      "due": "Oct 20",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-785",
+      "title": "Access request",
+      "requested_by": "Daniel Kim",
+      "department": "Procurement",
+      "amount": 0,
+      "priority": "Standard",
+      "status": "Approved",
+      "due": "Oct 21",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-786",
+      "title": "Outreach draft review",
+      "requested_by": "Maya Patel",
+      "department": "Revenue",
+      "amount": 0,
+      "priority": "Urgent",
+      "status": "Pending",
+      "due": "Oct 22",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-787",
+      "title": "Vendor credit exception",
+      "requested_by": "Taylor Nguyen",
+      "department": "Finance",
+      "amount": 1200,
+      "priority": "Standard",
+      "status": "Pending",
+      "due": "Oct 23",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-788",
+      "title": "Customer refund review",
+      "requested_by": "Olivia Chen",
+      "department": "People",
+      "amount": 6300,
+      "priority": "Standard",
+      "status": "Pending",
+      "due": "Oct 24",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-789",
+      "title": "Invoice posting decision",
+      "requested_by": "Daniel Kim",
+      "department": "Support",
+      "amount": 850,
+      "priority": "Urgent",
+      "status": "Pending",
+      "due": "Oct 25",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-790",
+      "title": "High-value purchase request",
+      "requested_by": "Maya Patel",
+      "department": "Operations",
+      "amount": 14500,
+      "priority": "Standard",
+      "status": "Approved",
+      "due": "Oct 16",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-791",
+      "title": "Contract term exception",
+      "requested_by": "Taylor Nguyen",
+      "department": "Procurement",
+      "amount": 0,
+      "priority": "Standard",
+      "status": "Pending",
+      "due": "Oct 17",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-792",
+      "title": "Access request",
+      "requested_by": "Olivia Chen",
+      "department": "Revenue",
+      "amount": 0,
+      "priority": "Urgent",
+      "status": "Pending",
+      "due": "Oct 18",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-793",
+      "title": "Outreach draft review",
+      "requested_by": "Daniel Kim",
+      "department": "Finance",
+      "amount": 0,
+      "priority": "Standard",
+      "status": "Pending",
+      "due": "Oct 19",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-794",
+      "title": "Vendor credit exception",
+      "requested_by": "Maya Patel",
+      "department": "People",
+      "amount": 1200,
+      "priority": "Standard",
+      "status": "Pending",
+      "due": "Oct 20",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-795",
+      "title": "Customer refund review",
+      "requested_by": "Taylor Nguyen",
+      "department": "Support",
+      "amount": 6300,
+      "priority": "Urgent",
+      "status": "Approved",
+      "due": "Oct 21",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-796",
+      "title": "Invoice posting decision",
+      "requested_by": "Olivia Chen",
+      "department": "Operations",
+      "amount": 850,
+      "priority": "Standard",
+      "status": "Pending",
+      "due": "Oct 22",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-797",
+      "title": "High-value purchase request",
+      "requested_by": "Daniel Kim",
+      "department": "Procurement",
+      "amount": 14500,
+      "priority": "Standard",
+      "status": "Pending",
+      "due": "Oct 23",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    },
+    {
+      "id": "AP-798",
+      "title": "Contract term exception",
+      "requested_by": "Maya Patel",
+      "department": "Revenue",
+      "amount": 0,
+      "priority": "Urgent",
+      "status": "Pending",
+      "due": "Oct 24",
+      "notes": "A reviewer must confirm supporting records before the action is applied."
+    }
+  ],
+  "customers": [
+    {
+      "id": "AC-20",
+      "company": "Alder & Stone",
+      "owner": "Olivia Chen",
+      "stage": "Active",
+      "health": "Healthy",
+      "value": 24000,
+      "industry": "Services"
+    },
+    {
+      "id": "AC-21",
+      "company": "Westhaven Digital",
+      "owner": "Daniel Kim",
+      "stage": "Onboarding",
+      "health": "Attention",
+      "value": 28800,
+      "industry": "Technology"
+    },
+    {
+      "id": "AC-22",
+      "company": "Beacon Supply",
+      "owner": "Maya Patel",
+      "stage": "Review",
+      "health": "Healthy",
+      "value": 33600,
+      "industry": "Retail"
+    },
+    {
+      "id": "AC-23",
+      "company": "Ridgewell Group",
+      "owner": "Taylor Nguyen",
+      "stage": "Active",
+      "health": "Healthy",
+      "value": 38400,
+      "industry": "Healthcare"
+    },
+    {
+      "id": "AC-24",
+      "company": "Valora Health",
+      "owner": "Olivia Chen",
+      "stage": "Active",
+      "health": "Attention",
+      "value": 43200,
+      "industry": "Services"
+    },
+    {
+      "id": "AC-25",
+      "company": "Morrow Studios",
+      "owner": "Daniel Kim",
+      "stage": "Onboarding",
+      "health": "Healthy",
+      "value": 48000,
+      "industry": "Technology"
+    },
+    {
+      "id": "AC-26",
+      "company": "Bluecrest Energy",
+      "owner": "Maya Patel",
+      "stage": "Review",
+      "health": "Healthy",
+      "value": 52800,
+      "industry": "Retail"
+    },
+    {
+      "id": "AC-27",
+      "company": "Northfield Works",
+      "owner": "Taylor Nguyen",
+      "stage": "Active",
+      "health": "Attention",
+      "value": 57600,
+      "industry": "Healthcare"
+    },
+    {
+      "id": "AC-28",
+      "company": "Evergate Realty",
+      "owner": "Olivia Chen",
+      "stage": "Active",
+      "health": "Healthy",
+      "value": 62400,
+      "industry": "Services"
+    },
+    {
+      "id": "AC-29",
+      "company": "Summit Valley",
+      "owner": "Daniel Kim",
+      "stage": "Onboarding",
+      "health": "Healthy",
+      "value": 67200,
+      "industry": "Technology"
+    },
+    {
+      "id": "AC-30",
+      "company": "Cedarpoint Labs",
+      "owner": "Maya Patel",
+      "stage": "Review",
+      "health": "Attention",
+      "value": 72000,
+      "industry": "Retail"
+    },
+    {
+      "id": "AC-31",
+      "company": "Axion Products",
+      "owner": "Taylor Nguyen",
+      "stage": "Active",
+      "health": "Healthy",
+      "value": 76800,
+      "industry": "Healthcare"
+    },
+    {
+      "id": "AC-32",
+      "company": "Harborwell Advisors",
+      "owner": "Olivia Chen",
+      "stage": "Active",
+      "health": "Healthy",
+      "value": 81600,
+      "industry": "Services"
+    },
+    {
+      "id": "AC-33",
+      "company": "Solara Commerce",
+      "owner": "Daniel Kim",
+      "stage": "Onboarding",
+      "health": "Attention",
+      "value": 86400,
+      "industry": "Technology"
+    }
+  ],
+  "projects": [
+    {
+      "id": "PRJ-100",
+      "name": "Apollo CRM Rollout",
+      "team": "Revenue",
+      "owner": "Olivia Chen",
+      "progress": 74,
+      "status": "On track",
+      "budget": 68000
+    },
+    {
+      "id": "PRJ-101",
+      "name": "Supplier Portal Launch",
+      "team": "Finance",
+      "owner": "Marcus Lee",
+      "progress": 48,
+      "status": "At risk",
+      "budget": 44000
+    },
+    {
+      "id": "PRJ-102",
+      "name": "Support Modernization",
+      "team": "People",
+      "owner": "Emma Davis",
+      "progress": 62,
+      "status": "On track",
+      "budget": 52000
+    },
+    {
+      "id": "PRJ-103",
+      "name": "Finance Controls Upgrade",
+      "team": "Support",
+      "owner": "Daniel Kim",
+      "progress": 88,
+      "status": "On track",
+      "budget": 73000
+    },
+    {
+      "id": "PRJ-104",
+      "name": "Order-to-Cash Revamp",
+      "team": "Operations",
+      "owner": "Sofia Grant",
+      "progress": 31,
+      "status": "At risk",
+      "budget": 38000
+    },
+    {
+      "id": "PRJ-105",
+      "name": "Employee Hub Refresh",
+      "team": "Procurement",
+      "owner": "Noah Blake",
+      "progress": 54,
+      "status": "On track",
+      "budget": 61000
+    },
+    {
+      "id": "PRJ-106",
+      "name": "Field Services Expansion",
+      "team": "Revenue",
+      "owner": "Maya Patel",
+      "progress": 68,
+      "status": "On track",
+      "budget": 85000
+    },
+    {
+      "id": "PRJ-107",
+      "name": "Forecasting Pilot",
+      "team": "Finance",
+      "owner": "Ava Brooks",
+      "progress": 26,
+      "status": "At risk",
+      "budget": 36000
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-2026-1001",
+      "vendor": "Alder & Stone",
+      "amount": 620.0,
+      "status": "Ready for review",
+      "due": "Oct 16"
+    },
+    {
+      "id": "INV-2026-1002",
+      "vendor": "Westhaven Digital",
+      "amount": 747.5,
+      "status": "Matched",
+      "due": "Oct 17"
+    },
+    {
+      "id": "INV-2026-1003",
+      "vendor": "Beacon Supply",
+      "amount": 875.0,
+      "status": "Exception",
+      "due": "Oct 18"
+    },
+    {
+      "id": "INV-2026-1004",
+      "vendor": "Ridgewell Group",
+      "amount": 1002.5,
+      "status": "Paid",
+      "due": "Oct 19"
+    },
+    {
+      "id": "INV-2026-1005",
+      "vendor": "Valora Health",
+      "amount": 1130.0,
+      "status": "Ready for review",
+      "due": "Oct 20"
+    },
+    {
+      "id": "INV-2026-1006",
+      "vendor": "Morrow Studios",
+      "amount": 1257.5,
+      "status": "Matched",
+      "due": "Oct 21"
+    },
+    {
+      "id": "INV-2026-1007",
+      "vendor": "Bluecrest Energy",
+      "amount": 1385.0,
+      "status": "Exception",
+      "due": "Oct 22"
+    },
+    {
+      "id": "INV-2026-1008",
+      "vendor": "Northfield Works",
+      "amount": 1512.5,
+      "status": "Paid",
+      "due": "Oct 23"
+    },
+    {
+      "id": "INV-2026-1009",
+      "vendor": "Evergate Realty",
+      "amount": 1640.0,
+      "status": "Ready for review",
+      "due": "Oct 24"
+    },
+    {
+      "id": "INV-2026-1010",
+      "vendor": "Summit Valley",
+      "amount": 1767.5,
+      "status": "Matched",
+      "due": "Oct 25"
+    },
+    {
+      "id": "INV-2026-1011",
+      "vendor": "Cedarpoint Labs",
+      "amount": 1895.0,
+      "status": "Exception",
+      "due": "Oct 26"
+    },
+    {
+      "id": "INV-2026-1012",
+      "vendor": "Axion Products",
+      "amount": 2022.5,
+      "status": "Paid",
+      "due": "Oct 27"
+    },
+    {
+      "id": "INV-2026-1013",
+      "vendor": "Harborwell Advisors",
+      "amount": 2150.0,
+      "status": "Ready for review",
+      "due": "Oct 28"
+    },
+    {
+      "id": "INV-2026-1014",
+      "vendor": "Solara Commerce",
+      "amount": 2277.5,
+      "status": "Matched",
+      "due": "Oct 29"
+    },
+    {
+      "id": "INV-2026-1015",
+      "vendor": "Alder & Stone",
+      "amount": 2405.0,
+      "status": "Exception",
+      "due": "Oct 16"
+    },
+    {
+      "id": "INV-2026-1016",
+      "vendor": "Westhaven Digital",
+      "amount": 2532.5,
+      "status": "Paid",
+      "due": "Oct 17"
+    },
+    {
+      "id": "INV-2026-1017",
+      "vendor": "Beacon Supply",
+      "amount": 2660.0,
+      "status": "Ready for review",
+      "due": "Oct 18"
+    },
+    {
+      "id": "INV-2026-1018",
+      "vendor": "Ridgewell Group",
+      "amount": 2787.5,
+      "status": "Matched",
+      "due": "Oct 19"
+    },
+    {
+      "id": "INV-2026-1019",
+      "vendor": "Valora Health",
+      "amount": 2915.0,
+      "status": "Exception",
+      "due": "Oct 20"
+    },
+    {
+      "id": "INV-2026-1020",
+      "vendor": "Morrow Studios",
+      "amount": 3042.5,
+      "status": "Paid",
+      "due": "Oct 21"
+    },
+    {
+      "id": "INV-2026-1021",
+      "vendor": "Bluecrest Energy",
+      "amount": 3170.0,
+      "status": "Ready for review",
+      "due": "Oct 22"
+    },
+    {
+      "id": "INV-2026-1022",
+      "vendor": "Northfield Works",
+      "amount": 3297.5,
+      "status": "Matched",
+      "due": "Oct 23"
+    },
+    {
+      "id": "INV-2026-1023",
+      "vendor": "Evergate Realty",
+      "amount": 3425.0,
+      "status": "Exception",
+      "due": "Oct 24"
+    },
+    {
+      "id": "INV-2026-1024",
+      "vendor": "Summit Valley",
+      "amount": 3552.5,
+      "status": "Paid",
+      "due": "Oct 25"
+    },
+    {
+      "id": "INV-2026-1025",
+      "vendor": "Cedarpoint Labs",
+      "amount": 3680.0,
+      "status": "Ready for review",
+      "due": "Oct 26"
+    },
+    {
+      "id": "INV-2026-1026",
+      "vendor": "Axion Products",
+      "amount": 3807.5,
+      "status": "Matched",
+      "due": "Oct 27"
+    },
+    {
+      "id": "INV-2026-1027",
+      "vendor": "Harborwell Advisors",
+      "amount": 3935.0,
+      "status": "Exception",
+      "due": "Oct 28"
+    },
+    {
+      "id": "INV-2026-1028",
+      "vendor": "Solara Commerce",
+      "amount": 4062.5,
+      "status": "Paid",
+      "due": "Oct 29"
+    }
+  ],
+  "orders": [
+    {
+      "id": "PO-760",
+      "vendor": "Morrow Studios",
+      "amount": 3500,
+      "status": "Open",
+      "owner": "Olivia Chen"
+    },
+    {
+      "id": "PO-761",
+      "vendor": "Bluecrest Energy",
+      "amount": 3820,
+      "status": "In transit",
+      "owner": "Marcus Lee"
+    },
+    {
+      "id": "PO-762",
+      "vendor": "Northfield Works",
+      "amount": 4140,
+      "status": "Awaiting approval",
+      "owner": "Emma Davis"
+    },
+    {
+      "id": "PO-763",
+      "vendor": "Evergate Realty",
+      "amount": 4460,
+      "status": "Received",
+      "owner": "Daniel Kim"
+    },
+    {
+      "id": "PO-764",
+      "vendor": "Summit Valley",
+      "amount": 4780,
+      "status": "Open",
+      "owner": "Sofia Grant"
+    },
+    {
+      "id": "PO-765",
+      "vendor": "Cedarpoint Labs",
+      "amount": 5100,
+      "status": "In transit",
+      "owner": "Noah Blake"
+    },
+    {
+      "id": "PO-766",
+      "vendor": "Axion Products",
+      "amount": 5420,
+      "status": "Awaiting approval",
+      "owner": "Maya Patel"
+    },
+    {
+      "id": "PO-767",
+      "vendor": "Harborwell Advisors",
+      "amount": 5740,
+      "status": "Received",
+      "owner": "Ava Brooks"
+    },
+    {
+      "id": "PO-768",
+      "vendor": "Solara Commerce",
+      "amount": 6060,
+      "status": "Open",
+      "owner": "Liam Rhodes"
+    },
+    {
+      "id": "PO-769",
+      "vendor": "Alder & Stone",
+      "amount": 6380,
+      "status": "In transit",
+      "owner": "Taylor Nguyen"
+    },
+    {
+      "id": "PO-770",
+      "vendor": "Westhaven Digital",
+      "amount": 6700,
+      "status": "Awaiting approval",
+      "owner": "Jordan Hayes"
+    },
+    {
+      "id": "PO-771",
+      "vendor": "Beacon Supply",
+      "amount": 7020,
+      "status": "Received",
+      "owner": "Alex Carter"
+    },
+    {
+      "id": "PO-772",
+      "vendor": "Ridgewell Group",
+      "amount": 7340,
+      "status": "Open",
+      "owner": "Olivia Chen"
+    },
+    {
+      "id": "PO-773",
+      "vendor": "Valora Health",
+      "amount": 7660,
+      "status": "In transit",
+      "owner": "Marcus Lee"
+    },
+    {
+      "id": "PO-774",
+      "vendor": "Morrow Studios",
+      "amount": 7980,
+      "status": "Awaiting approval",
+      "owner": "Emma Davis"
+    },
+    {
+      "id": "PO-775",
+      "vendor": "Bluecrest Energy",
+      "amount": 8300,
+      "status": "Received",
+      "owner": "Daniel Kim"
+    },
+    {
+      "id": "PO-776",
+      "vendor": "Northfield Works",
+      "amount": 8620,
+      "status": "Open",
+      "owner": "Sofia Grant"
+    },
+    {
+      "id": "PO-777",
+      "vendor": "Evergate Realty",
+      "amount": 8940,
+      "status": "In transit",
+      "owner": "Noah Blake"
+    },
+    {
+      "id": "PO-778",
+      "vendor": "Summit Valley",
+      "amount": 9260,
+      "status": "Awaiting approval",
+      "owner": "Maya Patel"
+    },
+    {
+      "id": "PO-779",
+      "vendor": "Cedarpoint Labs",
+      "amount": 9580,
+      "status": "Received",
+      "owner": "Ava Brooks"
+    },
+    {
+      "id": "PO-780",
+      "vendor": "Axion Products",
+      "amount": 9900,
+      "status": "Open",
+      "owner": "Liam Rhodes"
+    },
+    {
+      "id": "PO-781",
+      "vendor": "Harborwell Advisors",
+      "amount": 10220,
+      "status": "In transit",
+      "owner": "Taylor Nguyen"
+    },
+    {
+      "id": "PO-782",
+      "vendor": "Solara Commerce",
+      "amount": 10540,
+      "status": "Awaiting approval",
+      "owner": "Jordan Hayes"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "TKT-3120",
+      "subject": "Access request",
+      "company": "Alder & Stone",
+      "priority": "Critical",
+      "status": "Open",
+      "owner": "Olivia Chen"
+    },
+    {
+      "id": "TKT-3121",
+      "subject": "Payment issue",
+      "company": "Westhaven Digital",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Marcus Lee"
+    },
+    {
+      "id": "TKT-3122",
+      "subject": "System performance",
+      "company": "Beacon Supply",
+      "priority": "Medium",
+      "status": "Resolved",
+      "owner": "Emma Davis"
+    },
+    {
+      "id": "TKT-3123",
+      "subject": "Integration question",
+      "company": "Ridgewell Group",
+      "priority": "Low",
+      "status": "Open",
+      "owner": "Daniel Kim"
+    },
+    {
+      "id": "TKT-3124",
+      "subject": "Delivery follow-up",
+      "company": "Valora Health",
+      "priority": "Critical",
+      "status": "In progress",
+      "owner": "Sofia Grant"
+    },
+    {
+      "id": "TKT-3125",
+      "subject": "Account configuration",
+      "company": "Morrow Studios",
+      "priority": "High",
+      "status": "Resolved",
+      "owner": "Noah Blake"
+    },
+    {
+      "id": "TKT-3126",
+      "subject": "Access request",
+      "company": "Bluecrest Energy",
+      "priority": "Medium",
+      "status": "Open",
+      "owner": "Maya Patel"
+    },
+    {
+      "id": "TKT-3127",
+      "subject": "Payment issue",
+      "company": "Northfield Works",
+      "priority": "Low",
+      "status": "In progress",
+      "owner": "Ava Brooks"
+    },
+    {
+      "id": "TKT-3128",
+      "subject": "System performance",
+      "company": "Evergate Realty",
+      "priority": "Critical",
+      "status": "Resolved",
+      "owner": "Liam Rhodes"
+    },
+    {
+      "id": "TKT-3129",
+      "subject": "Integration question",
+      "company": "Summit Valley",
+      "priority": "High",
+      "status": "Open",
+      "owner": "Taylor Nguyen"
+    },
+    {
+      "id": "TKT-3130",
+      "subject": "Delivery follow-up",
+      "company": "Cedarpoint Labs",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Jordan Hayes"
+    },
+    {
+      "id": "TKT-3131",
+      "subject": "Account configuration",
+      "company": "Axion Products",
+      "priority": "Low",
+      "status": "Resolved",
+      "owner": "Alex Carter"
+    },
+    {
+      "id": "TKT-3132",
+      "subject": "Access request",
+      "company": "Harborwell Advisors",
+      "priority": "Critical",
+      "status": "Open",
+      "owner": "Olivia Chen"
+    },
+    {
+      "id": "TKT-3133",
+      "subject": "Payment issue",
+      "company": "Solara Commerce",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Marcus Lee"
+    },
+    {
+      "id": "TKT-3134",
+      "subject": "System performance",
+      "company": "Alder & Stone",
+      "priority": "Medium",
+      "status": "Resolved",
+      "owner": "Emma Davis"
+    },
+    {
+      "id": "TKT-3135",
+      "subject": "Integration question",
+      "company": "Westhaven Digital",
+      "priority": "Low",
+      "status": "Open",
+      "owner": "Daniel Kim"
+    },
+    {
+      "id": "TKT-3136",
+      "subject": "Delivery follow-up",
+      "company": "Beacon Supply",
+      "priority": "Critical",
+      "status": "In progress",
+      "owner": "Sofia Grant"
+    },
+    {
+      "id": "TKT-3137",
+      "subject": "Account configuration",
+      "company": "Ridgewell Group",
+      "priority": "High",
+      "status": "Resolved",
+      "owner": "Noah Blake"
+    },
+    {
+      "id": "TKT-3138",
+      "subject": "Access request",
+      "company": "Valora Health",
+      "priority": "Medium",
+      "status": "Open",
+      "owner": "Maya Patel"
+    },
+    {
+      "id": "TKT-3139",
+      "subject": "Payment issue",
+      "company": "Morrow Studios",
+      "priority": "Low",
+      "status": "In progress",
+      "owner": "Ava Brooks"
+    },
+    {
+      "id": "TKT-3140",
+      "subject": "System performance",
+      "company": "Bluecrest Energy",
+      "priority": "Critical",
+      "status": "Resolved",
+      "owner": "Liam Rhodes"
+    },
+    {
+      "id": "TKT-3141",
+      "subject": "Integration question",
+      "company": "Northfield Works",
+      "priority": "High",
+      "status": "Open",
+      "owner": "Taylor Nguyen"
+    },
+    {
+      "id": "TKT-3142",
+      "subject": "Delivery follow-up",
+      "company": "Evergate Realty",
+      "priority": "Medium",
+      "status": "In progress",
+      "owner": "Jordan Hayes"
+    },
+    {
+      "id": "TKT-3143",
+      "subject": "Account configuration",
+      "company": "Summit Valley",
+      "priority": "Low",
+      "status": "Resolved",
+      "owner": "Alex Carter"
+    },
+    {
+      "id": "TKT-3144",
+      "subject": "Access request",
+      "company": "Cedarpoint Labs",
+      "priority": "Critical",
+      "status": "Open",
+      "owner": "Olivia Chen"
+    },
+    {
+      "id": "TKT-3145",
+      "subject": "Payment issue",
+      "company": "Axion Products",
+      "priority": "High",
+      "status": "In progress",
+      "owner": "Marcus Lee"
+    },
+    {
+      "id": "TKT-3146",
+      "subject": "System performance",
+      "company": "Harborwell Advisors",
+      "priority": "Medium",
+      "status": "Resolved",
+      "owner": "Emma Davis"
+    },
+    {
+      "id": "TKT-3147",
+      "subject": "Integration question",
+      "company": "Solara Commerce",
+      "priority": "Low",
+      "status": "Open",
+      "owner": "Daniel Kim"
+    }
+  ],
+  "docs": [
+    {
+      "id": "DOC-001",
+      "name": "Revenue Forecasting SOP",
+      "department": "Revenue",
+      "version": "1.0",
+      "status": "Approved",
+      "updated": "Oct 15"
+    },
+    {
+      "id": "DOC-002",
+      "name": "Invoice Approval Matrix",
+      "department": "Finance",
+      "version": "2.1",
+      "status": "Approved",
+      "updated": "Oct 14"
+    },
+    {
+      "id": "DOC-003",
+      "name": "Vendor Risk Checklist",
+      "department": "People",
+      "version": "3.2",
+      "status": "Approved",
+      "updated": "Oct 13"
+    },
+    {
+      "id": "DOC-004",
+      "name": "Support Escalation Policy",
+      "department": "Support",
+      "version": "1.3",
+      "status": "Approved",
+      "updated": "Oct 12"
+    },
+    {
+      "id": "DOC-005",
+      "name": "Hiring Approval Framework",
+      "department": "Operations",
+      "version": "2.4",
+      "status": "Approved",
+      "updated": "Oct 11"
+    },
+    {
+      "id": "DOC-006",
+      "name": "Security Access Standard",
+      "department": "Procurement",
+      "version": "3.0",
+      "status": "Approved",
+      "updated": "Oct 10"
+    },
+    {
+      "id": "DOC-007",
+      "name": "Customer Handoff Playbook",
+      "department": "Revenue",
+      "version": "1.1",
+      "status": "Approved",
+      "updated": "Oct 9"
+    },
+    {
+      "id": "DOC-008",
+      "name": "Procurement Controls",
+      "department": "Finance",
+      "version": "2.2",
+      "status": "Approved",
+      "updated": "Oct 8"
+    },
+    {
+      "id": "DOC-009",
+      "name": "Project Reporting Guide",
+      "department": "People",
+      "version": "3.3",
+      "status": "Approved",
+      "updated": "Oct 15"
+    },
+    {
+      "id": "DOC-010",
+      "name": "Expense Reimbursement Policy",
+      "department": "Support",
+      "version": "1.4",
+      "status": "Approved",
+      "updated": "Oct 14"
+    },
+    {
+      "id": "DOC-011",
+      "name": "Data Retention Guide",
+      "department": "Operations",
+      "version": "2.0",
+      "status": "Approved",
+      "updated": "Oct 13"
+    },
+    {
+      "id": "DOC-012",
+      "name": "Contract Review Process",
+      "department": "Procurement",
+      "version": "3.1",
+      "status": "Approved",
+      "updated": "Oct 12"
+    }
+  ],
+  "runs": [
+    {
+      "id": "RUN-2026",
+      "workflow": "Revenue Review",
+      "status": "Success",
+      "duration": "0.3s",
+      "time": "1h ago",
+      "steps": 4
+    },
+    {
+      "id": "RUN-2027",
+      "workflow": "AP Exception Routing",
+      "status": "Success",
+      "duration": "0.4s",
+      "time": "2h ago",
+      "steps": 5
+    },
+    {
+      "id": "RUN-2028",
+      "workflow": "Customer Escalation",
+      "status": "Success",
+      "duration": "0.6s",
+      "time": "3h ago",
+      "steps": 6
+    },
+    {
+      "id": "RUN-2029",
+      "workflow": "New Vendor Review",
+      "status": "Needs review",
+      "duration": "0.7s",
+      "time": "4h ago",
+      "steps": 7
+    },
+    {
+      "id": "RUN-2030",
+      "workflow": "Weekly Business Brief",
+      "status": "Success",
+      "duration": "0.8s",
+      "time": "5h ago",
+      "steps": 8
+    },
+    {
+      "id": "RUN-2031",
+      "workflow": "Access Request Check",
+      "status": "Success",
+      "duration": "0.9s",
+      "time": "6h ago",
+      "steps": 4
+    },
+    {
+      "id": "RUN-2032",
+      "workflow": "Revenue Review",
+      "status": "Success",
+      "duration": "1.1s",
+      "time": "7h ago",
+      "steps": 5
+    },
+    {
+      "id": "RUN-2033",
+      "workflow": "AP Exception Routing",
+      "status": "Needs review",
+      "duration": "1.2s",
+      "time": "8h ago",
+      "steps": 6
+    },
+    {
+      "id": "RUN-2034",
+      "workflow": "Customer Escalation",
+      "status": "Success",
+      "duration": "1.3s",
+      "time": "1h ago",
+      "steps": 7
+    },
+    {
+      "id": "RUN-2035",
+      "workflow": "New Vendor Review",
+      "status": "Success",
+      "duration": "1.5s",
+      "time": "2h ago",
+      "steps": 8
+    },
+    {
+      "id": "RUN-2036",
+      "workflow": "Weekly Business Brief",
+      "status": "Success",
+      "duration": "1.6s",
+      "time": "3h ago",
+      "steps": 4
+    },
+    {
+      "id": "RUN-2037",
+      "workflow": "Access Request Check",
+      "status": "Needs review",
+      "duration": "1.7s",
+      "time": "4h ago",
+      "steps": 5
+    },
+    {
+      "id": "RUN-2038",
+      "workflow": "Revenue Review",
+      "status": "Success",
+      "duration": "1.9s",
+      "time": "5h ago",
+      "steps": 6
+    },
+    {
+      "id": "RUN-2039",
+      "workflow": "AP Exception Routing",
+      "status": "Success",
+      "duration": "2.0s",
+      "time": "6h ago",
+      "steps": 7
+    },
+    {
+      "id": "RUN-2040",
+      "workflow": "Customer Escalation",
+      "status": "Success",
+      "duration": "2.1s",
+      "time": "7h ago",
+      "steps": 8
+    },
+    {
+      "id": "RUN-2041",
+      "workflow": "New Vendor Review",
+      "status": "Needs review",
+      "duration": "2.2s",
+      "time": "8h ago",
+      "steps": 4
+    },
+    {
+      "id": "RUN-2042",
+      "workflow": "Weekly Business Brief",
+      "status": "Success",
+      "duration": "2.4s",
+      "time": "1h ago",
+      "steps": 5
+    },
+    {
+      "id": "RUN-2043",
+      "workflow": "Access Request Check",
+      "status": "Success",
+      "duration": "2.5s",
+      "time": "2h ago",
+      "steps": 6
+    },
+    {
+      "id": "RUN-2044",
+      "workflow": "Revenue Review",
+      "status": "Success",
+      "duration": "2.6s",
+      "time": "3h ago",
+      "steps": 7
+    },
+    {
+      "id": "RUN-2045",
+      "workflow": "AP Exception Routing",
+      "status": "Needs review",
+      "duration": "2.8s",
+      "time": "4h ago",
+      "steps": 8
+    },
+    {
+      "id": "RUN-2046",
+      "workflow": "Customer Escalation",
+      "status": "Success",
+      "duration": "2.9s",
+      "time": "5h ago",
+      "steps": 4
+    },
+    {
+      "id": "RUN-2047",
+      "workflow": "New Vendor Review",
+      "status": "Success",
+      "duration": "3.0s",
+      "time": "6h ago",
+      "steps": 5
+    },
+    {
+      "id": "RUN-2048",
+      "workflow": "Weekly Business Brief",
+      "status": "Success",
+      "duration": "3.2s",
+      "time": "7h ago",
+      "steps": 6
+    },
+    {
+      "id": "RUN-2049",
+      "workflow": "Access Request Check",
+      "status": "Needs review",
+      "duration": "3.3s",
+      "time": "8h ago",
+      "steps": 7
+    },
+    {
+      "id": "RUN-2050",
+      "workflow": "Revenue Review",
+      "status": "Success",
+      "duration": "3.4s",
+      "time": "1h ago",
+      "steps": 8
+    },
+    {
+      "id": "RUN-2051",
+      "workflow": "AP Exception Routing",
+      "status": "Success",
+      "duration": "3.5s",
+      "time": "2h ago",
+      "steps": 4
+    },
+    {
+      "id": "RUN-2052",
+      "workflow": "Customer Escalation",
+      "status": "Success",
+      "duration": "3.7s",
+      "time": "3h ago",
+      "steps": 5
+    },
+    {
+      "id": "RUN-2053",
+      "workflow": "New Vendor Review",
+      "status": "Needs review",
+      "duration": "3.8s",
+      "time": "4h ago",
+      "steps": 6
+    },
+    {
+      "id": "RUN-2054",
+      "workflow": "Weekly Business Brief",
+      "status": "Success",
+      "duration": "3.9s",
+      "time": "5h ago",
+      "steps": 7
+    },
+    {
+      "id": "RUN-2055",
+      "workflow": "Access Request Check",
+      "status": "Success",
+      "duration": "4.1s",
+      "time": "6h ago",
+      "steps": 8
+    },
+    {
+      "id": "RUN-2056",
+      "workflow": "Revenue Review",
+      "status": "Success",
+      "duration": "4.2s",
+      "time": "7h ago",
+      "steps": 4
+    },
+    {
+      "id": "RUN-2057",
+      "workflow": "AP Exception Routing",
+      "status": "Needs review",
+      "duration": "4.3s",
+      "time": "8h ago",
+      "steps": 5
+    },
+    {
+      "id": "RUN-2058",
+      "workflow": "Customer Escalation",
+      "status": "Success",
+      "duration": "4.5s",
+      "time": "1h ago",
+      "steps": 6
+    },
+    {
+      "id": "RUN-2059",
+      "workflow": "New Vendor Review",
+      "status": "Success",
+      "duration": "4.6s",
+      "time": "2h ago",
+      "steps": 7
+    },
+    {
+      "id": "RUN-2060",
+      "workflow": "Weekly Business Brief",
+      "status": "Success",
+      "duration": "4.7s",
+      "time": "3h ago",
+      "steps": 8
+    },
+    {
+      "id": "RUN-2061",
+      "workflow": "Access Request Check",
+      "status": "Needs review",
+      "duration": "4.8s",
+      "time": "4h ago",
+      "steps": 4
+    },
+    {
+      "id": "RUN-2062",
+      "workflow": "Revenue Review",
+      "status": "Success",
+      "duration": "5.0s",
+      "time": "5h ago",
+      "steps": 5
+    },
+    {
+      "id": "RUN-2063",
+      "workflow": "AP Exception Routing",
+      "status": "Success",
+      "duration": "5.1s",
+      "time": "6h ago",
+      "steps": 6
+    },
+    {
+      "id": "RUN-2064",
+      "workflow": "Customer Escalation",
+      "status": "Success",
+      "duration": "5.2s",
+      "time": "7h ago",
+      "steps": 7
+    },
+    {
+      "id": "RUN-2065",
+      "workflow": "New Vendor Review",
+      "status": "Needs review",
+      "duration": "5.4s",
+      "time": "8h ago",
+      "steps": 8
+    },
+    {
+      "id": "RUN-2066",
+      "workflow": "Weekly Business Brief",
+      "status": "Success",
+      "duration": "5.5s",
+      "time": "1h ago",
+      "steps": 4
+    },
+    {
+      "id": "RUN-2067",
+      "workflow": "Access Request Check",
+      "status": "Success",
+      "duration": "5.6s",
+      "time": "2h ago",
+      "steps": 5
+    },
+    {
+      "id": "RUN-2068",
+      "workflow": "Revenue Review",
+      "status": "Success",
+      "duration": "5.8s",
+      "time": "3h ago",
+      "steps": 6
+    },
+    {
+      "id": "RUN-2069",
+      "workflow": "AP Exception Routing",
+      "status": "Needs review",
+      "duration": "5.9s",
+      "time": "4h ago",
+      "steps": 7
+    },
+    {
+      "id": "RUN-2070",
+      "workflow": "Customer Escalation",
+      "status": "Success",
+      "duration": "6.0s",
+      "time": "5h ago",
+      "steps": 8
+    },
+    {
+      "id": "RUN-2071",
+      "workflow": "New Vendor Review",
+      "status": "Success",
+      "duration": "6.2s",
+      "time": "6h ago",
+      "steps": 4
+    },
+    {
+      "id": "RUN-2072",
+      "workflow": "Weekly Business Brief",
+      "status": "Success",
+      "duration": "6.3s",
+      "time": "7h ago",
+      "steps": 5
+    },
+    {
+      "id": "RUN-2073",
+      "workflow": "Access Request Check",
+      "status": "Needs review",
+      "duration": "6.4s",
+      "time": "8h ago",
+      "steps": 6
+    },
+    {
+      "id": "RUN-2074",
+      "workflow": "Revenue Review",
+      "status": "Success",
+      "duration": "6.5s",
+      "time": "1h ago",
+      "steps": 7
+    }
+  ],
+  "logs": [
+    {
+      "id": "EV-6700",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Revenue",
+      "time": "4m ago"
+    },
+    {
+      "id": "EV-6701",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Finance",
+      "time": "11m ago"
+    },
+    {
+      "id": "EV-6702",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "People",
+      "time": "18m ago"
+    },
+    {
+      "id": "EV-6703",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "Support",
+      "time": "25m ago"
+    },
+    {
+      "id": "EV-6704",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "Operations",
+      "time": "32m ago"
+    },
+    {
+      "id": "EV-6705",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Procurement",
+      "time": "39m ago"
+    },
+    {
+      "id": "EV-6706",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Revenue",
+      "time": "46m ago"
+    },
+    {
+      "id": "EV-6707",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "Finance",
+      "time": "53m ago"
+    },
+    {
+      "id": "EV-6708",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "People",
+      "time": "60m ago"
+    },
+    {
+      "id": "EV-6709",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "Support",
+      "time": "67m ago"
+    },
+    {
+      "id": "EV-6710",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Operations",
+      "time": "74m ago"
+    },
+    {
+      "id": "EV-6711",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Procurement",
+      "time": "81m ago"
+    },
+    {
+      "id": "EV-6712",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "Revenue",
+      "time": "88m ago"
+    },
+    {
+      "id": "EV-6713",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "Finance",
+      "time": "95m ago"
+    },
+    {
+      "id": "EV-6714",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "People",
+      "time": "102m ago"
+    },
+    {
+      "id": "EV-6715",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Support",
+      "time": "109m ago"
+    },
+    {
+      "id": "EV-6716",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Operations",
+      "time": "116m ago"
+    },
+    {
+      "id": "EV-6717",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "Procurement",
+      "time": "123m ago"
+    },
+    {
+      "id": "EV-6718",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "Revenue",
+      "time": "130m ago"
+    },
+    {
+      "id": "EV-6719",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "Finance",
+      "time": "137m ago"
+    },
+    {
+      "id": "EV-6720",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "People",
+      "time": "144m ago"
+    },
+    {
+      "id": "EV-6721",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Support",
+      "time": "151m ago"
+    },
+    {
+      "id": "EV-6722",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "Operations",
+      "time": "158m ago"
+    },
+    {
+      "id": "EV-6723",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "Procurement",
+      "time": "165m ago"
+    },
+    {
+      "id": "EV-6724",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "Revenue",
+      "time": "172m ago"
+    },
+    {
+      "id": "EV-6725",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Finance",
+      "time": "179m ago"
+    },
+    {
+      "id": "EV-6726",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "People",
+      "time": "186m ago"
+    },
+    {
+      "id": "EV-6727",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "Support",
+      "time": "193m ago"
+    },
+    {
+      "id": "EV-6728",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "Operations",
+      "time": "200m ago"
+    },
+    {
+      "id": "EV-6729",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "Procurement",
+      "time": "207m ago"
+    },
+    {
+      "id": "EV-6730",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Revenue",
+      "time": "214m ago"
+    },
+    {
+      "id": "EV-6731",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Finance",
+      "time": "221m ago"
+    },
+    {
+      "id": "EV-6732",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "People",
+      "time": "228m ago"
+    },
+    {
+      "id": "EV-6733",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "Support",
+      "time": "235m ago"
+    },
+    {
+      "id": "EV-6734",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "Operations",
+      "time": "242m ago"
+    },
+    {
+      "id": "EV-6735",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Procurement",
+      "time": "249m ago"
+    },
+    {
+      "id": "EV-6736",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Revenue",
+      "time": "256m ago"
+    },
+    {
+      "id": "EV-6737",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "Finance",
+      "time": "263m ago"
+    },
+    {
+      "id": "EV-6738",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "People",
+      "time": "270m ago"
+    },
+    {
+      "id": "EV-6739",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "Support",
+      "time": "277m ago"
+    },
+    {
+      "id": "EV-6740",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Operations",
+      "time": "284m ago"
+    },
+    {
+      "id": "EV-6741",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Procurement",
+      "time": "291m ago"
+    },
+    {
+      "id": "EV-6742",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "Revenue",
+      "time": "298m ago"
+    },
+    {
+      "id": "EV-6743",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "Finance",
+      "time": "305m ago"
+    },
+    {
+      "id": "EV-6744",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "People",
+      "time": "312m ago"
+    },
+    {
+      "id": "EV-6745",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Support",
+      "time": "319m ago"
+    },
+    {
+      "id": "EV-6746",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Operations",
+      "time": "326m ago"
+    },
+    {
+      "id": "EV-6747",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "Procurement",
+      "time": "333m ago"
+    },
+    {
+      "id": "EV-6748",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "Revenue",
+      "time": "340m ago"
+    },
+    {
+      "id": "EV-6749",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "Finance",
+      "time": "347m ago"
+    },
+    {
+      "id": "EV-6750",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "People",
+      "time": "354m ago"
+    },
+    {
+      "id": "EV-6751",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Support",
+      "time": "361m ago"
+    },
+    {
+      "id": "EV-6752",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "Operations",
+      "time": "368m ago"
+    },
+    {
+      "id": "EV-6753",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "Procurement",
+      "time": "375m ago"
+    },
+    {
+      "id": "EV-6754",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "Revenue",
+      "time": "382m ago"
+    },
+    {
+      "id": "EV-6755",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Finance",
+      "time": "389m ago"
+    },
+    {
+      "id": "EV-6756",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "People",
+      "time": "396m ago"
+    },
+    {
+      "id": "EV-6757",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "Support",
+      "time": "403m ago"
+    },
+    {
+      "id": "EV-6758",
+      "actor": "Marcus Lee",
+      "action": "Changed task status",
+      "module": "Operations",
+      "time": "410m ago"
+    },
+    {
+      "id": "EV-6759",
+      "actor": "System Rules",
+      "action": "Completed simulated workflow",
+      "module": "Procurement",
+      "time": "417m ago"
+    },
+    {
+      "id": "EV-6760",
+      "actor": "Olivia Chen",
+      "action": "Reviewed vendor request",
+      "module": "Revenue",
+      "time": "424m ago"
+    },
+    {
+      "id": "EV-6761",
+      "actor": "Operations Agent",
+      "action": "Drafted weekly business brief",
+      "module": "Finance",
+      "time": "431m ago"
+    },
+    {
+      "id": "EV-6762",
+      "actor": "Finance Desk Agent",
+      "action": "Flagged invoice exception",
+      "module": "People",
+      "time": "438m ago"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "WF-01",
+      "name": "Inbound Request Router",
+      "department": "Revenue",
+      "status": "Draft",
+      "runs": 225,
+      "success": 98,
+      "steps": 5
+    },
+    {
+      "id": "WF-02",
+      "name": "Invoice Exception Reviewer",
+      "department": "Finance",
+      "status": "Active",
+      "runs": 242,
+      "success": 96,
+      "steps": 6
+    },
+    {
+      "id": "WF-03",
+      "name": "Customer Escalation Path",
+      "department": "People",
+      "status": "Active",
+      "runs": 259,
+      "success": 99,
+      "steps": 7
+    },
+    {
+      "id": "WF-04",
+      "name": "Sales Next-Step Drafting",
+      "department": "Support",
+      "status": "Active",
+      "runs": 276,
+      "success": 94,
+      "steps": 8
+    },
+    {
+      "id": "WF-05",
+      "name": "Vendor Onboarding Checks",
+      "department": "Operations",
+      "status": "Draft",
+      "runs": 293,
+      "success": 97,
+      "steps": 5
+    },
+    {
+      "id": "WF-06",
+      "name": "Executive Briefing Builder",
+      "department": "Procurement",
+      "status": "Active",
+      "runs": 310,
+      "success": 98,
+      "steps": 6
+    },
+    {
+      "id": "WF-07",
+      "name": "Project Status Sync",
+      "department": "Revenue",
+      "status": "Active",
+      "runs": 327,
+      "success": 96,
+      "steps": 7
+    },
+    {
+      "id": "WF-08",
+      "name": "People Policy Triage",
+      "department": "Finance",
+      "status": "Active",
+      "runs": 344,
+      "success": 99,
+      "steps": 8
+    },
+    {
+      "id": "WF-09",
+      "name": "Renewal Reminder Flow",
+      "department": "People",
+      "status": "Draft",
+      "runs": 361,
+      "success": 94,
+      "steps": 5
+    },
+    {
+      "id": "WF-10",
+      "name": "Service Ticket Classification",
+      "department": "Support",
+      "status": "Active",
+      "runs": 378,
+      "success": 97,
+      "steps": 6
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "text": "5 actions are waiting for review",
+      "unread": true
+    },
+    {
+      "id": 2,
+      "text": "Invoice exception assigned to Finance",
+      "unread": true
+    },
+    {
+      "id": 3,
+      "text": "Weekly operating brief is ready for approval",
+      "unread": true
+    },
+    {
+      "id": 4,
+      "text": "Vendor onboarding response due today",
+      "unread": true
+    },
+    {
+      "id": 5,
+      "text": "Customer support backlog needs attention",
+      "unread": false
+    },
+    {
+      "id": 6,
+      "text": "Project Apollo milestone updated",
+      "unread": false
+    }
+  ],
+  "settings": {
+    "workspace": "OrbitOps Central",
+    "approvalThreshold": "5000",
+    "timezone": "America/New_York",
+    "autoPost": false,
+    "retention": "90",
+    "reviewMode": true
+  },
+  "notes": []
+}

@@ -1,0 +1,5 @@
+Designed and built SignalDesk, a self-initiated CRM and lead operations frontend that brings qualification, company profiles, pipeline stages, task management, follow-up review and reporting into one workspace.
+
+Key modules include an executive dashboard, lead intelligence, contact and company management, kanban sales pipeline, approval queue, workflow builder concept, tasks and calendar, email template editor, notification center, integration catalog, reports, audit history and workspace preferences.
+
+The interactive browser application includes searchable records, working forms, stage updates, editable drafts, CSV exports and local audit tracking. Source records and company names are synthetic. The interface operates offline; external n8n/OpenAI/CRM integrations and secure production authentication are not connected.

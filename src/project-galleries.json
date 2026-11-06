@@ -1,0 +1,953 @@
+{
+    "signaldesk":  [
+                       {
+                           "title":  "Upwork Cover",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Upwork Cover",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/00_Upwork_Cover_1000x750.png"
+                       },
+                       {
+                           "title":  "Overview",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Overview",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/01_Overview.png"
+                       },
+                       {
+                           "title":  "Lead Intelligence",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Lead Intelligence",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/02_Lead_Intelligence.png"
+                       },
+                       {
+                           "title":  "Sales Pipeline",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Sales Pipeline",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/03_Sales_Pipeline.png"
+                       },
+                       {
+                           "title":  "Workflow Studio",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Workflow Studio",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/04_Workflow_Studio.png"
+                       },
+                       {
+                           "title":  "Approval Queue",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Approval Queue",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/05_Approval_Queue.png"
+                       },
+                       {
+                           "title":  "Analytics",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Analytics",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/06_Analytics.png"
+                       },
+                       {
+                           "title":  "Contacts",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Contacts",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/07_Contacts.png"
+                       },
+                       {
+                           "title":  "Companies",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Companies",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/08_Companies.png"
+                       },
+                       {
+                           "title":  "Tasks Calendar",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Tasks Calendar",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/09_Tasks_Calendar.png"
+                       },
+                       {
+                           "title":  "Email Templates",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Email Templates",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/10_Email_Templates.png"
+                       },
+                       {
+                           "title":  "Notifications",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Notifications",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/11_Notifications.png"
+                       },
+                       {
+                           "title":  "Integrations",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Integrations",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/12_Integrations.png"
+                       },
+                       {
+                           "title":  "Reports",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Reports",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/13_Reports.png"
+                       },
+                       {
+                           "title":  "Audit",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Audit",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/14_Audit.png"
+                       },
+                       {
+                           "title":  "Workspace Settings",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — Workspace Settings",
+                           "image":  "/assets/portfolio/signaldesk/01_Upwork_Gallery/15_Workspace_Settings.png"
+                       },
+                       {
+                           "title":  "SignalDesk Workflow Architecture",
+                           "alt":  "AI Lead Qualification \u0026 CRM Automation — SignalDesk Workflow Architecture",
+                           "image":  "/assets/portfolio/signaldesk/04_Workflow/SignalDesk_Workflow_Architecture.png"
+                       }
+                   ],
+    "knoya-support":  [
+                          {
+                              "title":  "KNOYA Upwork Cover",
+                              "alt":  "AI Customer Support Chatbot with RAG — KNOYA Upwork Cover",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/KNOYA_Upwork_Cover_1000x750.png"
+                          },
+                          {
+                              "title":  "KNOYA Upwork Cover",
+                              "alt":  "AI Customer Support Chatbot with RAG — KNOYA Upwork Cover",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/KNOYA_Upwork_Cover_1600x900.png"
+                          },
+                          {
+                              "title":  "Overview",
+                              "alt":  "AI Customer Support Chatbot with RAG — Overview",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/01_Overview.png"
+                          },
+                          {
+                              "title":  "Knowledge Copilot",
+                              "alt":  "AI Customer Support Chatbot with RAG — Knowledge Copilot",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/02_Knowledge_Copilot.png"
+                          },
+                          {
+                              "title":  "Support Inbox",
+                              "alt":  "AI Customer Support Chatbot with RAG — Support Inbox",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/03_Support_Inbox.png"
+                          },
+                          {
+                              "title":  "Reply Templates",
+                              "alt":  "AI Customer Support Chatbot with RAG — Reply Templates",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/04_Reply_Templates.png"
+                          },
+                          {
+                              "title":  "Escalation Rules",
+                              "alt":  "AI Customer Support Chatbot with RAG — Escalation Rules",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/05_Escalation_Rules.png"
+                          },
+                          {
+                              "title":  "Customer Widget",
+                              "alt":  "AI Customer Support Chatbot with RAG — Customer Widget",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/06_Customer_Widget.png"
+                          },
+                          {
+                              "title":  "Source Library",
+                              "alt":  "AI Customer Support Chatbot with RAG — Source Library",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/07_Source_Library.png"
+                          },
+                          {
+                              "title":  "Document Ingestion",
+                              "alt":  "AI Customer Support Chatbot with RAG — Document Ingestion",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/08_Document_Ingestion.png"
+                          },
+                          {
+                              "title":  "Collections",
+                              "alt":  "AI Customer Support Chatbot with RAG — Collections",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/09_Collections.png"
+                          },
+                          {
+                              "title":  "Retrieval Diagnostics",
+                              "alt":  "AI Customer Support Chatbot with RAG — Retrieval Diagnostics",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/10_Retrieval_Diagnostics.png"
+                          },
+                          {
+                              "title":  "Answer Evaluation",
+                              "alt":  "AI Customer Support Chatbot with RAG — Answer Evaluation",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/11_Answer_Evaluation.png"
+                          },
+                          {
+                              "title":  "Conversations",
+                              "alt":  "AI Customer Support Chatbot with RAG — Conversations",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/12_Conversations.png"
+                          },
+                          {
+                              "title":  "Feedback",
+                              "alt":  "AI Customer Support Chatbot with RAG — Feedback",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/13_Feedback.png"
+                          },
+                          {
+                              "title":  "Reports",
+                              "alt":  "AI Customer Support Chatbot with RAG — Reports",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/14_Reports.png"
+                          },
+                          {
+                              "title":  "Activity",
+                              "alt":  "AI Customer Support Chatbot with RAG — Activity",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/15_Activity.png"
+                          },
+                          {
+                              "title":  "Integrations",
+                              "alt":  "AI Customer Support Chatbot with RAG — Integrations",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/16_Integrations.png"
+                          },
+                          {
+                              "title":  "Settings",
+                              "alt":  "AI Customer Support Chatbot with RAG — Settings",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/17_Settings.png"
+                          },
+                          {
+                              "title":  "KNOYA Governance Quality Showcase",
+                              "alt":  "AI Customer Support Chatbot with RAG — KNOYA Governance Quality Showcase",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/KNOYA_Governance_Quality_Showcase.png"
+                          },
+                          {
+                              "title":  "KNOYA Knowledge Studio Showcase",
+                              "alt":  "AI Customer Support Chatbot with RAG — KNOYA Knowledge Studio Showcase",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/KNOYA_Knowledge_Studio_Showcase.png"
+                          },
+                          {
+                              "title":  "KNOYA Support Operations Showcase",
+                              "alt":  "AI Customer Support Chatbot with RAG — KNOYA Support Operations Showcase",
+                              "image":  "/assets/portfolio/knoya-support/02_Portfolio_Screenshots/KNOYA_Support_Operations_Showcase.png"
+                          }
+                      ],
+    "korva-invoice":  [
+                          {
+                              "title":  "KORVA Upwork Cover",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — KORVA Upwork Cover",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/KORVA_Upwork_Cover_1600x900.png"
+                          },
+                          {
+                              "title":  "Overview",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Overview",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/01_Overview.png"
+                          },
+                          {
+                              "title":  "Invoice Inbox",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Invoice Inbox",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/02_Invoice_Inbox.png"
+                          },
+                          {
+                              "title":  "Extraction Review",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Extraction Review",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/03_Extraction_Review.png"
+                          },
+                          {
+                              "title":  "Approval Center",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Approval Center",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/04_Approval_Center.png"
+                          },
+                          {
+                              "title":  "Vendors",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Vendors",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/05_Vendors.png"
+                          },
+                          {
+                              "title":  "Purchase Orders",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Purchase Orders",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/06_Purchase_Orders.png"
+                          },
+                          {
+                              "title":  "Matching",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Matching",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/07_Matching.png"
+                          },
+                          {
+                              "title":  "Accounting Sync",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Accounting Sync",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/08_Accounting_Sync.png"
+                          },
+                          {
+                              "title":  "Workflow Studio",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Workflow Studio",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/09_Workflow_Studio.png"
+                          },
+                          {
+                              "title":  "Payment Planner",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Payment Planner",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/10_Payment_Planner.png"
+                          },
+                          {
+                              "title":  "Duplicate Watch",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Duplicate Watch",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/11_Duplicate_Watch.png"
+                          },
+                          {
+                              "title":  "Cash Outlook",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Cash Outlook",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/12_Cash_Outlook.png"
+                          },
+                          {
+                              "title":  "Reconciliation",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Reconciliation",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/13_Reconciliation.png"
+                          },
+                          {
+                              "title":  "Reports",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Reports",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/14_Reports.png"
+                          },
+                          {
+                              "title":  "Audit History",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Audit History",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/15_Audit_History.png"
+                          },
+                          {
+                              "title":  "Integrations",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Integrations",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/16_Integrations.png"
+                          },
+                          {
+                              "title":  "Settings",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Settings",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/17_Settings.png"
+                          },
+                          {
+                              "title":  "Case Study Preview Page 01",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Case Study Preview Page 01",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/Case_Study_Preview_Page_01.png"
+                          },
+                          {
+                              "title":  "Case Study Preview Page 04",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Case Study Preview Page 04",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/Case_Study_Preview_Page_04.png"
+                          },
+                          {
+                              "title":  "Case Study Preview Page 06",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Case Study Preview Page 06",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/Case_Study_Preview_Page_06.png"
+                          },
+                          {
+                              "title":  "Case Study Preview Page 09",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — Case Study Preview Page 09",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/Case_Study_Preview_Page_09.png"
+                          },
+                          {
+                              "title":  "KORVA Workspace Showcase",
+                              "alt":  "AI Invoice Processing \u0026 Accounting Automation — KORVA Workspace Showcase",
+                              "image":  "/assets/portfolio/korva-invoice/02_Screenshots/KORVA_Workspace_Showcase.png"
+                          }
+                      ],
+    "dayline-reception":  [
+                              {
+                                  "title":  "DAYLINE Upwork Cover",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — DAYLINE Upwork Cover",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/DAYLINE_Upwork_Cover_1600x900.png"
+                              },
+                              {
+                                  "title":  "Executive Overview",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Executive Overview",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/01_Executive_Overview.png"
+                              },
+                              {
+                                  "title":  "Live Reception Simulator",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Live Reception Simulator",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/02_Live_Reception_Simulator.png"
+                              },
+                              {
+                                  "title":  "Call Inbox",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Call Inbox",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/03_Call_Inbox.png"
+                              },
+                              {
+                                  "title":  "Conversation Intelligence",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Conversation Intelligence",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/04_Conversation_Intelligence.png"
+                              },
+                              {
+                                  "title":  "Appointments",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Appointments",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/05_Appointments.png"
+                              },
+                              {
+                                  "title":  "Dispatch Calendar",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Dispatch Calendar",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/06_Dispatch_Calendar.png"
+                              },
+                              {
+                                  "title":  "Customer Directory",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Customer Directory",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/07_Customer_Directory.png"
+                              },
+                              {
+                                  "title":  "Call Flow Studio",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Call Flow Studio",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/08_Call_Flow_Studio.png"
+                              },
+                              {
+                                  "title":  "Knowledge Base",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Knowledge Base",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/09_Knowledge_Base.png"
+                              },
+                              {
+                                  "title":  "Human Review Queue",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Human Review Queue",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/10_Human_Review_Queue.png"
+                              },
+                              {
+                                  "title":  "Callback Planner",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Callback Planner",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/11_Callback_Planner.png"
+                              },
+                              {
+                                  "title":  "Reminder Center",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Reminder Center",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/12_Reminder_Center.png"
+                              },
+                              {
+                                  "title":  "Business Hours Rules",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Business Hours Rules",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/13_Business_Hours_Rules.png"
+                              },
+                              {
+                                  "title":  "Reception Playbooks",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Reception Playbooks",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/14_Reception_Playbooks.png"
+                              },
+                              {
+                                  "title":  "Analytics",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Analytics",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/15_Analytics.png"
+                              },
+                              {
+                                  "title":  "Quality Monitoring",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Quality Monitoring",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/16_Quality_Monitoring.png"
+                              },
+                              {
+                                  "title":  "Activity History",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Activity History",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/17_Activity_History.png"
+                              },
+                              {
+                                  "title":  "Integrations",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Integrations",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/18_Integrations.png"
+                              },
+                              {
+                                  "title":  "Workspace Settings",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — Workspace Settings",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/19_Workspace_Settings.png"
+                              },
+                              {
+                                  "title":  "DAYLINE Screen Showcase",
+                                  "alt":  "AI Voice Receptionist \u0026 Appointment Booking — DAYLINE Screen Showcase",
+                                  "image":  "/assets/portfolio/dayline-reception/02_Upwork_Gallery/DAYLINE_Screen_Showcase.png"
+                              }
+                          ],
+    "postlane-email":  [
+                           {
+                               "title":  "Upwork Cover",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Upwork Cover",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/00_Upwork_Cover_1000x750.png"
+                           },
+                           {
+                               "title":  "Command Center",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Command Center",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/01_Command_Center.png"
+                           },
+                           {
+                               "title":  "Unified Inbox",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Unified Inbox",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/02_Unified_Inbox.png"
+                           },
+                           {
+                               "title":  "Sequences",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Sequences",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/03_Sequences.png"
+                           },
+                           {
+                               "title":  "Audience",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Audience",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/04_Audience.png"
+                           },
+                           {
+                               "title":  "Template Studio",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Template Studio",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/05_Template_Studio.png"
+                           },
+                           {
+                               "title":  "Review Queue",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Review Queue",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/06_Review_Queue.png"
+                           },
+                           {
+                               "title":  "Automation Studio",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Automation Studio",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/07_Automation_Studio.png"
+                           },
+                           {
+                               "title":  "Deliverability",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Deliverability",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/08_Deliverability.png"
+                           },
+                           {
+                               "title":  "Schedule Board",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Schedule Board",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/09_Schedule_Board.png"
+                           },
+                           {
+                               "title":  "Performance",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Performance",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/10_Performance.png"
+                           },
+                           {
+                               "title":  "Integrations",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Integrations",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/11_Integrations.png"
+                           },
+                           {
+                               "title":  "Settings",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Settings",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/12_Settings.png"
+                           },
+                           {
+                               "title":  "Activity History",
+                               "alt":  "AI Email Follow-Up \u0026 Sales Automation — Activity History",
+                               "image":  "/assets/portfolio/postlane-email/01_Upwork_Gallery/13_Activity_History.png"
+                           }
+                       ],
+    "yardline-erp":  [
+                         {
+                             "title":  "Upwork Cover",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Upwork Cover",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/00_Upwork_Cover_1000x750.png"
+                         },
+                         {
+                             "title":  "Operations Overview",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Operations Overview",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/01_Operations_Overview.png"
+                         },
+                         {
+                             "title":  "Inventory Ledger",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Inventory Ledger",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/02_Inventory_Ledger.png"
+                         },
+                         {
+                             "title":  "Product Catalog",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Product Catalog",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/03_Product_Catalog.png"
+                         },
+                         {
+                             "title":  "Warehouse Network",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Warehouse Network",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/04_Warehouse_Network.png"
+                         },
+                         {
+                             "title":  "Stock Movements",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Stock Movements",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/05_Stock_Movements.png"
+                         },
+                         {
+                             "title":  "Purchase Orders",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Purchase Orders",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/06_Purchase_Orders.png"
+                         },
+                         {
+                             "title":  "Goods Receiving",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Goods Receiving",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/07_Goods_Receiving.png"
+                         },
+                         {
+                             "title":  "Supplier Network",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Supplier Network",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/08_Supplier_Network.png"
+                         },
+                         {
+                             "title":  "Sales Orders",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Sales Orders",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/09_Sales_Orders.png"
+                         },
+                         {
+                             "title":  "Fulfillment Board",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Fulfillment Board",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/10_Fulfillment_Board.png"
+                         },
+                         {
+                             "title":  "Returns RMA",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Returns RMA",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/11_Returns_RMA.png"
+                         },
+                         {
+                             "title":  "Transfers",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Transfers",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/12_Transfers.png"
+                         },
+                         {
+                             "title":  "Cycle Counting",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Cycle Counting",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/13_Cycle_Counting.png"
+                         },
+                         {
+                             "title":  "Replenishment Planner",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Replenishment Planner",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/14_Replenishment_Planner.png"
+                         },
+                         {
+                             "title":  "Demand Forecasting",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Demand Forecasting",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/15_Demand_Forecasting.png"
+                         },
+                         {
+                             "title":  "Automation Studio",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Automation Studio",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/16_Automation_Studio.png"
+                         },
+                         {
+                             "title":  "Approval Desk",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Approval Desk",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/17_Approval_Desk.png"
+                         },
+                         {
+                             "title":  "Exception Watch",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Exception Watch",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/18_Exception_Watch.png"
+                         },
+                         {
+                             "title":  "Integrations",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Integrations",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/19_Integrations.png"
+                         },
+                         {
+                             "title":  "Performance Analytics",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Performance Analytics",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/20_Performance_Analytics.png"
+                         },
+                         {
+                             "title":  "Cost Valuation",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Cost Valuation",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/21_Cost_Valuation.png"
+                         },
+                         {
+                             "title":  "Bill Of Materials",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Bill Of Materials",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/22_Bill_Of_Materials.png"
+                         },
+                         {
+                             "title":  "Production Planning",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Production Planning",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/23_Production_Planning.png"
+                         },
+                         {
+                             "title":  "Report Center",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Report Center",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/24_Report_Center.png"
+                         },
+                         {
+                             "title":  "Settings",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Settings",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/25_Settings.png"
+                         },
+                         {
+                             "title":  "Shift Tasks",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Shift Tasks",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/26_Shift_Tasks.png"
+                         },
+                         {
+                             "title":  "Dispatch Tracking",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Dispatch Tracking",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/27_Dispatch_Tracking.png"
+                         },
+                         {
+                             "title":  "Audit History",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Audit History",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/28_Audit_History.png"
+                         },
+                         {
+                             "title":  "Team Permissions",
+                             "alt":  "ERP \u0026 Inventory Workflow Automation — Team Permissions",
+                             "image":  "/assets/portfolio/yardline-erp/01_Upwork_Gallery/29_Team_Permissions.png"
+                         }
+                     ],
+    "velahire-hr":  [
+                        {
+                            "title":  "Upwork Cover",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Upwork Cover",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/00_Upwork_Cover_1000x750.png"
+                        },
+                        {
+                            "title":  "Command Center",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Command Center",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/01_Command_Center.png"
+                        },
+                        {
+                            "title":  "Open Roles",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Open Roles",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/02_Open_Roles.png"
+                        },
+                        {
+                            "title":  "Job Builder",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Job Builder",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/03_Job_Builder.png"
+                        },
+                        {
+                            "title":  "Careers Page",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Careers Page",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/04_Careers_Page.png"
+                        },
+                        {
+                            "title":  "Applicants",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Applicants",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/05_Applicants.png"
+                        },
+                        {
+                            "title":  "Candidate 360",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Candidate 360",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/06_Candidate_360.png"
+                        },
+                        {
+                            "title":  "Resume Lab",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Resume Lab",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/07_Resume_Lab.png"
+                        },
+                        {
+                            "title":  "Skills Matrix",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Skills Matrix",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/08_Skills_Matrix.png"
+                        },
+                        {
+                            "title":  "Talent Pipeline",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Talent Pipeline",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/09_Talent_Pipeline.png"
+                        },
+                        {
+                            "title":  "Talent Pools",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Talent Pools",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/10_Talent_Pools.png"
+                        },
+                        {
+                            "title":  "Referrals",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Referrals",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/11_Referrals.png"
+                        },
+                        {
+                            "title":  "Interviews",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Interviews",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/12_Interviews.png"
+                        },
+                        {
+                            "title":  "Scorecards",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Scorecards",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/13_Scorecards.png"
+                        },
+                        {
+                            "title":  "Team Calendar",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Team Calendar",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/14_Team_Calendar.png"
+                        },
+                        {
+                            "title":  "Conversations",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Conversations",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/15_Conversations.png"
+                        },
+                        {
+                            "title":  "Message Templates",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Message Templates",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/16_Message_Templates.png"
+                        },
+                        {
+                            "title":  "Offers",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Offers",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/17_Offers.png"
+                        },
+                        {
+                            "title":  "Onboarding",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Onboarding",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/18_Onboarding.png"
+                        },
+                        {
+                            "title":  "Approval Desk",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Approval Desk",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/19_Approval_Desk.png"
+                        },
+                        {
+                            "title":  "Tasks",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Tasks",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/20_Tasks.png"
+                        },
+                        {
+                            "title":  "Analytics",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Analytics",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/21_Analytics.png"
+                        },
+                        {
+                            "title":  "Quality Controls",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Quality Controls",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/22_Quality_Controls.png"
+                        },
+                        {
+                            "title":  "Automation Studio",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Automation Studio",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/23_Automation_Studio.png"
+                        },
+                        {
+                            "title":  "Integrations",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Integrations",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/24_Integrations.png"
+                        },
+                        {
+                            "title":  "Audit History",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Audit History",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/25_Audit_History.png"
+                        },
+                        {
+                            "title":  "Team Permissions",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Team Permissions",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/26_Team_Permissions.png"
+                        },
+                        {
+                            "title":  "Settings",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — Settings",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/27_Settings.png"
+                        },
+                        {
+                            "title":  "VelaHire Recruitment Architecture",
+                            "alt":  "AI Recruitment \u0026 HR Workflow Automation — VelaHire Recruitment Architecture",
+                            "image":  "/assets/portfolio/velahire-hr/01_Upwork_Gallery/VelaHire_Recruitment_Architecture.png"
+                        }
+                    ],
+    "orbitops-agent":  [
+                           {
+                               "title":  "Upwork Cover",
+                               "alt":  "AI Business Operations Agent — Upwork Cover",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/00_Upwork_Cover_1000x750.png"
+                           },
+                           {
+                               "title":  "Command Center",
+                               "alt":  "AI Business Operations Agent — Command Center",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/01_Command_Center.png"
+                           },
+                           {
+                               "title":  "Operations Copilot",
+                               "alt":  "AI Business Operations Agent — Operations Copilot",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/02_Operations_Copilot.png"
+                           },
+                           {
+                               "title":  "Agent Directory",
+                               "alt":  "AI Business Operations Agent — Agent Directory",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/03_Agent_Directory.png"
+                           },
+                           {
+                               "title":  "Agent Builder",
+                               "alt":  "AI Business Operations Agent — Agent Builder",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/04_Agent_Builder.png"
+                           },
+                           {
+                               "title":  "Request Hub",
+                               "alt":  "AI Business Operations Agent — Request Hub",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/05_Request_Hub.png"
+                           },
+                           {
+                               "title":  "Task Board",
+                               "alt":  "AI Business Operations Agent — Task Board",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/06_Task_Board.png"
+                           },
+                           {
+                               "title":  "Approval Desk",
+                               "alt":  "AI Business Operations Agent — Approval Desk",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/07_Approval_Desk.png"
+                           },
+                           {
+                               "title":  "Workflow Studio",
+                               "alt":  "AI Business Operations Agent — Workflow Studio",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/08_Workflow_Studio.png"
+                           },
+                           {
+                               "title":  "Execution Runs",
+                               "alt":  "AI Business Operations Agent — Execution Runs",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/09_Execution_Runs.png"
+                           },
+                           {
+                               "title":  "Data Exchange",
+                               "alt":  "AI Business Operations Agent — Data Exchange",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/10_Data_Exchange.png"
+                           },
+                           {
+                               "title":  "Rules Controls",
+                               "alt":  "AI Business Operations Agent — Rules Controls",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/11_Rules_Controls.png"
+                           },
+                           {
+                               "title":  "Quality Evaluations",
+                               "alt":  "AI Business Operations Agent — Quality Evaluations",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/12_Quality_Evaluations.png"
+                           },
+                           {
+                               "title":  "Customer Operations",
+                               "alt":  "AI Business Operations Agent — Customer Operations",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/13_Customer_Operations.png"
+                           },
+                           {
+                               "title":  "Revenue Operations",
+                               "alt":  "AI Business Operations Agent — Revenue Operations",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/14_Revenue_Operations.png"
+                           },
+                           {
+                               "title":  "Finance Desk",
+                               "alt":  "AI Business Operations Agent — Finance Desk",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/15_Finance_Desk.png"
+                           },
+                           {
+                               "title":  "Procurement",
+                               "alt":  "AI Business Operations Agent — Procurement",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/16_Procurement.png"
+                           },
+                           {
+                               "title":  "People Operations",
+                               "alt":  "AI Business Operations Agent — People Operations",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/17_People_Operations.png"
+                           },
+                           {
+                               "title":  "Service Desk",
+                               "alt":  "AI Business Operations Agent — Service Desk",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/18_Service_Desk.png"
+                           },
+                           {
+                               "title":  "Project Portfolio",
+                               "alt":  "AI Business Operations Agent — Project Portfolio",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/19_Project_Portfolio.png"
+                           },
+                           {
+                               "title":  "Team Calendar",
+                               "alt":  "AI Business Operations Agent — Team Calendar",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/20_Team_Calendar.png"
+                           },
+                           {
+                               "title":  "Knowledge Hub",
+                               "alt":  "AI Business Operations Agent — Knowledge Hub",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/21_Knowledge_Hub.png"
+                           },
+                           {
+                               "title":  "Meeting Briefs",
+                               "alt":  "AI Business Operations Agent — Meeting Briefs",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/22_Meeting_Briefs.png"
+                           },
+                           {
+                               "title":  "Comms Center",
+                               "alt":  "AI Business Operations Agent — Comms Center",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/23_Comms_Center.png"
+                           },
+                           {
+                               "title":  "Executive Insights",
+                               "alt":  "AI Business Operations Agent — Executive Insights",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/24_Executive_Insights.png"
+                           },
+                           {
+                               "title":  "Monitoring",
+                               "alt":  "AI Business Operations Agent — Monitoring",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/25_Monitoring.png"
+                           },
+                           {
+                               "title":  "Integrations",
+                               "alt":  "AI Business Operations Agent — Integrations",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/26_Integrations.png"
+                           },
+                           {
+                               "title":  "Audit Trail",
+                               "alt":  "AI Business Operations Agent — Audit Trail",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/27_Audit_Trail.png"
+                           },
+                           {
+                               "title":  "Access Roles",
+                               "alt":  "AI Business Operations Agent — Access Roles",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/28_Access_Roles.png"
+                           },
+                           {
+                               "title":  "Workspace Settings",
+                               "alt":  "AI Business Operations Agent — Workspace Settings",
+                               "image":  "/assets/portfolio/orbitops-agent/01_Upwork_Gallery/29_Workspace_Settings.png"
+                           },
+                           {
+                               "title":  "OrbitOps Operations Architecture",
+                               "alt":  "AI Business Operations Agent — OrbitOps Operations Architecture",
+                               "image":  "/assets/portfolio/orbitops-agent/04_Architecture/OrbitOps_Operations_Architecture.png"
+                           }
+                       ]
+}

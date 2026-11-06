@@ -1,0 +1,15 @@
+id,company,owner,stage,health,value,industry
+AC-20,Alder & Stone,Olivia Chen,Active,Healthy,24000,Services
+AC-21,Westhaven Digital,Daniel Kim,Onboarding,Attention,28800,Technology
+AC-22,Beacon Supply,Maya Patel,Review,Healthy,33600,Retail
+AC-23,Ridgewell Group,Taylor Nguyen,Active,Healthy,38400,Healthcare
+AC-24,Valora Health,Olivia Chen,Active,Attention,43200,Services
+AC-25,Morrow Studios,Daniel Kim,Onboarding,Healthy,48000,Technology
+AC-26,Bluecrest Energy,Maya Patel,Review,Healthy,52800,Retail
+AC-27,Northfield Works,Taylor Nguyen,Active,Attention,57600,Healthcare
+AC-28,Evergate Realty,Olivia Chen,Active,Healthy,62400,Services
+AC-29,Summit Valley,Daniel Kim,Onboarding,Healthy,67200,Technology
+AC-30,Cedarpoint Labs,Maya Patel,Review,Attention,72000,Retail
+AC-31,Axion Products,Taylor Nguyen,Active,Healthy,76800,Healthcare
+AC-32,Harborwell Advisors,Olivia Chen,Active,Healthy,81600,Services
+AC-33,Solara Commerce,Daniel Kim,Onboarding,Attention,86400,Technology

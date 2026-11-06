@@ -1,0 +1,29 @@
+id,vendor,amount,status,due
+INV-2026-1001,Alder & Stone,620.0,Ready for review,Oct 16
+INV-2026-1002,Westhaven Digital,747.5,Matched,Oct 17
+INV-2026-1003,Beacon Supply,875.0,Exception,Oct 18
+INV-2026-1004,Ridgewell Group,1002.5,Paid,Oct 19
+INV-2026-1005,Valora Health,1130.0,Ready for review,Oct 20
+INV-2026-1006,Morrow Studios,1257.5,Matched,Oct 21
+INV-2026-1007,Bluecrest Energy,1385.0,Exception,Oct 22
+INV-2026-1008,Northfield Works,1512.5,Paid,Oct 23
+INV-2026-1009,Evergate Realty,1640.0,Ready for review,Oct 24
+INV-2026-1010,Summit Valley,1767.5,Matched,Oct 25
+INV-2026-1011,Cedarpoint Labs,1895.0,Exception,Oct 26
+INV-2026-1012,Axion Products,2022.5,Paid,Oct 27
+INV-2026-1013,Harborwell Advisors,2150.0,Ready for review,Oct 28
+INV-2026-1014,Solara Commerce,2277.5,Matched,Oct 29
+INV-2026-1015,Alder & Stone,2405.0,Exception,Oct 16
+INV-2026-1016,Westhaven Digital,2532.5,Paid,Oct 17
+INV-2026-1017,Beacon Supply,2660.0,Ready for review,Oct 18
+INV-2026-1018,Ridgewell Group,2787.5,Matched,Oct 19
+INV-2026-1019,Valora Health,2915.0,Exception,Oct 20
+INV-2026-1020,Morrow Studios,3042.5,Paid,Oct 21
+INV-2026-1021,Bluecrest Energy,3170.0,Ready for review,Oct 22
+INV-2026-1022,Northfield Works,3297.5,Matched,Oct 23
+INV-2026-1023,Evergate Realty,3425.0,Exception,Oct 24
+INV-2026-1024,Summit Valley,3552.5,Paid,Oct 25
+INV-2026-1025,Cedarpoint Labs,3680.0,Ready for review,Oct 26
+INV-2026-1026,Axion Products,3807.5,Matched,Oct 27
+INV-2026-1027,Harborwell Advisors,3935.0,Exception,Oct 28
+INV-2026-1028,Solara Commerce,4062.5,Paid,Oct 29

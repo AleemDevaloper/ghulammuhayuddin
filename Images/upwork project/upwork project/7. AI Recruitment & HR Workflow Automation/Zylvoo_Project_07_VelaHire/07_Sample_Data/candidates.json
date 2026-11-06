@@ -1,0 +1,1797 @@
+[
+  {
+    "id": "CAN-1001",
+    "name": "Maya Parker",
+    "email": "maya.parker0@example.com",
+    "job": "JOB-401",
+    "role": "Senior Full-Stack Engineer",
+    "stage": "Applied",
+    "source": "Careers site",
+    "location": "Austin, TX",
+    "skills": [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "HubSpot"
+    ],
+    "match": 25,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-01",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1002",
+    "name": "Owen Chen",
+    "email": "owen.chen1@example.com",
+    "job": "JOB-402",
+    "role": "Product Designer",
+    "stage": "Screening",
+    "source": "Referral",
+    "location": "Remote",
+    "skills": [
+      "Figma",
+      "UI Design",
+      "HubSpot",
+      "Node.js",
+      "Laravel"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-02",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1003",
+    "name": "Sofia Scott",
+    "email": "sofia.scott2@example.com",
+    "job": "JOB-403",
+    "role": "Data Analyst",
+    "stage": "Assessment",
+    "source": "LinkedIn",
+    "location": "Seattle, WA",
+    "skills": [
+      "SQL",
+      "Python",
+      "Analytics",
+      "UI Design",
+      "Communication"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-03",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1004",
+    "name": "Ethan Walker",
+    "email": "ethan.walker3@example.com",
+    "job": "JOB-404",
+    "role": "Customer Success Manager",
+    "stage": "Interview",
+    "source": "Community",
+    "location": "New York, NY",
+    "skills": [
+      "HubSpot",
+      "Communication",
+      "Analytics",
+      "Automation",
+      "Data Modeling"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-04",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1005",
+    "name": "Amara Hall",
+    "email": "amara.hall4@example.com",
+    "job": "JOB-405",
+    "role": "DevOps Engineer",
+    "stage": "Offer",
+    "source": "Talent pool",
+    "location": "Chicago, IL",
+    "skills": [
+      "AWS",
+      "Automation",
+      "Agile",
+      "Laravel"
+    ],
+    "match": 33,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-05",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1006",
+    "name": "Nolan Carter",
+    "email": "nolan.carter5@example.com",
+    "job": "JOB-406",
+    "role": "Sales Operations Specialist",
+    "stage": "Hired",
+    "source": "Careers site",
+    "location": "Dallas, TX",
+    "skills": [
+      "HubSpot",
+      "Automation",
+      "Python",
+      "TypeScript",
+      "Node.js"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-06",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1007",
+    "name": "Ava Brooks",
+    "email": "ava.brooks6@example.com",
+    "job": "JOB-407",
+    "role": "QA Automation Engineer",
+    "stage": "Hold",
+    "source": "Referral",
+    "location": "Austin, TX",
+    "skills": [
+      "Testing",
+      "Python",
+      "Automation",
+      "Docker",
+      "Node.js",
+      "Agile"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-07",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1008",
+    "name": "Arjun Murphy",
+    "email": "arjun.murphy7@example.com",
+    "job": "JOB-408",
+    "role": "Frontend Engineer",
+    "stage": "Applied",
+    "source": "LinkedIn",
+    "location": "Remote",
+    "skills": [
+      "React",
+      "JavaScript",
+      "UI Design",
+      "Python",
+      "Data Modeling"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-08",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1009",
+    "name": "Zoe Cooper",
+    "email": "zoe.cooper8@example.com",
+    "job": "JOB-409",
+    "role": "HR Operations Partner",
+    "stage": "Screening",
+    "source": "Community",
+    "location": "Seattle, WA",
+    "skills": [
+      "Communication",
+      "AWS",
+      "Testing",
+      "REST APIs"
+    ],
+    "match": 33,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-09",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1010",
+    "name": "Liam Bennett",
+    "email": "liam.bennett9@example.com",
+    "job": "JOB-410",
+    "role": "Product Manager",
+    "stage": "Assessment",
+    "source": "Talent pool",
+    "location": "New York, NY",
+    "skills": [
+      "Agile",
+      "Analytics",
+      "PostgreSQL",
+      "UI Design",
+      "Testing"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-10",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1011",
+    "name": "Layla Singh",
+    "email": "layla.singh10@example.com",
+    "job": "JOB-411",
+    "role": "Backend Engineer",
+    "stage": "Interview",
+    "source": "Careers site",
+    "location": "Chicago, IL",
+    "skills": [
+      "Laravel",
+      "PostgreSQL",
+      "REST APIs",
+      "HubSpot",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-11",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1012",
+    "name": "Oliver Lee",
+    "email": "oliver.lee11@example.com",
+    "job": "JOB-412",
+    "role": "Implementation Specialist",
+    "stage": "Offer",
+    "source": "Referral",
+    "location": "Dallas, TX",
+    "skills": [
+      "REST APIs",
+      "Communication",
+      "Automation",
+      "TypeScript",
+      "Analytics"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-12",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1013",
+    "name": "Hana Ali",
+    "email": "hana.ali12@example.com",
+    "job": "JOB-401",
+    "role": "Senior Full-Stack Engineer",
+    "stage": "Hired",
+    "source": "LinkedIn",
+    "location": "Austin, TX",
+    "skills": [
+      "React",
+      "Docker",
+      "UI Design",
+      "Agile"
+    ],
+    "match": 25,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-13",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1014",
+    "name": "Noah Kim",
+    "email": "noah.kim13@example.com",
+    "job": "JOB-402",
+    "role": "Product Designer",
+    "stage": "Hold",
+    "source": "Community",
+    "location": "Remote",
+    "skills": [
+      "Figma",
+      "UI Design",
+      "SQL",
+      "Automation",
+      "Docker"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-14",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1015",
+    "name": "Isla Williams",
+    "email": "isla.williams14@example.com",
+    "job": "JOB-403",
+    "role": "Data Analyst",
+    "stage": "Applied",
+    "source": "Talent pool",
+    "location": "Seattle, WA",
+    "skills": [
+      "SQL",
+      "Python",
+      "Analytics",
+      "PostgreSQL",
+      "Automation"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-15",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1016",
+    "name": "Rayan Rivera",
+    "email": "rayan.rivera15@example.com",
+    "job": "JOB-404",
+    "role": "Customer Success Manager",
+    "stage": "Screening",
+    "source": "Careers site",
+    "location": "New York, NY",
+    "skills": [
+      "HubSpot",
+      "Communication",
+      "Analytics",
+      "Agile",
+      "TypeScript"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-01",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1017",
+    "name": "Mira Bell",
+    "email": "mira.bell16@example.com",
+    "job": "JOB-405",
+    "role": "DevOps Engineer",
+    "stage": "Assessment",
+    "source": "Referral",
+    "location": "Chicago, IL",
+    "skills": [
+      "AWS",
+      "Testing",
+      "Automation",
+      "Analytics"
+    ],
+    "match": 33,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-02",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1018",
+    "name": "Leo Adams",
+    "email": "leo.adams17@example.com",
+    "job": "JOB-406",
+    "role": "Sales Operations Specialist",
+    "stage": "Interview",
+    "source": "LinkedIn",
+    "location": "Dallas, TX",
+    "skills": [
+      "HubSpot",
+      "Automation",
+      "Data Modeling",
+      "Node.js",
+      "Communication"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-03",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1019",
+    "name": "Priya Reyes",
+    "email": "priya.reyes18@example.com",
+    "job": "JOB-407",
+    "role": "QA Automation Engineer",
+    "stage": "Offer",
+    "source": "Community",
+    "location": "Austin, TX",
+    "skills": [
+      "Testing",
+      "Python",
+      "Automation",
+      "HubSpot",
+      "Data Modeling"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-04",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1020",
+    "name": "Theo Morgan",
+    "email": "theo.morgan19@example.com",
+    "job": "JOB-408",
+    "role": "Frontend Engineer",
+    "stage": "Hired",
+    "source": "Talent pool",
+    "location": "Remote",
+    "skills": [
+      "React",
+      "JavaScript",
+      "UI Design",
+      "HubSpot",
+      "REST APIs",
+      "Communication"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-05",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1021",
+    "name": "Nina Davis",
+    "email": "nina.davis20@example.com",
+    "job": "JOB-409",
+    "role": "HR Operations Partner",
+    "stage": "Hold",
+    "source": "Careers site",
+    "location": "Seattle, WA",
+    "skills": [
+      "Communication",
+      "Automation",
+      "Data Modeling",
+      "HubSpot"
+    ],
+    "match": 67,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-06",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1022",
+    "name": "Jonah Evans",
+    "email": "jonah.evans21@example.com",
+    "job": "JOB-410",
+    "role": "Product Manager",
+    "stage": "Applied",
+    "source": "Referral",
+    "location": "New York, NY",
+    "skills": [
+      "Agile",
+      "Analytics",
+      "HubSpot",
+      "Python",
+      "Laravel"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-07",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1023",
+    "name": "Elena Ahmed",
+    "email": "elena.ahmed22@example.com",
+    "job": "JOB-411",
+    "role": "Backend Engineer",
+    "stage": "Screening",
+    "source": "LinkedIn",
+    "location": "Chicago, IL",
+    "skills": [
+      "Laravel",
+      "PostgreSQL",
+      "REST APIs",
+      "SQL",
+      "React",
+      "HubSpot"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-08",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1024",
+    "name": "Adrian Miller",
+    "email": "adrian.miller23@example.com",
+    "job": "JOB-412",
+    "role": "Implementation Specialist",
+    "stage": "Assessment",
+    "source": "Community",
+    "location": "Dallas, TX",
+    "skills": [
+      "REST APIs",
+      "Communication",
+      "Automation",
+      "Node.js",
+      "Data Modeling"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-09",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1025",
+    "name": "Cora Santos",
+    "email": "cora.santos24@example.com",
+    "job": "JOB-401",
+    "role": "Senior Full-Stack Engineer",
+    "stage": "Interview",
+    "source": "Talent pool",
+    "location": "Austin, TX",
+    "skills": [
+      "React",
+      "SQL",
+      "Data Modeling",
+      "Laravel"
+    ],
+    "match": 50,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-10",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1026",
+    "name": "Felix Moore",
+    "email": "felix.moore25@example.com",
+    "job": "JOB-402",
+    "role": "Product Designer",
+    "stage": "Offer",
+    "source": "Careers site",
+    "location": "Remote",
+    "skills": [
+      "Figma",
+      "UI Design",
+      "Node.js",
+      "Agile",
+      "Data Modeling"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-11",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1027",
+    "name": "Anya Patel",
+    "email": "anya.patel26@example.com",
+    "job": "JOB-403",
+    "role": "Data Analyst",
+    "stage": "Hired",
+    "source": "Referral",
+    "location": "Seattle, WA",
+    "skills": [
+      "SQL",
+      "Python",
+      "Analytics",
+      "REST APIs",
+      "UI Design"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-12",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1028",
+    "name": "Miles Khan",
+    "email": "miles.khan27@example.com",
+    "job": "JOB-404",
+    "role": "Customer Success Manager",
+    "stage": "Hold",
+    "source": "LinkedIn",
+    "location": "New York, NY",
+    "skills": [
+      "HubSpot",
+      "Communication",
+      "Analytics",
+      "Testing",
+      "Docker"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-13",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1029",
+    "name": "Sara Foster",
+    "email": "sara.foster28@example.com",
+    "job": "JOB-405",
+    "role": "DevOps Engineer",
+    "stage": "Applied",
+    "source": "Community",
+    "location": "Chicago, IL",
+    "skills": [
+      "AWS",
+      "HubSpot",
+      "Data Modeling",
+      "Testing"
+    ],
+    "match": 33,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-14",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1030",
+    "name": "Nico Young",
+    "email": "nico.young29@example.com",
+    "job": "JOB-406",
+    "role": "Sales Operations Specialist",
+    "stage": "Screening",
+    "source": "Talent pool",
+    "location": "Dallas, TX",
+    "skills": [
+      "HubSpot",
+      "Automation",
+      "Communication",
+      "AWS",
+      "Docker"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-15",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1031",
+    "name": "Lara Parker",
+    "email": "lara.parker30@example.com",
+    "job": "JOB-407",
+    "role": "QA Automation Engineer",
+    "stage": "Assessment",
+    "source": "Careers site",
+    "location": "Austin, TX",
+    "skills": [
+      "Testing",
+      "Python",
+      "Automation",
+      "REST APIs",
+      "React"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-01",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1032",
+    "name": "Dean Chen",
+    "email": "dean.chen31@example.com",
+    "job": "JOB-408",
+    "role": "Frontend Engineer",
+    "stage": "Interview",
+    "source": "Referral",
+    "location": "Remote",
+    "skills": [
+      "React",
+      "JavaScript",
+      "UI Design",
+      "SQL",
+      "Agile",
+      "HubSpot"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-02",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1033",
+    "name": "Iris Scott",
+    "email": "iris.scott32@example.com",
+    "job": "JOB-409",
+    "role": "HR Operations Partner",
+    "stage": "Offer",
+    "source": "LinkedIn",
+    "location": "Seattle, WA",
+    "skills": [
+      "Communication",
+      "Data Modeling",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "match": 33,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-03",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1034",
+    "name": "Alex Walker",
+    "email": "alex.walker33@example.com",
+    "job": "JOB-410",
+    "role": "Product Manager",
+    "stage": "Hired",
+    "source": "Community",
+    "location": "New York, NY",
+    "skills": [
+      "Agile",
+      "Analytics",
+      "REST APIs",
+      "Data Modeling"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-04",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1035",
+    "name": "Lena Hall",
+    "email": "lena.hall34@example.com",
+    "job": "JOB-411",
+    "role": "Backend Engineer",
+    "stage": "Hold",
+    "source": "Talent pool",
+    "location": "Chicago, IL",
+    "skills": [
+      "Laravel",
+      "PostgreSQL",
+      "REST APIs",
+      "HubSpot",
+      "Data Modeling",
+      "Communication"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-05",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1036",
+    "name": "Sam Carter",
+    "email": "sam.carter35@example.com",
+    "job": "JOB-412",
+    "role": "Implementation Specialist",
+    "stage": "Applied",
+    "source": "Careers site",
+    "location": "Dallas, TX",
+    "skills": [
+      "REST APIs",
+      "Communication",
+      "Automation",
+      "Analytics",
+      "React",
+      "Docker"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-06",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1037",
+    "name": "Maya Brooks",
+    "email": "maya.brooks36@example.com",
+    "job": "JOB-401",
+    "role": "Senior Full-Stack Engineer",
+    "stage": "Screening",
+    "source": "Referral",
+    "location": "Austin, TX",
+    "skills": [
+      "React",
+      "JavaScript",
+      "Agile",
+      "Node.js"
+    ],
+    "match": 25,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-07",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1038",
+    "name": "Owen Murphy",
+    "email": "owen.murphy37@example.com",
+    "job": "JOB-402",
+    "role": "Product Designer",
+    "stage": "Assessment",
+    "source": "LinkedIn",
+    "location": "Remote",
+    "skills": [
+      "Figma",
+      "UI Design",
+      "Agile",
+      "HubSpot",
+      "REST APIs"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-08",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1039",
+    "name": "Sofia Cooper",
+    "email": "sofia.cooper38@example.com",
+    "job": "JOB-403",
+    "role": "Data Analyst",
+    "stage": "Interview",
+    "source": "Community",
+    "location": "Seattle, WA",
+    "skills": [
+      "SQL",
+      "Python",
+      "Analytics",
+      "Agile",
+      "Figma",
+      "Communication"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-09",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1040",
+    "name": "Ethan Bennett",
+    "email": "ethan.bennett39@example.com",
+    "job": "JOB-404",
+    "role": "Customer Success Manager",
+    "stage": "Offer",
+    "source": "Talent pool",
+    "location": "New York, NY",
+    "skills": [
+      "HubSpot",
+      "Communication",
+      "Analytics",
+      "Data Modeling",
+      "TypeScript",
+      "REST APIs"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-10",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1041",
+    "name": "Amara Singh",
+    "email": "amara.singh40@example.com",
+    "job": "JOB-405",
+    "role": "DevOps Engineer",
+    "stage": "Hired",
+    "source": "Careers site",
+    "location": "Chicago, IL",
+    "skills": [
+      "AWS",
+      "Data Modeling",
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "match": 33,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-11",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1042",
+    "name": "Nolan Lee",
+    "email": "nolan.lee41@example.com",
+    "job": "JOB-406",
+    "role": "Sales Operations Specialist",
+    "stage": "Hold",
+    "source": "Referral",
+    "location": "Dallas, TX",
+    "skills": [
+      "HubSpot",
+      "Automation",
+      "AWS",
+      "Communication",
+      "SQL"
+    ],
+    "match": 100,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-12",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1043",
+    "name": "Ava Ali",
+    "email": "ava.ali42@example.com",
+    "job": "JOB-407",
+    "role": "QA Automation Engineer",
+    "stage": "Applied",
+    "source": "LinkedIn",
+    "location": "Austin, TX",
+    "skills": [
+      "Testing",
+      "Python",
+      "Automation",
+      "Agile",
+      "TypeScript"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-13",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1044",
+    "name": "Arjun Kim",
+    "email": "arjun.kim43@example.com",
+    "job": "JOB-408",
+    "role": "Frontend Engineer",
+    "stage": "Screening",
+    "source": "Community",
+    "location": "Remote",
+    "skills": [
+      "React",
+      "JavaScript",
+      "UI Design",
+      "Python",
+      "Agile",
+      "Analytics"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-14",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1045",
+    "name": "Zoe Williams",
+    "email": "zoe.williams44@example.com",
+    "job": "JOB-409",
+    "role": "HR Operations Partner",
+    "stage": "Assessment",
+    "source": "Talent pool",
+    "location": "Seattle, WA",
+    "skills": [
+      "Communication",
+      "TypeScript",
+      "AWS",
+      "Laravel"
+    ],
+    "match": 33,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-15",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1046",
+    "name": "Liam Rivera",
+    "email": "liam.rivera45@example.com",
+    "job": "JOB-410",
+    "role": "Product Manager",
+    "stage": "Interview",
+    "source": "Careers site",
+    "location": "New York, NY",
+    "skills": [
+      "Agile",
+      "Analytics",
+      "Node.js",
+      "React"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-01",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1047",
+    "name": "Layla Bell",
+    "email": "layla.bell46@example.com",
+    "job": "JOB-411",
+    "role": "Backend Engineer",
+    "stage": "Offer",
+    "source": "Referral",
+    "location": "Chicago, IL",
+    "skills": [
+      "Laravel",
+      "PostgreSQL",
+      "REST APIs",
+      "SQL"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-02",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1048",
+    "name": "Oliver Adams",
+    "email": "oliver.adams47@example.com",
+    "job": "JOB-412",
+    "role": "Implementation Specialist",
+    "stage": "Hired",
+    "source": "LinkedIn",
+    "location": "Dallas, TX",
+    "skills": [
+      "REST APIs",
+      "Communication",
+      "Automation",
+      "Python",
+      "JavaScript",
+      "Data Modeling"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-03",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1049",
+    "name": "Hana Reyes",
+    "email": "hana.reyes48@example.com",
+    "job": "JOB-401",
+    "role": "Senior Full-Stack Engineer",
+    "stage": "Hold",
+    "source": "Community",
+    "location": "Austin, TX",
+    "skills": [
+      "React",
+      "SQL",
+      "Analytics",
+      "Laravel"
+    ],
+    "match": 50,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-04",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1050",
+    "name": "Noah Morgan",
+    "email": "noah.morgan49@example.com",
+    "job": "JOB-402",
+    "role": "Product Designer",
+    "stage": "Applied",
+    "source": "Talent pool",
+    "location": "Remote",
+    "skills": [
+      "Figma",
+      "UI Design",
+      "Data Modeling",
+      "Automation",
+      "SQL"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-05",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1051",
+    "name": "Isla Davis",
+    "email": "isla.davis50@example.com",
+    "job": "JOB-403",
+    "role": "Data Analyst",
+    "stage": "Screening",
+    "source": "Careers site",
+    "location": "Seattle, WA",
+    "skills": [
+      "SQL",
+      "Python",
+      "Analytics",
+      "UI Design",
+      "HubSpot",
+      "Docker"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-06",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1052",
+    "name": "Rayan Evans",
+    "email": "rayan.evans51@example.com",
+    "job": "JOB-404",
+    "role": "Customer Success Manager",
+    "stage": "Assessment",
+    "source": "Referral",
+    "location": "New York, NY",
+    "skills": [
+      "HubSpot",
+      "Communication",
+      "Analytics",
+      "TypeScript",
+      "Figma"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-07",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1053",
+    "name": "Mira Ahmed",
+    "email": "mira.ahmed52@example.com",
+    "job": "JOB-405",
+    "role": "DevOps Engineer",
+    "stage": "Interview",
+    "source": "LinkedIn",
+    "location": "Chicago, IL",
+    "skills": [
+      "AWS",
+      "SQL",
+      "Automation",
+      "Docker"
+    ],
+    "match": 67,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-08",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1054",
+    "name": "Leo Miller",
+    "email": "leo.miller53@example.com",
+    "job": "JOB-406",
+    "role": "Sales Operations Specialist",
+    "stage": "Offer",
+    "source": "Community",
+    "location": "Dallas, TX",
+    "skills": [
+      "HubSpot",
+      "Automation",
+      "Communication",
+      "Testing"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-09",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1055",
+    "name": "Priya Santos",
+    "email": "priya.santos54@example.com",
+    "job": "JOB-407",
+    "role": "QA Automation Engineer",
+    "stage": "Hired",
+    "source": "Talent pool",
+    "location": "Austin, TX",
+    "skills": [
+      "Testing",
+      "Python",
+      "Automation",
+      "SQL",
+      "HubSpot",
+      "AWS"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-10",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1056",
+    "name": "Theo Moore",
+    "email": "theo.moore55@example.com",
+    "job": "JOB-408",
+    "role": "Frontend Engineer",
+    "stage": "Hold",
+    "source": "Careers site",
+    "location": "Remote",
+    "skills": [
+      "React",
+      "JavaScript",
+      "UI Design",
+      "Testing",
+      "Python",
+      "Node.js"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-11",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1057",
+    "name": "Nina Patel",
+    "email": "nina.patel56@example.com",
+    "job": "JOB-409",
+    "role": "HR Operations Partner",
+    "stage": "Applied",
+    "source": "Referral",
+    "location": "Seattle, WA",
+    "skills": [
+      "Communication",
+      "Testing",
+      "TypeScript",
+      "React"
+    ],
+    "match": 33,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-12",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1058",
+    "name": "Jonah Khan",
+    "email": "jonah.khan57@example.com",
+    "job": "JOB-410",
+    "role": "Product Manager",
+    "stage": "Screening",
+    "source": "LinkedIn",
+    "location": "New York, NY",
+    "skills": [
+      "Agile",
+      "Analytics",
+      "PostgreSQL",
+      "UI Design",
+      "Python"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-13",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1059",
+    "name": "Elena Foster",
+    "email": "elena.foster58@example.com",
+    "job": "JOB-411",
+    "role": "Backend Engineer",
+    "stage": "Assessment",
+    "source": "Community",
+    "location": "Chicago, IL",
+    "skills": [
+      "Laravel",
+      "PostgreSQL",
+      "REST APIs",
+      "Python",
+      "HubSpot",
+      "Data Modeling"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-14",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1060",
+    "name": "Adrian Young",
+    "email": "adrian.young59@example.com",
+    "job": "JOB-412",
+    "role": "Implementation Specialist",
+    "stage": "Interview",
+    "source": "Talent pool",
+    "location": "Dallas, TX",
+    "skills": [
+      "REST APIs",
+      "Communication",
+      "Automation",
+      "JavaScript",
+      "Docker",
+      "Agile"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-15",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1061",
+    "name": "Cora Parker",
+    "email": "cora.parker60@example.com",
+    "job": "JOB-401",
+    "role": "Senior Full-Stack Engineer",
+    "stage": "Offer",
+    "source": "Careers site",
+    "location": "Austin, TX",
+    "skills": [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Data Modeling"
+    ],
+    "match": 25,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-01",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1062",
+    "name": "Felix Chen",
+    "email": "felix.chen61@example.com",
+    "job": "JOB-402",
+    "role": "Product Designer",
+    "stage": "Hired",
+    "source": "Referral",
+    "location": "Remote",
+    "skills": [
+      "Figma",
+      "UI Design",
+      "Agile",
+      "Automation"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-02",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1063",
+    "name": "Anya Scott",
+    "email": "anya.scott62@example.com",
+    "job": "JOB-403",
+    "role": "Data Analyst",
+    "stage": "Hold",
+    "source": "LinkedIn",
+    "location": "Seattle, WA",
+    "skills": [
+      "SQL",
+      "Python",
+      "Analytics",
+      "Automation",
+      "HubSpot"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-03",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1064",
+    "name": "Miles Walker",
+    "email": "miles.walker63@example.com",
+    "job": "JOB-404",
+    "role": "Customer Success Manager",
+    "stage": "Applied",
+    "source": "Community",
+    "location": "New York, NY",
+    "skills": [
+      "HubSpot",
+      "Communication",
+      "Analytics",
+      "AWS",
+      "JavaScript"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-04",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1065",
+    "name": "Sara Hall",
+    "email": "sara.hall64@example.com",
+    "job": "JOB-405",
+    "role": "DevOps Engineer",
+    "stage": "Screening",
+    "source": "Talent pool",
+    "location": "Chicago, IL",
+    "skills": [
+      "AWS",
+      "Agile",
+      "Laravel",
+      "TypeScript"
+    ],
+    "match": 33,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-05",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1066",
+    "name": "Nico Carter",
+    "email": "nico.carter65@example.com",
+    "job": "JOB-406",
+    "role": "Sales Operations Specialist",
+    "stage": "Assessment",
+    "source": "Careers site",
+    "location": "Dallas, TX",
+    "skills": [
+      "HubSpot",
+      "Automation",
+      "Analytics",
+      "Testing",
+      "React"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-06",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1067",
+    "name": "Lara Brooks",
+    "email": "lara.brooks66@example.com",
+    "job": "JOB-407",
+    "role": "QA Automation Engineer",
+    "stage": "Interview",
+    "source": "Referral",
+    "location": "Austin, TX",
+    "skills": [
+      "Testing",
+      "Python",
+      "Automation",
+      "AWS",
+      "Figma",
+      "React"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-07",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1068",
+    "name": "Dean Murphy",
+    "email": "dean.murphy67@example.com",
+    "job": "JOB-408",
+    "role": "Frontend Engineer",
+    "stage": "Offer",
+    "source": "LinkedIn",
+    "location": "Remote",
+    "skills": [
+      "React",
+      "JavaScript",
+      "UI Design",
+      "Analytics",
+      "Agile"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-08",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1069",
+    "name": "Iris Cooper",
+    "email": "iris.cooper68@example.com",
+    "job": "JOB-409",
+    "role": "HR Operations Partner",
+    "stage": "Hired",
+    "source": "Community",
+    "location": "Seattle, WA",
+    "skills": [
+      "Communication",
+      "AWS",
+      "Data Modeling",
+      "Python"
+    ],
+    "match": 33,
+    "owner": "Olivia Chen",
+    "applied": "2026-10-09",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1070",
+    "name": "Alex Bennett",
+    "email": "alex.bennett69@example.com",
+    "job": "JOB-410",
+    "role": "Product Manager",
+    "stage": "Hold",
+    "source": "Talent pool",
+    "location": "New York, NY",
+    "skills": [
+      "Agile",
+      "Analytics",
+      "SQL",
+      "HubSpot",
+      "AWS"
+    ],
+    "match": 67,
+    "owner": "Marcus Lee",
+    "applied": "2026-10-10",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1071",
+    "name": "Lena Singh",
+    "email": "lena.singh70@example.com",
+    "job": "JOB-411",
+    "role": "Backend Engineer",
+    "stage": "Applied",
+    "source": "Careers site",
+    "location": "Chicago, IL",
+    "skills": [
+      "Laravel",
+      "PostgreSQL",
+      "REST APIs",
+      "HubSpot",
+      "SQL",
+      "Figma"
+    ],
+    "match": 100,
+    "owner": "Emma Davis",
+    "applied": "2026-10-11",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  },
+  {
+    "id": "CAN-1072",
+    "name": "Sam Lee",
+    "email": "sam.lee71@example.com",
+    "job": "JOB-412",
+    "role": "Implementation Specialist",
+    "stage": "Screening",
+    "source": "Referral",
+    "location": "Dallas, TX",
+    "skills": [
+      "REST APIs",
+      "Communication",
+      "Automation",
+      "Figma",
+      "Testing"
+    ],
+    "match": 100,
+    "owner": "Daniel Kim",
+    "applied": "2026-10-12",
+    "notes": "Candidate consented to evaluation in this fictional demonstration.",
+    "history": [
+      "Application submitted",
+      "Profile reviewed"
+    ]
+  }
+]

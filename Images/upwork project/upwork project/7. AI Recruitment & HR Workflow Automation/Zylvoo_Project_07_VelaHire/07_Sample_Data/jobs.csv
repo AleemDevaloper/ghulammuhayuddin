@@ -1,0 +1,13 @@
+id,title,department,location,type,status,openings,required,lead,posted
+JOB-401,Senior Full-Stack Engineer,Engineering,Remote - US,Full-time,Open,2,"[""React"", ""TypeScript"", ""REST APIs"", ""SQL""]",Olivia Chen,2026-10-01
+JOB-402,Product Designer,Design,"Austin, TX",Full-time,Open,1,"[""Figma"", ""UI Design"", ""Communication""]",Marcus Lee,2026-10-02
+JOB-403,Data Analyst,Data,Remote - US,Full-time,Open,1,"[""SQL"", ""Python"", ""Analytics""]",Emma Davis,2026-10-03
+JOB-404,Customer Success Manager,Customer Success,"Chicago, IL",Full-time,Open,2,"[""HubSpot"", ""Communication"", ""Analytics""]",Daniel Kim,2026-10-04
+JOB-405,DevOps Engineer,Engineering,Remote - US,Full-time,Open,1,"[""AWS"", ""Docker"", ""Python""]",Olivia Chen,2026-10-05
+JOB-406,Sales Operations Specialist,Revenue,Remote - US,Full-time,Open,1,"[""HubSpot"", ""Automation"", ""SQL""]",Marcus Lee,2026-10-06
+JOB-407,QA Automation Engineer,Engineering,"Austin, TX",Full-time,Open,2,"[""Testing"", ""Python"", ""Automation""]",Emma Davis,2026-10-07
+JOB-408,Frontend Engineer,Engineering,Remote - US,Full-time,Open,1,"[""React"", ""JavaScript"", ""UI Design""]",Daniel Kim,2026-10-08
+JOB-409,HR Operations Partner,People,"New York, NY",Full-time,Open,1,"[""Communication"", ""Automation"", ""Analytics""]",Olivia Chen,2026-10-09
+JOB-410,Product Manager,Product,Remote - US,Full-time,Open,2,"[""Agile"", ""Analytics"", ""Communication""]",Marcus Lee,2026-10-10
+JOB-411,Backend Engineer,Engineering,Remote - US,Full-time,Draft,1,"[""Laravel"", ""PostgreSQL"", ""REST APIs""]",Emma Davis,2026-10-11
+JOB-412,Implementation Specialist,Implementation,"Chicago, IL",Full-time,Draft,1,"[""REST APIs"", ""Communication"", ""Automation""]",Daniel Kim,2026-10-12

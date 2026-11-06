@@ -1,0 +1,27 @@
+id,customer,sku,item,qty,price,warehouse,status,priority,due
+SO-26-680,Ridgeway Manufacturing,ELC-204,Control Relay 24V,3,76,WH-A,Picking,Standard,2026-10-16
+SO-26-681,Atlas Facility Services,GSK-430,Heat-resistant Gasket,10,17,WH-B,Packed,High,2026-10-17
+SO-26-682,Meridian Fabrication,SOL-120,Solenoid Valve 12V,17,149,WH-C,Ready to ship,Standard,2026-10-18
+SO-26-683,Oakline Works,PIP-125,Quick Connect Tee,4,37,WH-A,Shipped,Rush,2026-10-19
+SO-26-684,Tandem Industrial,ELC-180,Wiring Harness A,11,127,WH-B,Backordered,Standard,2026-10-20
+SO-26-685,Clearstone Maintenance,PIP-232,Stainless Steel Elbow,18,35,WH-C,Picking,High,2026-10-21
+SO-26-686,Stoneworks Co,ELC-312,Motor Starter 3PH,5,265,WH-A,Packed,Standard,2026-10-22
+SO-26-687,Eastbank Energy,GBX-110,Gearbox Housing,12,395,WH-B,Ready to ship,Rush,2026-10-23
+SO-26-688,Summit Trade Partners,ELC-551,Switchgear Plate,19,295,WH-C,Shipped,Standard,2026-10-24
+SO-26-689,Westhall Engineering,GSK-040,Sealing Ring 40mm,6,14,WH-A,Backordered,High,2026-10-25
+SO-26-690,Ridgeway Manufacturing,MEC-605,Bearing Assembly 6205,13,92,WH-B,Picking,Standard,2026-10-26
+SO-26-691,Atlas Facility Services,CNV-080,Conveyor Roller 80mm,20,116,WH-C,Packed,Rush,2026-10-27
+SO-26-692,Meridian Fabrication,SEN-018,Proximity Sensor,7,159,WH-A,Ready to ship,Standard,2026-10-28
+SO-26-693,Oakline Works,FLT-900,Precision Filter Unit,14,535,WH-B,Shipped,High,2026-10-29
+SO-26-694,Tandem Industrial,SEN-420,Industrial Flow Sensor,21,268,WH-C,Backordered,Standard,2026-10-30
+SO-26-695,Clearstone Maintenance,PRS-012,Pressure Regulator,8,169,WH-A,Picking,Rush,2026-10-16
+SO-26-696,Stoneworks Co,ELC-120,Cable Gland M20,15,12,WH-B,Packed,Standard,2026-10-17
+SO-26-697,Eastbank Energy,KIT-705,Coupler Kit Premium,22,245,WH-C,Ready to ship,High,2026-10-18
+SO-26-698,Summit Trade Partners,DRV-072,Drive Belt Set,9,78,WH-A,Shipped,Standard,2026-10-19
+SO-26-699,Westhall Engineering,HYD-118,Hydraulic Coupling ½ in,16,44,WH-B,Backordered,Rush,2026-10-20
+SO-26-700,Ridgeway Manufacturing,SAF-810,Safety Cutoff Switch,3,98,WH-C,Picking,Standard,2026-10-21
+SO-26-701,Atlas Facility Services,FLW-025,Flow Meter DN25,10,446,WH-A,Packed,High,2026-10-22
+SO-26-702,Meridian Fabrication,SAF-110,Thermal Fuse Pack,17,38,WH-B,Ready to ship,Standard,2026-10-23
+SO-26-703,Oakline Works,MEC-711,Torque Limiter,4,243,WH-C,Shipped,Rush,2026-10-24
+SO-26-704,Tandem Industrial,ELC-204,Control Relay 24V,11,76,WH-A,Backordered,Standard,2026-10-25
+SO-26-705,Clearstone Maintenance,GSK-430,Heat-resistant Gasket,18,17,WH-B,Picking,High,2026-10-26

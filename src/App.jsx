@@ -205,6 +205,8 @@ function PortfolioApp() {
   );
 }
 
+const routerBase = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') || '/';
+
 export default function App() {
-  return <BrowserRouter><PortfolioApp /></BrowserRouter>;
+  return <BrowserRouter basename={routerBase}><PortfolioApp /></BrowserRouter>;
 }

@@ -1,5 +1,13 @@
 import projectGalleries from './project-galleries.json';
 
+const baseUrl = import.meta.env.BASE_URL || '/';
+
+export const assetUrl = (path) => {
+  if (!path) return path;
+  if (/^(?:[a-z]+:)?\/\//i.test(path) || path.startsWith('data:')) return path;
+  return `${baseUrl}${path.replace(/^\/+/, '')}`;
+};
+
 export const profile = {
   name: 'GHULLAM MUHAYYUDIN',
   role: 'Full-Stack Developer | Software Engineer | AI & Automation Specialist',

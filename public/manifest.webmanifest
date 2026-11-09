@@ -2,14 +2,14 @@
   "name": "GHULLAM MUHAYYUDIN — Software Engineer",
   "short_name": "GM Portfolio",
   "description": "Digital products, business systems, and AI automation.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "background_color": "#07080b",
   "theme_color": "#07080b",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"

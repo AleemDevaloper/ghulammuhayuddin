@@ -7,7 +7,7 @@ import {
   ArrowDownRight, ArrowRight, ArrowUpRight, Check, Layers3, Phone, Sparkles,
 } from 'lucide-react';
 import {
-  aiShowcases, pageContent, projects, profile, services, skillGroups, systems,
+  aiShowcases, assetUrl, pageContent, projects, profile, services, skillGroups, systems,
 } from './data';
 import {
   Counter, SplitWords, Tilt,
@@ -22,13 +22,16 @@ const reveal = {
   transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1] },
 };
 
+const upworkProjects = projects.filter(project => project.gallery?.some(item => item.image.startsWith('/assets/portfolio/')));
+const upworkProjectSlugs = new Set(upworkProjects.map(project => project.slug));
+
 function ProjectCard({ project, index = 0 }) {
   return (
     <Tilt className="project-tilt">
-      <Link to={`/projects/${project.slug}`} className={`project-card project-${project.color} spotlight reveal`} style={{ '--delay': `${index * 70}ms` }} data-cursor="View concept">
+      <Link to={`/projects/${project.slug}`} className={`project-card project-${project.color} spotlight reveal`} style={{ '--delay': `${index * 70}ms` }} data-cursor="View project">
         <div className="project-art">
           <div className="project-art-grid" />
-          {project.image && <img className="project-cover" src={project.image} alt={`${project.name} interface`} loading="lazy" decoding="async" />}
+          {project.image && <img className="project-cover" src={assetUrl(project.image)} alt={`${project.name} interface`} loading="lazy" decoding="async" />}
           <span className="project-art-label">{project.galleryLabel ? `${project.brand} / ${project.galleryLabel}` : project.category.toUpperCase()}</span>
           {!project.image && (
             <div className={`project-preview preview-${index % 3}`}>
@@ -58,7 +61,7 @@ function ProjectVisual({ project }) {
       <div className="project-art-grid" />
       <span className="project-art-label">{project.galleryLabel ? `${project.brand} / ${project.galleryLabel}` : `${project.category.toUpperCase()} / CONCEPT`}</span>
       {project.image ? (
-        <img className="project-detail-image" src={project.image} alt={`${project.name} ${project.category} dashboard`} decoding="async" />
+        <img className="project-detail-image" src={assetUrl(project.image)} alt={`${project.name} ${project.category} dashboard`} decoding="async" />
       ) : (
         <div className="detail-window">
           <div className="preview-top"><span /><span /><span /><i>{project.name} <b>↗</b></i></div>
@@ -86,7 +89,7 @@ function AiShowcaseGallery() {
           <div className="ai-gallery-intro"><p>Explore interfaces for AI assistants, document processing, and business insights—visual examples of automation designed around real work.</p><Link className="text-link" to="/services/ai-automation">Explore AI & automation <ArrowUpRight size={15} /></Link></div>
         </div>
         <div className="ai-gallery-grid">{aiShowcases.map((item, index) => <Link className="ai-image-card spotlight reveal" style={{ '--delay': `${index * 80}ms` }} to={`/projects/${item.project}`} key={item.title}>
-          <div className="ai-image-frame"><img src={item.image} alt={`${item.title} AI product interface`} loading="lazy" decoding="async" /><span className="ai-image-tag"><Sparkles size={12} />{item.tag}</span><span className="ai-image-open"><ArrowUpRight size={17} /></span></div>
+          <div className="ai-image-frame"><img src={assetUrl(item.image)} alt={`${item.title} AI product interface`} loading="lazy" decoding="async" /><span className="ai-image-tag"><Sparkles size={12} />{item.tag}</span><span className="ai-image-open"><ArrowUpRight size={17} /></span></div>
           <div className="ai-image-copy"><span>0{index + 1} / PRODUCT UI</span><h3>{item.title}</h3><p>{item.description}</p></div>
         </Link>)}</div>
         <p className="ai-gallery-note">Interface imagery sourced from the supplied Zylvoo design concepts; shown as visual product references.</p>
@@ -97,7 +100,7 @@ function AiShowcaseGallery() {
 
 export function HomePage() {
   const heroRef = useRef(null);
-  const featured = projects.slice(0, 3);
+  const featured = upworkProjects.slice(0, 3);
   const reduceMotion = useReducedMotion();
   const toolCount = useMemo(() => new Set(skillGroups.flatMap(group => group.items)).size, []);
   const { scrollYProgress } = useScroll({ target: heroRef, offset: ['start start', 'end start'] });
@@ -172,7 +175,7 @@ export function HomePage() {
               <div className="intro-aside-top">
                 <span className="eyebrow"><span className="eyebrow-dot" />A DEVELOPER WITH A WIDE LENS</span>
                 <figure className="intro-portrait" data-cursor="That's me">
-                  <img src="/assets/ghullam-portrait.jpeg" alt="Ghullam Muhayyudin at his studio desk" loading="lazy" />
+                  <img src={assetUrl('/assets/ghullam-portrait.jpeg')} alt="Ghullam Muhayyudin at his studio desk" loading="lazy" />
                   <figcaption><span>GHULLAM MUHAYYUDIN</span><span>INDEPENDENT DEVELOPER</span></figcaption>
                 </figure>
               </div>
@@ -196,7 +199,7 @@ export function HomePage() {
 
       <section className="projects-section section-pad">
         <div className="container">
-          <SectionHeading eyebrow="SELECTED CONCEPTS / 2026" title="Ideas, shaped into experiences." description="A collection of product concepts exploring thoughtful interfaces and useful systems. These are illustrative concepts, not claims of client work." link="View all projects" to="/projects" />
+          <SectionHeading eyebrow="UPWORK PROJECT SHOWCASES / 2026" title="Built work, shown in detail." description="Explore independent product demos through the interfaces, workflows, and details behind each build. Visit a project for its full screen gallery." link="View all projects" to="/projects" />
           <div className="row g-4">{featured.map((project, index) => <div className="col-md-6 col-lg-4" key={project.slug}><ProjectCard project={project} index={index} /></div>)}</div>
         </div>
       </section>
@@ -215,7 +218,7 @@ export function HomePage() {
             <div className="product-showcase-heading reveal"><span className="eyebrow"><span className="eyebrow-dot" />ZYLVOO / PRODUCT INTERFACES</span><Link className="text-link" to="/projects/zylvoo-business-suite">View the showcase <ArrowUpRight size={15} /></Link></div>
             <div className="product-showcase-grid">
               {projects[0].gallery.slice(0, 3).map((item, index) => <Link className="product-shot reveal" style={{ '--delay': `${index * 80}ms` }} to="/projects/zylvoo-business-suite" key={item.title}>
-                <img src={item.image} alt={`${item.title} interface`} loading="lazy" decoding="async" />
+                <img src={assetUrl(item.image)} alt={`${item.title} interface`} loading="lazy" decoding="async" />
                 <span className="product-shot-caption"><b>0{index + 1}</b>{item.title}<ArrowUpRight size={14} /></span>
               </Link>)}
             </div>
@@ -263,7 +266,7 @@ export function ContentPage({ slug }) {
       {slug === 'services' && <section className="container section-pad compact-top"><ServiceGrid /></section>}
       {slug === 'skills' && <section className="container section-pad compact-top"><div className="row g-3">{skillGroups.map((group, index) => <div className="col-md-6" key={group.title}><div className="skill-detail-card reveal"><span>0{index + 1} / TOOLKIT</span><h3>{group.title}</h3><div className="tag-row">{group.items.map(item => <span className="tag" key={item}>{item}</span>)}</div></div></div>)}</div></section>}
       {slug === 'business-software' && <section className="container section-pad compact-top"><div className="row g-3">{systems.map(([title, description, route], index) => <div className="col-sm-6 col-lg-3" key={title}><Link className="system-detail-card reveal" to={`/services/${route}`}><span>0{index + 1}</span><h3>{title}</h3><p>{description}</p><ArrowUpRight size={16} /></Link></div>)}</div></section>}
-      {slug === 'about' && <section className="container section-pad compact-top"><div className="about-values"><div className="about-monogram reveal"><img src="/assets/portfolio/ghulam-portrait.jpeg" alt="Ghulam Muhayuddin" loading="lazy" decoding="async" /><span className="about-portrait-mark" aria-hidden="true">G<span>.</span></span></div><div className="about-note reveal"><span className="eyebrow"><span className="eyebrow-dot" />THE WAY I WORK</span><h2>Make it useful.<br />Make it last.</h2><p>My goal is to create software that respects people’s time: dependable foundations, clear interactions, and room to grow as needs change.</p><div className="about-value-list">{['Clarity over complexity', 'Partnership over handoffs', 'Purpose over novelty'].map((item, index) => <div key={item}><span>0{index + 1}</span>{item}<ArrowUpRight size={15} /></div>)}</div></div></div></section>}
+      {slug === 'about' && <section className="container section-pad compact-top"><div className="about-values"><div className="about-monogram reveal"><img src={assetUrl('/assets/portfolio/ghulam-portrait.jpeg')} alt="Ghulam Muhayuddin" loading="lazy" decoding="async" /><span className="about-portrait-mark" aria-hidden="true">G<span>.</span></span></div><div className="about-note reveal"><span className="eyebrow"><span className="eyebrow-dot" />THE WAY I WORK</span><h2>Make it useful.<br />Make it last.</h2><p>My goal is to create software that respects people’s time: dependable foundations, clear interactions, and room to grow as needs change.</p><div className="about-value-list">{['Clarity over complexity', 'Partnership over handoffs', 'Purpose over novelty'].map((item, index) => <div key={item}><span>0{index + 1}</span>{item}<ArrowUpRight size={15} /></div>)}</div></div></div></section>}
       <CTA title="Let’s talk about what you’re building." />
     </>
   );
@@ -297,11 +300,14 @@ export function ProjectsPage() {
     else next.set('category', category);
     setSearchParams(next, { replace: true });
   };
-  const filtered = useMemo(() => active === 'All' ? projects : projects.filter(project => project.category === active), [active]);
+  const filtered = useMemo(() => {
+    const matchingProjects = active === 'All' ? projects : projects.filter(project => project.category === active);
+    return [...matchingProjects].sort((a, b) => Number(upworkProjectSlugs.has(b.slug)) - Number(upworkProjectSlugs.has(a.slug)));
+  }, [active]);
   return (
     <>
-      <PageMeta title="Projects & Product Concepts" description="Explore product concepts across web applications, AI, business software, and mobile." />
-      <PageHero page={{ eyebrow: 'SELECTED WORK / PRODUCT CONCEPTS', title: 'The future, in progress.', intro: 'A growing collection of product concepts exploring useful tools, clear interfaces, and thoughtful software. Concept projects are clearly labeled; no client outcomes are implied.' }} index="04" />
+      <PageMeta title="Projects & Product Showcases" description="Explore project demos through full interface galleries across AI, business software, web applications, and mobile." />
+      <PageHero page={{ eyebrow: 'SELECTED WORK / PROJECT SHOWCASES', title: 'Product work, shown in detail.', intro: 'Explore independent project demos and concepts through their interface galleries. Each project page offers a closer look, and no client outcomes are implied.' }} index="04" />
       <section className="container section-pad projects-list-section">
         <div className="filter-bar" role="group" aria-label="Filter projects">{categories.map(category => <button key={category} className={active === category ? 'filter-chip active' : 'filter-chip'} onClick={() => setActive(category)} aria-pressed={active === category}>{category}<span>{category === 'All' ? projects.length : projects.filter(p => p.category === category).length}</span></button>)}</div>
         <div className="row g-4 project-list">{filtered.map((project, index) => <div className="col-md-6 col-lg-4" key={project.slug}><ProjectCard project={project} index={index} /></div>)}</div>
@@ -323,7 +329,7 @@ export function ProjectDetailPage() {
     <>
       <PageMeta title={project.name} description={project.description} />
       <section className="project-detail-hero"><div className="container"><Link to="/projects" className="back-link"><ArrowRight size={14} /> BACK TO PROJECTS</Link><span className="eyebrow"><span className="eyebrow-dot" />{project.type} / {project.category}</span><h1>{project.name}<span>.</span></h1><p>{project.description}</p><ProjectVisual project={project} /></div></section>
-      {project.gallery && <section className="container project-gallery-section"><div className="product-showcase-heading reveal"><div><span className="eyebrow"><span className="eyebrow-dot" />A CLOSER LOOK</span><h2>{isZylvooShowcase ? 'One suite, many workflows.' : 'A closer look at the screens.'}</h2></div><span className="gallery-brand">{isZylvooShowcase && <img src="/assets/zylvoo/zylvoo-mark.png" alt="" loading="lazy" decoding="async" />}{project.brand}</span></div><div className="row g-3">{project.gallery.map((item, index) => <div className="col-md-6" key={item.image}><figure className="gallery-figure reveal" style={{ '--delay': `${Math.min(index * 40, 360)}ms` }}><img src={item.image} alt={item.alt || `${project.name} — ${item.title}`} loading="lazy" decoding="async" /><figcaption><span>{String(index + 1).padStart(2, '0')}</span>{item.title}<ArrowUpRight size={14} /></figcaption></figure></div>)}</div></section>}
+      {project.gallery && <section className="container project-gallery-section"><div className="product-showcase-heading reveal"><div><span className="eyebrow"><span className="eyebrow-dot" />A CLOSER LOOK</span><h2>{isZylvooShowcase ? 'One suite, many workflows.' : 'A closer look at the screens.'}</h2></div><span className="gallery-brand">{isZylvooShowcase && <img src={assetUrl('/assets/zylvoo/zylvoo-mark.png')} alt="" loading="lazy" decoding="async" />}{project.brand}</span></div><div className="row g-3">{project.gallery.map((item, index) => <div className="col-md-6" key={item.image}><figure className="gallery-figure reveal" style={{ '--delay': `${Math.min(index * 40, 360)}ms` }}><img src={assetUrl(item.image)} alt={item.alt || `${project.name} — ${item.title}`} loading="lazy" decoding="async" /><figcaption><span>{String(index + 1).padStart(2, '0')}</span>{item.title}<ArrowUpRight size={14} /></figcaption></figure></div>)}</div></section>}
       <section className="container section-pad project-detail-body">
         <div className="project-detail-copy"><span className="eyebrow"><span className="eyebrow-dot" />{project.gallery ? 'PRODUCT SHOWCASE' : 'THE IDEA'}</span><h2>{project.metric}.</h2><p>{isZylvooShowcase ? 'A selected visual showcase of the Zylvoo business software experience, spanning operations, people, attendance, and insight workflows. These supplied product visuals are presented here as interface examples, not as claims about personal delivery or business outcomes.' : project.gallery ? 'A curated gallery of supplied visual assets for this independent product concept. The screens illustrate its workflows with synthetic demo data and are presented as design references, not claims of shipped client work.' : `This concept explores how a clear digital experience can make ${project.category.toLowerCase()} more approachable. It is an illustrative product direction—not a claim of shipped client work.`}</p><p>{isZylvooShowcase ? 'The screens highlight the information architecture and operational patterns behind connected management software. Each module has its own focused view while contributing to a broader business workspace.' : project.gallery ? 'Explore the key views across this concept, from its overview and daily workflows to supporting tools, reporting, and workspace settings.' : 'The experience pairs a focused interface with connected workflows, helping people see what matters and decide what to do next.'}</p></div>
         <div className="project-detail-facts"><div><span>01 / CATEGORY</span><b>{project.category}</b></div><div><span>02 / FORMAT</span><b>{project.type}</b></div><div><span>03 / FOCUS</span><b>{project.metric}</b></div><div className="fact-stack"><span>04 / TECHNOLOGIES</span><div className="tag-row">{project.stack.map(item => <span className="tag" key={item}>{item}</span>)}</div></div></div>

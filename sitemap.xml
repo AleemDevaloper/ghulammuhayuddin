@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc></url>
+  <url><loc>https://example.com/about</loc></url>
+  <url><loc>https://example.com/services</loc></url>
+  <url><loc>https://example.com/services/web-development</loc></url>
+  <url><loc>https://example.com/services/ai-automation</loc></url>
+  <url><loc>https://example.com/services/ai-agents-llm-solutions</loc></url>
+  <url><loc>https://example.com/services/software-development</loc></url>
+  <url><loc>https://example.com/services/mobile-app-development</loc></url>
+  <url><loc>https://example.com/services/business-software</loc></url>
+  <url><loc>https://example.com/services/erp-development</loc></url>
+  <url><loc>https://example.com/services/crm-development</loc></url>
+  <url><loc>https://example.com/services/hrms-development</loc></url>
+  <url><loc>https://example.com/services/custom-business-systems</loc></url>
+  <url><loc>https://example.com/projects</loc></url>
+  <url><loc>https://example.com/projects/zylvoo-business-suite</loc></url>
+  <url><loc>https://example.com/projects/nexora-website-concept</loc></url>
+  <url><loc>https://example.com/projects/flowly-saas-concept</loc></url>
+  <url><loc>https://example.com/projects/orbit-operations-suite</loc></url>
+  <url><loc>https://example.com/projects/signal-ai-assistant</loc></url>
+  <url><loc>https://example.com/projects/northstar-commerce</loc></url>
+  <url><loc>https://example.com/projects/pulse-people</loc></url>
+  <url><loc>https://example.com/projects/fieldnote-mobile</loc></url>
+  <url><loc>https://example.com/projects/flowline-automation</loc></url>
+  <url><loc>https://example.com/skills</loc></url>
+  <url><loc>https://example.com/experience</loc></url>
+  <url><loc>https://example.com/process</loc></url>
+  <url><loc>https://example.com/testimonials</loc></url>
+  <url><loc>https://example.com/contact</loc></url>
+</urlset>
